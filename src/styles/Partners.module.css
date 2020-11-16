@@ -1,0 +1,26 @@
+.container {
+  background-color: var(--tezos-background);
+  color: var(--tezos-white);
+  margin-top: -80px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+}
+.partnerTitle {
+  margin-left: 250px;
+  top: 50px !important;
+  position: relative;
+}
+.line {
+  width: 800px;
+  border-bottom: 4px solid #1E2029;
+  position: absolute;
+  top:820px;
+  left:700px;
+}
+.partnerLogo{
+    width: 70vw;
+    position: absolute;
+    top:850px !important;
+    left: 250px;
+}

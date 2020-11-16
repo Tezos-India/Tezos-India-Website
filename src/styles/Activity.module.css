@@ -1,0 +1,49 @@
+.activityContainer {
+  background-color: var(--tezos-secondary-background);
+  height: 900px;
+  width: 100%;
+}
+.cardDesc {
+  font-size: 12px;
+  margin-right: 30px;
+  margin-top: 10px;
+  line-height: 23px;
+}
+.cardImg{
+    width:60px;
+    margin: 20px 0 10px 0;
+}
+.eduCard{
+    margin-left: 250px!important;
+    margin-top: 150px !important;
+}
+.communityCard{
+    margin-left: 250px !important;
+}
+.mediaCard{
+    margin-top: 150px !important;
+    margin-left: -100px !important;
+}
+.activityDesc{
+    margin-top: 270px;
+}
+.bussinessCard{
+    margin-top: -75px !important;
+    margin-left: -100px !important;
+}
+.alignHeadings{
+    line-height: 45px;
+}
+.subHeading{
+    color:var(--tezos-text);
+    font-size: var(--font-size-semi-medium);
+    margin-top: 30px;
+}
+.activityBtn{
+    background-color: #377DFF !important;
+    color:var(--tezos-white);
+    margin-top: 20px;
+    height: 60px;
+    width: 180px;
+    border-radius: 10px;
+}

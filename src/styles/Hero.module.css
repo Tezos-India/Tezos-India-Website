@@ -1,0 +1,70 @@
+.banner {
+  background-image: url("../assets/hero.svg");
+  max-width: 100%;
+  height: 800px;
+  background-size: cover;
+  padding: 20px;
+  object-fit: cover;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: var(--tezos-white);
+}
+.headerImg {
+  width: 200px;
+  height: 100px;
+  margin-left: 100px;
+}
+.headerLinks{
+  font-size: var(--font-size-semi-medium);
+  margin: 30px 320px 0 0 !important;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.githubLink{
+  margin-left: 60px !important;
+}
+.headerButton{
+  position: absolute !important;
+  color: white !important;
+  background-color: transparent !important;
+  border: 3px solid var(--tezos-white) !important;
+  text-align: center;
+  width: 130px !important;
+  font-size: var(--font-size-semi-medium) !important;
+  text-transform: inherit !important;
+  border-radius: 5px;
+  right:150px;
+  font-family: "Poppins", sans-serif;
+}
+.intro p {
+  font-weight: bold;
+  font-size: larger;
+  position: absolute;
+  top: 200px;
+  left: 320px;
+  text-align: center;
+  font-size: var(--font-size-banner);
+  color: var(--tezos-white);
+  font-family: "Poppins", sans-serif;
+  line-height: 65px;
+}
+.introBtn {
+  position: absolute !important;
+  top: 53%;
+  left: 44%;
+  color: white !important;
+  background-color: transparent !important;
+  border: 3px solid var(--tezos-white) !important;
+  text-align: center;
+  width: 170px !important;
+  font-size: var(--font-size-mod-medium) !important;
+  text-transform: inherit !important;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+}

@@ -1,3 +1,18 @@
+:root {
+  --tezos-black: #1a1818;
+  --tezos-white: #ffffff;
+  --tezos-grey: #707070;
+  --tezos-text: #858A8F;
+  --tezos-background: #12141D;
+  --tezos-secondary-background:#1D1F28;
+  --font-size-banner:50px;
+  --font-size-medium: 18px;
+  --font-size-mod-medium: 16px;
+  --font-size-semi-medium: 14px;
+  --font-size-big:24px;
+  --font-size-semi-large:32px;
+  --font-size-large:40px;
+}
 .App {
   text-align: center;
 }
