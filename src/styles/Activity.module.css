@@ -19,6 +19,7 @@
 }
 .communityCard{
     margin-left: 250px !important;
+    margin-top: -90px !important;
 }
 .mediaCard{
     margin-top: 150px !important;
@@ -28,22 +29,29 @@
     margin-top: 270px;
 }
 .bussinessCard{
-    margin-top: -75px !important;
+    margin-top: -90px !important;
     margin-left: -100px !important;
 }
 .alignHeadings{
-    line-height: 45px;
+    font-size: 40px; 
+    font-weight: bold;
+    color: var(--tezos-white);
+    line-height: 50px;
+    margin-top: 250px !important;
 }
 .subHeading{
     color:var(--tezos-text);
     font-size: var(--font-size-semi-medium);
-    margin-top: 30px;
+    margin-top: 30px !important;
 }
 .activityBtn{
     background-color: #377DFF !important;
-    color:var(--tezos-white);
-    margin-top: 20px;
-    height: 60px;
-    width: 180px;
-    border-radius: 10px;
+    color:var(--tezos-white) !important;
+    margin-top: 20px !important;
+    height: 60px !important;
+    width: 180px !important;
+    border-radius: 10px !important;
+    text-transform: inherit !important;
+    font-weight: bold !important;
+    font-size: var(--font-size-mod-medium) !important;
 }

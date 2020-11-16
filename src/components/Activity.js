@@ -2,11 +2,7 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 import activityStyles from "../styles/Activity.module.css";
-import {
-  HeadingComponent,
-  SubHeadingComponent,
-  TextComponent,
-} from "./common/TextComponent";
+import { SubHeadingComponent, TextComponent } from "./common/TextComponent";
 import SimpleCard from "./common/SimpleCard";
 import edu from "../assets/edu.svg";
 import media from "../assets/media.svg";
@@ -43,16 +39,10 @@ export default function Activity() {
           </SimpleCard>
         </Grid>
         <Grid item xs={4} className={activityStyles.activityDesc}>
-          <HeadingComponent
-            componentStyle={activityStyles.alignHeadings}
-            text={
-              "We plan our activity comprehensively in several directions at"
-            }
-          />
-          <HeadingComponent
-            componentStyle={activityStyles.alignHeadings}
-            text={"the same time"}
-          />
+          <p className={activityStyles.alignHeadings}>
+            We plan our activity comprehensively in <br /> several directions at{" "}
+            <br /> the same time{" "}
+          </p>
           <p className={activityStyles.subHeading}>
             The very functions that help you in everyday life are <br /> already
             built into our messenger and are not just built in <br /> but
@@ -60,12 +50,7 @@ export default function Activity() {
           </p>
         </Grid>
 
-        <Grid
-          item
-          xs={3}
-          className={activityStyles.communityCard}
-          style={{ marginTop: "-75px" }}
-        >
+        <Grid item xs={3} className={activityStyles.communityCard}>
           <SimpleCard>
             <img src={community} alt="" className={activityStyles.cardImg} />
             <SubHeadingComponent text={"Community building"} />
@@ -78,11 +63,7 @@ export default function Activity() {
           </SimpleCard>
         </Grid>
 
-        <Grid
-          item
-          xs={3}
-          className={activityStyles.bussinessCard}
-        >
+        <Grid item xs={3} className={activityStyles.bussinessCard}>
           <SimpleCard>
             <img src={business} alt="" className={activityStyles.cardImg} />
             <SubHeadingComponent text={"Business"} />
