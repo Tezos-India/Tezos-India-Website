@@ -1,0 +1,26 @@
+.container{
+    background: var(--tezos-background);
+    height: 300px;
+}
+.footerContent{
+    display: flex;
+    justify-content: center;
+}
+.footerLinks{
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    margin-left: -250px;
+    color:var(--tezos-text);
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+.logo{
+    width: 20vw;
+}
+.footerAlignLinks{
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+}

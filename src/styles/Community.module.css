@@ -1,0 +1,73 @@
+.container{
+    background: var(--tezos-secondary-background);
+    height: 1000px;
+    margin-top: -20px;
+}
+.heading{
+    text-align: center;
+    padding-top: 100px;
+}
+.alignHeader{
+    margin-top: 30px;
+}
+.cardContainer{
+    background: white;
+    width: 15vw;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+.cardImg{
+    width:15vw;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+}
+.personName{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.testimonial{
+    text-align: justify;
+    justify-content: inherit;
+    padding: 0 70px 0 30px;
+}
+.subHeading{
+    margin-left: 30px;
+}
+.carousel{
+    margin-top: 80px;
+}
+.vector{
+    width:13vw;
+    margin-left: 160px;
+}
+.carouselBg{
+    background-image: url("../assets/vector-left.svg");
+    background-repeat: no-repeat;
+    background-size: 15vw;
+    background-position: 282px 20px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    font-family:'Inter', sans-serif;
+    justify-content: center;
+}
+.infoContent{
+    padding-left:50px;
+    margin-top: 10px;
+}
+.infoHeading{
+    font-size: 60px;
+    font-weight: bold;
+}
+.infoSubHeading{
+    color:var(--tezos-white);
+    font-size: 20px;
+    margin-top: -30px;
+}
+.infoDesc{
+    color:var(--tezos-text);
+}

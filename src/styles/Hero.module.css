@@ -4,7 +4,8 @@
   height: 800px;
   background-size: cover;
   padding: 20px;
-  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .header {
   display: flex;
@@ -17,7 +18,7 @@
   height: 100px;
   margin-left: 100px;
 }
-.headerLinks{
+.headerLinks {
   font-size: var(--font-size-semi-medium);
   margin: 30px 320px 0 0 !important;
   padding: 0;
@@ -26,10 +27,10 @@
   justify-content: space-between;
   cursor: pointer;
 }
-.githubLink{
+.githubLink {
   margin-left: 60px !important;
 }
-.headerButton{
+.headerButton {
   position: absolute !important;
   color: white !important;
   background-color: transparent !important;
@@ -39,7 +40,7 @@
   font-size: var(--font-size-semi-medium) !important;
   text-transform: inherit !important;
   border-radius: 5px;
-  right:150px;
+  right: 150px;
   font-family: "Poppins", sans-serif;
 }
 .intro p {
@@ -67,4 +68,22 @@
   text-transform: inherit !important;
   border-radius: 5px;
   font-family: "Poppins", sans-serif;
+}
+@media (min-width: 320px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+}
+@media (min-width: 481px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+@media (max-width: 641px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+}
+@media (min-width: 961px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+}
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
 }

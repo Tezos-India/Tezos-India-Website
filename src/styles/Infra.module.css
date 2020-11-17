@@ -1,0 +1,38 @@
+.infraContainer {
+  background-image: url('../assets/infraBg.jpg');
+  background-size:100vw ;
+  height: 140vh;
+  margin-top: -20px;
+}
+.infraImg {
+  margin-top: 40px;
+  margin-left: 10px;
+  width: 850px;
+  height: 950px;
+}
+.logo{
+  width:85px;
+  height: 100px;
+  margin-left: -15px !important;
+}
+.alignHeading{
+  display: flex;
+  flex-direction: row;
+  margin-top: 150px;
+  margin-left: 800px;
+}
+.heading{
+  margin-top: 10px !important;
+  margin-left: 30px !important;
+}
+.paraText{
+  color:var(--tezos-text);
+  margin-left: 900px;
+  line-height: 28px;
+  margin-top: -10px !important;
+}
+.vector{
+  width:200px;
+  margin-left: 85.5vw;
+  margin-top: -115px;
+}
