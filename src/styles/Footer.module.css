@@ -22,6 +22,7 @@
 .footerAlignLinks{
     margin-left: 30px;
     justify-content: center;
+    cursor: pointer;
 }
 .social{
     margin-top: 200px;
@@ -30,6 +31,7 @@
 .footerSocialLinks{
     margin-left: 50px;
     width: 20px;
+    cursor: pointer;
 }
 .copyright{
     font-family: 'Inter', sans-serif;

@@ -1,0 +1,96 @@
+.container{
+    background: var(--tezos-secondary-background);
+    height: 150vh;
+}
+.header{
+    text-align: center;
+    padding-top: 50px;
+}
+.blogContainer{
+    margin-top: 80px;
+    margin-left: 250px;
+    display: flex;
+    flex-direction: row;
+}
+.blogHeadingContent{
+    display: flex;
+    flex-direction: row;
+}
+.blogStar{
+    background: var(--tezos-blue);
+    font-size: 15px;
+    font-family: 'Inter',sans-serif;
+    width: 60px;
+    height: 25px;
+    border-radius: 15px;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.blogStarContent{
+    margin-left:32px !important;
+    margin-top: 3px;
+}
+.blogType{
+    color:var(--tezos-blue);
+    font-family: 'Inter',sans-serif;
+    font-size: var(--font-size-mod-medium);
+}
+.blogDate{
+    font-family: 'Inter',sans-serif;
+    font-size: var(--font-size-mod-medium);  
+    color: var(--tezos-text);
+    margin-left: 30px;
+}
+.blogTitle{
+    margin-top: 200px;
+    padding-right: 42px;
+    font-family: 'Inter',sans-serif;
+}
+.blogDuration{
+    font-family: 'Inter',sans-serif;
+    font-size: var(--font-size-semi-medium);
+    color: var(--tezos-text);
+    margin-top: 40px;
+}
+.alignCard{
+    padding-left: 30px !important;
+}
+.blogImg{
+    width: 22vw;
+    height: 35vh;
+    object-fit: fill;
+    margin-top: -20px;
+    margin-left: -35px;
+}
+.blogDecs{
+    font-size: 14px;
+    color:var(--tezos-text);
+    padding-right: 50px;
+}
+.nextAction{
+    color:var(--tezos-blue);
+    font-family: 'Inter',sans-serif;
+    margin-top: 50px;
+}
+.banner{
+  padding: 50px;
+  background: url('../assets/banner.svg');
+  background-repeat: no-repeat;
+  background-size: 100vw 20vh;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: row;
+}
+.bannerDesc{
+    color:var(--tezos-white);
+    margin: -20px 0 0 320px;
+}
+.bannerBtn{
+    background: var(--tezos-blue) !important;
+    color: var(--tezos-white) !important;
+    text-transform: inherit !important;
+    width: 10vw !important;
+    height: 8vh !important;
+    border-radius: 5px !important;
+    margin-left: 300px;
+}

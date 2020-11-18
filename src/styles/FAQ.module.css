@@ -1,0 +1,35 @@
+.container{
+    background: var(--tezos-secondary-background);
+    height: 100vh;
+}
+.header{
+    text-align: center;
+}
+.faqDesc{
+    color:var(--tezos-text);
+    text-align: center;
+    font-family: 'Inter',sans-serif;
+}
+.faqCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+    font-family: 'Inter',sans-serif;
+}
+.faqCardMargin{
+    padding-bottom: 30px !important;
+}
+.faqAlignCard{
+    margin-right: 40px;
+}
+.btn{
+    text-transform: inherit !important;
+    color:var(--tezos-text) !important;
+    background-color: #2A2C34 !important;
+    width:450px !important;
+    height:55px !important;
+    font-size: var(--font-size-mod-medium) !important;
+    border-radius: 10px;
+    margin: 5% 25% 0 35%;
+}

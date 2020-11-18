@@ -20,13 +20,13 @@ const useStyles = makeStyles((theme) => ({
     },
     color: '#FFFFFF',
     backgroundColor: '#2A2C34 !important',
-    borderRadius: '15px',
-    width: '800px',
-    height: '300px',
+    borderRadius: '10px',
+    width: '550px',
+    height: '70px',
   },
 }));
 
-export default function CommunityCard(props) {
+export default function FAQCard(props) {
   const classes = useStyles();
   return (
     <Card className={classes.root}>

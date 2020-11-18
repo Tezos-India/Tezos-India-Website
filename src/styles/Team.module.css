@@ -1,0 +1,51 @@
+.container{
+    background: var(--tezos-background);
+    height:150vh;
+    font-family: 'Inter', sans-serif;
+}
+.heading{
+    text-align: center;
+    padding-top: 60px;
+}
+.team{
+    display: flex;
+    flex-direction: row;
+    padding: 15vh 20vw 0 18vw;
+}
+.memberImg{
+    width: 10vw;
+}
+.alignImage{
+    margin:0 80px ;
+}
+.header{
+    font-size: var(--font-size-medium);
+    text-align: center;
+    color:var(--tezos-white);
+}
+.designation{
+    
+    font-size: var(--font-size-mod-medium);
+    color:var(--tezos-text);
+    text-align: center;
+}
+.teamSocial img{
+    width:20px;
+    margin: 0px 20px 20px 0px;
+    cursor: pointer;
+}
+.teamSocial{
+    margin-left: 25px;
+}
+.btn{
+    text-transform: inherit !important;
+    color:var(--tezos-text) !important;
+    background-color: #2A2C34 !important;
+    width:450px !important;
+    height:55px !important;
+    font-size: var(--font-size-mod-medium) !important;
+    border-radius: 10px;
+}
+.resumeBtn{
+    padding:10vh 20vw 0 34vw;
+}
