@@ -2,7 +2,6 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 import { HeadingComponent } from "./common/TextComponent";
 import infraStyles from "../styles/Infra.module.css";
-import infra from "../assets/infra-img.svg";
 import logo from "../assets/tzlogo.svg";
 import vector from "../assets/vector-right.svg"
 

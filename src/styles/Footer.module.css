@@ -9,8 +9,8 @@
 .footerLinks{
     display: flex;
     flex-direction: row;
-    margin-top: 200px;
-    margin-left: -250px;
+    margin-top: 120px;
+    margin-left: -350px;
     color:var(--tezos-text);
     font-size: 16px;
     font-family: 'Inter', sans-serif;
@@ -21,6 +21,21 @@
 }
 .footerAlignLinks{
     margin-left: 30px;
-    display: flex;
     justify-content: center;
+}
+.social{
+    margin-top: 200px;
+    margin-left: -340px;
+}
+.footerSocialLinks{
+    margin-left: 50px;
+    width: 20px;
+}
+.copyright{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color:var(--tezos-text);
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 50px;
 }
