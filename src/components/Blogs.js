@@ -4,6 +4,9 @@ import { HeadingComponent } from "./common/TextComponent";
 import blogStyles from "../styles/Blog.module.css";
 import BlogsCard from "./common/BlogsCard";
 import team from "./constant";
+import speaker from "../assets/Button.png";
+import next from "../assets/arrow.png";
+import like from "../assets/like.png";
 
 function Blogs() {
   return (
@@ -18,8 +21,14 @@ function Blogs() {
             <p className={blogStyles.blogType}>Podcasts</p>
             <p className={blogStyles.blogDate}>14th May</p>
             <div className={blogStyles.blogStar}>
-              <p className={blogStyles.blogStarContent}>93</p>
+              <p className={blogStyles.blogStarContent}>
+                <img src={like} alt="" className={blogStyles.blogLikes} />
+                93
+              </p>
             </div>
+          </div>
+          <div className={blogStyles.blogSpeaker}>
+            <img src={speaker} alt="" />
           </div>
           <div>
             <h1 className={blogStyles.blogTitle}>
@@ -43,6 +52,7 @@ function Blogs() {
                 <p className={blogStyles.blogDate}>{blogContent.date}</p>
                 <div className={blogStyles.blogStar}>
                   <p className={blogStyles.blogStarContent}>
+                    <img src={like} alt="" className={blogStyles.blogLikes} />
                     {blogContent.stars}
                   </p>
                 </div>
@@ -53,7 +63,10 @@ function Blogs() {
                 </h2>
                 <p className={blogStyles.blogDecs}>{blogContent.desc}</p>
               </div>
-              <p className={blogStyles.nextAction}>{blogContent.next}</p>
+              <p className={blogStyles.nextAction}>
+                {blogContent.next}
+                <img src={next} alt="" className={blogStyles.nextImg} />
+              </p>
             </BlogsCard>
           </div>
         ))}

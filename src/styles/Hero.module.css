@@ -69,6 +69,10 @@
   border-radius: 5px;
   font-family: "Poppins", sans-serif;
 }
+.logo{
+  margin-top:10px;
+  margin-bottom: -15px;
+}
 @media (min-width: 320px) {
   /* smartphones, iPhone, portrait 480x320 phones */
 }
