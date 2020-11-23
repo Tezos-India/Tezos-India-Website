@@ -13,24 +13,9 @@
     width:60px;
     margin: 20px 0 10px 0;
 }
-.eduCard{
-    margin-left: 250px!important;
-    margin-top: 150px !important;
-}
-.communityCard{
-    margin-left: 250px !important;
-    margin-top: -90px !important;
-}
-.mediaCard{
-    margin-top: 150px !important;
-    margin-left: -100px !important;
-}
 .activityDesc{
-    margin-top: 270px;
-}
-.bussinessCard{
-    margin-top: -90px !important;
-    margin-left: -100px !important;
+    margin-top: -105vh !important;
+    margin-left: 55vw !important;
 }
 .alignHeadings{
     font-size: 40px; 
@@ -54,4 +39,41 @@
     text-transform: inherit !important;
     font-weight: bold !important;
     font-size: var(--font-size-mod-medium) !important;
+}
+.cardMargin{
+    margin: 10px !important;
+}
+.cardMarginTwo{
+    margin-left: 20px !important;
+}
+.marginLeft{
+    margin-left:220px !important ;
+    margin-top: 150px !important;
+}
+@media (max-width: 360px){
+    .activityContainer{
+        height: 350vh;
+    }
+    .alignHeadings{
+        font-size: 25px !important;
+        line-height: 32px !important;
+        margin-top: 700px !important;
+        margin-right: -150px !important;
+    }
+    .subHeading{
+        font-size: 15px !important;
+        margin-right: -200px !important;
+        line-height: 25px !important;
+        margin-right: -150px !important;
+    }
+    .marginLeft{
+        margin-left: 30px !important;
+    }
+    .cardMarginTwo{
+        margin-left: 5px !important;
+    }
+    .activityDesc{
+        margin-left: 40px !important;
+        
+    }
 }

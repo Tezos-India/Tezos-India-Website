@@ -165,6 +165,19 @@
     margin-top: -40px !important;
     margin-left: 60px !important;
   }
+  .intro p {
+    font-size: 30px;
+    line-height: 45px;
+    margin: 0 0 0 -310px;
+  }
+  .logo {
+    margin-top: 5px;
+    margin-bottom: -5px;
+    width: 5vw;
+  }
+  .introBtn {
+    margin-left: -55px !important;
+  }
 }
 @media (max-width: 360px) {
   .mobileHeaderButton {
@@ -172,5 +185,22 @@
     margin-left: 25px !important;
     width: 70px !important;
     font-size: 7px !important;
+  }
+  .intro p {
+    font-size: 30px;
+    line-height: 45px;
+    padding-left: -2px;
+    padding-right: 40px;
+  }
+  .banner {
+    height: 800px;
+    background-position: -870px;
+  }
+  .logo {
+    width: 7vw;
+  }
+  .introBtn {
+    margin-top: 120px !important;
+    font-weight: bold;
   }
 }

@@ -41,7 +41,7 @@
 }
 @media (max-width: 641px) {
   .container {
-    height: 160vh !important;
+    height: 130vh !important;
   }
   .marginTwoCard {
     margin-top: 10px !important;
@@ -54,7 +54,7 @@
     width: 250px !important;
     height: 55px !important;
     font-size: 15px !important;
-    margin-left: 60px !important;
+    margin-left: 80px !important;
   }
   .header {
     font-size: 35px;
@@ -63,6 +63,24 @@
   }
   .faqDesc {
     padding-left: 45px;
+    padding-right: 50px;
+  }
+}
+@media (max-width: 360px){
+  .container{
+    height: 170vh !important;
+  }
+  .btn {
+    width: 200px !important;
+    height: 55px !important;
+    font-size: 12px !important;
+    margin-left: 70px !important;
+  }
+  .header{
+    margin-right: 30px !important;
+  }
+    .faqDesc {
+    padding-left: 15px;
     padding-right: 50px;
   }
 }

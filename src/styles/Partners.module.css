@@ -27,10 +27,10 @@
 @media (max-width: 360px) {
   .partnerTitle{
     font-size: 14px !important;
-    margin: -20px 0 0 10px;
+    margin: -20px 0 0 45px;
   }
   .line{
-    margin-left: -590px !important;
+    margin-left: -500px !important;
     margin-top: 30px !important;
     width: 250px !important;
 
@@ -38,6 +38,21 @@
   .partnerLogo{
     margin-left: -200px !important;
     width: 60vw !important;
+    margin-top: 20px !important;
+  }
+}
+@media (max-width: 641px) {
+  .line{
+    margin-left: -550px !important;
+    margin-top: 30px !important;
+    width: 250px !important;
+  }
+  .partnerTitle{
+    font-size: 14px !important;
+    margin: -20px 0 0 55px;
+  }
+  .partnerLogo{
+    margin-left: -190px !important;
     margin-top: 20px !important;
   }
 }
