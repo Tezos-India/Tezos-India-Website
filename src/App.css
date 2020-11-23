@@ -52,3 +52,14 @@
     transform: rotate(360deg);
   }
 }
+.MuiPaper-root, .MuiDrawer-paper, .MuiDrawer-paperAnchorLeft, .MuiPaper-elevation16{
+  background-color: var(--tezos-white) !important;
+  color: var(--tezos-background) !important;
+  font-size: 15px !important;
+}
+.MuiToolbar-root, .MuiToolbar-regular, .MuiToolbar-gutters{
+  padding: 0 !important;
+}
+.MuiSvgIcon-root{
+  color:white !important;
+}

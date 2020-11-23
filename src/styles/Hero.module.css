@@ -6,12 +6,14 @@
   padding: 20px;
   background-position: center;
   background-repeat: no-repeat;
+  overflow-x: hidden !important;
 }
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   color: var(--tezos-white);
+  margin-left: 650px;
 }
 .headerImg {
   width: 200px;
@@ -20,7 +22,7 @@
 }
 .headerLinks {
   font-size: var(--font-size-semi-medium);
-  margin: 30px 320px 0 0 !important;
+  margin: -20px 320px 0 0 !important;
   padding: 0;
   display: flex;
   flex-direction: row;
@@ -28,7 +30,7 @@
   cursor: pointer;
 }
 .githubLink {
-  margin-left: 60px !important;
+  margin-left: 160px !important;
 }
 .headerButton {
   position: absolute !important;
@@ -40,7 +42,7 @@
   font-size: var(--font-size-semi-medium) !important;
   text-transform: inherit !important;
   border-radius: 5px;
-  right: 150px;
+  right: -130px;
   font-family: "Poppins", sans-serif;
 }
 .intro p {
@@ -69,25 +71,106 @@
   border-radius: 5px;
   font-family: "Poppins", sans-serif;
 }
-.logo{
-  margin-top:10px;
+.logo {
+  margin-top: 10px;
   margin-bottom: -15px;
 }
-@media (min-width: 320px) {
-  /* smartphones, iPhone, portrait 480x320 phones */
+.appBarColor {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
 }
-@media (min-width: 481px) {
-  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+.appbarMagrinLeft {
+  margin: -30px 15px 0 -30px !important;
 }
-@media (max-width: 641px) {
-  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+
+/* @media (max-width: 641px) {
+  .intro p {
+    font-size: 30px;
+    line-height: 45px;
+    margin: 0 0 0 -310px;
+  }
+  .logo{
+    margin-top:5px;
+    margin-bottom: -5px;
+    width: 5vw;
+  }
+  .introBtn {
+    margin-left: -70px !important;
+  }
 }
-@media (min-width: 961px) {
-  /* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (max-width: 360px) {
+  .intro p {
+    font-size: 30px;
+    line-height: 45px;
+    padding-left:-2px;
+    padding-right: 40px;
+  }
+  .banner {
+    height: 800px;
+    background-position: -870px;
+  }
+  .logo{
+    width:7vw;
+  }
+  .introBtn{
+    margin-top: 120px !important;
+    font-weight: bold;
+  }
+  .headerButton{
+    width: 25vw !important;
+    font-size: 10px !important;
+    margin-top: -45px !important;
+    margin-right: -100px !important;
+    border: 1px solid white !important;
+
+  }
+  .headerImg{
+    margin-left: -10px;
+    width: 35vw !important;
+    height: 10vh;
+  }
+  .headerLinks{
+    margin-left: -40px !important;
+    margin-top: 60px !important;
+    font-size: 10px !important;
+  }
+  .githubLink{
+    margin-left: 20px !important;
+  }
 }
 @media (min-width: 1025px) {
-  /* big landscape tablets, laptops, and desktops */
+
 }
 @media (min-width: 1281px) {
-  /* hi-res laptops and desktops */
+  
+} */
+@media (max-width: 641px) {
+  .headerImg {
+    margin-left: -30px;
+    width: 40vw;
+    margin-top: -20px !important;
+  }
+  .mobileHeaderButton {
+    position: absolute !important;
+    color: white !important;
+    background-color: transparent !important;
+    border: 2px solid var(--tezos-white) !important;
+    text-align: center;
+    width: 100px !important;
+    font-size: 10px !important;
+    text-transform: inherit !important;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    margin-top: -40px !important;
+    margin-left: 60px !important;
+  }
+}
+@media (max-width: 360px) {
+  .mobileHeaderButton {
+    margin-top: -35px !important;
+    margin-left: 25px !important;
+    width: 70px !important;
+    font-size: 7px !important;
+  }
 }

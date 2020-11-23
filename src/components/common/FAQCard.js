@@ -7,7 +7,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     '& .MuiCard-root': {
       backgroundColor: '#2A2C34',
-      color: '#FFFFFF',
+      color: '#FFFFFF !important',
     },
     '& .MuiPaper-root': {
       backgroundColor: '#2A2C34',
@@ -18,10 +18,10 @@ const useStyles = makeStyles((theme) => ({
       width: '100%',
       marginLeft:'15px',
     },
-    color: '#FFFFFF',
+    color: '#FFFFFF !important',
     backgroundColor: '#2A2C34 !important',
     borderRadius: '10px',
-    width: '550px',
+    width: '70vh',
     height: '70px',
   },
 }));

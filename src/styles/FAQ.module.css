@@ -17,12 +17,17 @@
   margin-top: 80px;
   font-family: "Inter", sans-serif;
   cursor: pointer;
+  margin-left: -300px;
 }
 .faqCardMargin {
   padding-bottom: 30px !important;
 }
 .faqAlignCard {
   margin-right: 40px;
+}
+.marginTwoCard {
+  margin-left: 600px !important;
+  margin-top: -300px !important;
 }
 .btn {
   text-transform: inherit !important;
@@ -33,4 +38,31 @@
   font-size: var(--font-size-mod-medium) !important;
   border-radius: 10px !important;
   margin: 5% 25% 0 35% !important;
+}
+@media (max-width: 641px) {
+  .container {
+    height: 160vh !important;
+  }
+  .marginTwoCard {
+    margin-top: 10px !important;
+    margin-left: 20px !important;
+  }
+  .faqCard {
+    margin-left: 20px !important;
+  }
+  .btn {
+    width: 250px !important;
+    height: 55px !important;
+    font-size: 15px !important;
+    margin-left: 60px !important;
+  }
+  .header {
+    font-size: 35px;
+    padding: 5px;
+    padding-top: 30px;
+  }
+  .faqDesc {
+    padding-left: 45px;
+    padding-right: 50px;
+  }
 }
