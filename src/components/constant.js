@@ -61,6 +61,54 @@ const team = {
       id: 1,
     },
   ],
+  membersCarousel: [
+    {
+      name: "Om Malviya",
+      designation: "Founder & CEO",
+      image: user,
+      instagram: "",
+      dribble: "",
+      linkedin: "",
+      id: 1,
+    },
+    {
+      name: "Om Malviya",
+      designation: "Founder & CEO",
+      image: user,
+      instagram: "",
+      dribble: "",
+      linkedin: "",
+      id: 1,
+    },
+    {
+      name: "Om Malviya",
+      designation: "Founder & CEO",
+      image: user,
+      instagram: "",
+      dribble: "",
+      linkedin: "",
+      id: 1,
+    },
+    {
+      name: "Om Malviya",
+      designation: "Founder & CEO",
+      image: user,
+      instagram: "",
+      dribble: "",
+      linkedin: "",
+      id: 1,
+    },
+    {
+      name: "Om Malviya",
+      designation: "Founder & CEO",
+      image: user,
+      instagram: "",
+      dribble: "",
+      linkedin: "",
+      id: 1,
+    },
+
+  ],
 
   blogs: [
     {

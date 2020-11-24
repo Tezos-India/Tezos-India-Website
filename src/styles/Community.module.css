@@ -71,3 +71,33 @@
 .infoDesc{
     color:var(--tezos-text);
 }
+.header{
+    font-size: 40px; 
+    font-weight: bold;
+    color: var(--tezos-white);
+    line-height: 50px;
+}
+@media (max-width:360px){
+    .container{
+        height:220vh !important;
+    }
+    .header{
+        font-size: 25px !important;
+        line-height: 30px !important;
+        margin-right: 30px;
+    }
+    .alignHeader{
+        margin-right: 38px !important;
+    }
+    .carousel{
+        margin-right: 40px !important;
+    }
+    .info{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center;
+    }
+    .infoHeading{
+        font-size: 40px !important;
+    }
+}

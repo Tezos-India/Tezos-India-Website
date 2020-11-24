@@ -3,7 +3,6 @@ import Carousel from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
 import communityStyles from "../styles/Community.module.css";
 import {
-  HeadingComponent,
   TextComponent,
   SubHeadingComponent,
 } from "./common/TextComponent";
@@ -22,8 +21,7 @@ export class Community extends Component {
     return (
       <div className={communityStyles.container}>
         <div className={communityStyles.heading}>
-          <HeadingComponent text={"Our Community members"} />
-          <HeadingComponent text={"about us"} />
+          <p className={communityStyles.header}>Our Community members <br/> about us</p>
           <TextComponent
             text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
             componentStyle={communityStyles.alignHeader}

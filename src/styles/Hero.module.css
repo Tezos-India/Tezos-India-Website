@@ -202,5 +202,6 @@
   .introBtn {
     margin-top: 120px !important;
     font-weight: bold;
+    margin-left: -80px !important;
   }
 }
