@@ -93,7 +93,7 @@
 }
 .bannerDesc {
   color: var(--tezos-white);
-  /* margin: -20px 0 0 320px; */
+  margin: -20px 0 0 320px;
 }
 .bannerBtn {
   background: var(--tezos-blue) !important;
