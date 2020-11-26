@@ -1,103 +1,122 @@
-.container{
-    background: var(--tezos-secondary-background);
-    height: 1000px;
-    margin-top: -20px;
+.container {
+  background: var(--tezos-secondary-background);
+  height: 1000px;
+  margin-top: -20px;
 }
-.heading{
-    text-align: center;
-    padding-top: 100px;
+.heading {
+  text-align: center;
+  padding-top: 100px;
 }
-.alignHeader{
-    margin-top: 30px;
+.alignHeader {
+  margin-top: 30px;
 }
-.cardContainer{
-    background: white;
-    width: 15vw;
-    margin-top: 20px;
-    margin-left: 15px;
-    border-radius: 15px;
+.cardContainer {
+  background: white;
+  width: 15vw;
+  margin-top: 20px;
+  margin-left: 15px;
+  border-radius: 15px;
 }
-.cardImg{
-    width:15vw;
+.cardImg {
+  width: 15vw;
 }
-.card{
-    display: flex;
-    flex-direction: row;
+.card {
+  display: flex;
+  flex-direction: row;
 }
-.personName{
-    margin-left: 30px;
-    margin-top: 30px;
+.personName {
+  margin-left: 30px;
+  margin-top: 30px;
 }
-.testimonial{
-    text-align: justify;
-    justify-content: inherit;
-    padding: 0 70px 0 30px;
+.testimonial {
+  text-align: justify;
+  justify-content: inherit;
+  padding: 0 70px 0 30px;
 }
-.subHeading{
-    margin-left: 30px;
+.subHeading {
+  margin-left: 30px;
+  color: var(--tezos-white) !important;
 }
-.carousel{
-    margin-top: 80px;
+.carousel {
+  margin-top: 80px;
 }
-.vector{
-    width:13vw;
-    margin-left: 160px;
+.vector {
+  width: 13vw;
+  margin-left: 160px;
 }
-.carouselBg{
-    background-image: url("../assets/vector-left.svg");
-    background-repeat: no-repeat;
-    background-size: 15vw;
-    background-position: 282px 20px;
+.carouselBg {
+  background-image: url("../assets/vector-left.svg");
+  background-repeat: no-repeat;
+  background-size: 15vw;
+  background-position: 282px 20px;
 }
-.info{
-    display: flex;
-    flex-direction: row;
-    font-family:'Inter', sans-serif;
+.info {
+  display: flex;
+  flex-direction: row;
+  font-family: "Inter", sans-serif;
+  justify-content: center;
+}
+.infoContent {
+  padding-left: 50px;
+  margin-top: 10px;
+}
+.infoHeading {
+  font-size: 60px;
+  font-weight: bold;
+}
+.infoSubHeading {
+  color: var(--tezos-white);
+  font-size: 20px;
+  margin-top: -30px;
+}
+.infoDesc {
+  color: var(--tezos-text);
+}
+.header {
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--tezos-white);
+  line-height: 50px;
+}
+@media (max-width: 360px) {
+  .container {
+    height: 220vh !important;
+  }
+  .header {
+    font-size: 25px !important;
+    line-height: 30px !important;
+    margin-right: 30px;
+  }
+  .alignHeader {
+    margin-right: 38px !important;
+  }
+  .carousel {
+    margin-right: 40px !important;
+  }
+  .info {
+    display: flex !important;
+    flex-direction: column !important;
     justify-content: center;
+  }
+  .infoHeading {
+    font-size: 40px !important;
+  }
 }
-.infoContent{
-    padding-left:50px;
-    margin-top: 10px;
-}
-.infoHeading{
-    font-size: 60px;
-    font-weight: bold;
-}
-.infoSubHeading{
-    color:var(--tezos-white);
-    font-size: 20px;
-    margin-top: -30px;
-}
-.infoDesc{
-    color:var(--tezos-text);
-}
-.header{
-    font-size: 40px; 
-    font-weight: bold;
-    color: var(--tezos-white);
-    line-height: 50px;
-}
-@media (max-width:360px){
-    .container{
-        height:220vh !important;
-    }
-    .header{
-        font-size: 25px !important;
-        line-height: 30px !important;
-        margin-right: 30px;
-    }
-    .alignHeader{
-        margin-right: 38px !important;
-    }
-    .carousel{
-        margin-right: 40px !important;
-    }
-    .info{
-        display: flex !important;
-        flex-direction: column !important;
-        justify-content: center;
-    }
-    .infoHeading{
-        font-size: 40px !important;
-    }
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .header {
+    margin-left: -200px !important;
+  }
+  .alignHeader {
+    margin-left: -220px !important;
+  }
+  .alignRowTwoHeader {
+    margin-left: -200px !important;
+    margin-top: 10px !important;
+  }
+  .carousel{
+      margin-left: -50px !important;
+  }
+  .info{
+      margin-left: -280px !important;
+  }
 }

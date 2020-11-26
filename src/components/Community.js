@@ -26,7 +26,9 @@ export class Community extends Component {
             text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
             componentStyle={communityStyles.alignHeader}
           />
-          <TextComponent text={"Lorem ipsum dolor sit amet."} />
+          <TextComponent 
+          componentStyle={communityStyles.alignRowTwoHeader}
+          text={"Lorem ipsum dolor sit amet."} />
         </div>
         <div className={communityStyles.carouselBg}>
           <Carousel arrows className={communityStyles.carousel}>

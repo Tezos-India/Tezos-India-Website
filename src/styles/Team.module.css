@@ -49,8 +49,8 @@
   padding: 10vh 20vw 0 34vw;
 }
 @media (max-width: 360px) {
-  .container{
-    height:100vh !important;
+  .container {
+    height: 100vh !important;
   }
   .carousel {
     margin: 50px 35px 0 -10px !important;
@@ -61,21 +61,41 @@
   .alignImage {
     margin-left: 48px !important;
   }
-  .header{
-      margin-left: -25px !important;
-      margin-right: -30px !important;
+  .header {
+    margin-left: -25px !important;
+    margin-right: -30px !important;
   }
-  .designation{
+  .designation {
     margin-left: -20px !important;
     margin-right: -30px !important;
   }
-  .teamSocial{
+  .teamSocial {
     margin-left: -10px !important;
     margin-right: -50px !important;
   }
+  .btn {
+    width: 250px !important;
+    font-size: 12px !important;
+    margin-left: -85px !important;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .team{
+    margin-left: -200px !important;
+    margin-top: -30px !important;
+  }
+  .heading{
+    margin-left: -220px !important;
+    padding-top: 150px !important;
+    font-size: 50px !important;
+  }
+  .container{
+    height:110vh !important;
+  }
+  .teamSocial img{
+    margin-left: -10px !important;
+  }
   .btn{
-  width: 250px !important;
-  font-size:12px!important;
-  margin-left: -85px !important;
+    margin-left: -180px !important;
   }
 }

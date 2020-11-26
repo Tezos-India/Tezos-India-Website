@@ -13,46 +13,62 @@
 }
 .line {
   width: 800px;
-  border-bottom: 4px solid #1E2029;
+  border-bottom: 4px solid #1e2029;
   position: absolute;
-  top:820px;
-  left:700px;
+  top: 820px;
+  left: 700px;
 }
-.partnerLogo{
-    width: 70vw;
-    position: absolute;
-    top:850px !important;
-    left: 250px;
+.partnerLogo {
+  width: 70vw;
+  position: absolute;
+  top: 850px !important;
+  left: 250px;
 }
 @media (max-width: 360px) {
-  .partnerTitle{
+  .partnerTitle {
     font-size: 14px !important;
     margin: -20px 0 0 45px;
   }
-  .line{
+  .line {
     margin-left: -500px !important;
     margin-top: 30px !important;
     width: 250px !important;
-
   }
-  .partnerLogo{
+  .partnerLogo {
     margin-left: -200px !important;
     width: 60vw !important;
     margin-top: 20px !important;
   }
 }
 @media (max-width: 641px) {
-  .line{
+  .line {
     margin-left: -590px !important;
     margin-top: 30px !important;
     width: 250px !important;
   }
-  .partnerTitle{
+  .partnerTitle {
     font-size: 14px !important;
     margin: -20px 0 0 55px;
   }
-  .partnerLogo{
+  .partnerLogo {
     margin-left: -190px !important;
     margin-top: 20px !important;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .container {
+    width: 77vw !important;
+  }
+  .partnerTitle {
+    margin-left: 30px !important;
+    margin-top: -20px !important;
+  }
+  .partnerLogo {
+    margin-left: -220px !important;
+    margin-top: 30px !important;
+  }
+  .line {
+    width: 38vw !important;
+    margin-left: -305px !important;
   }
 }

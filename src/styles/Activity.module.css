@@ -51,7 +51,7 @@
   margin-top: 150px !important;
 }
 @media (max-width: 360px) {
-  .activityContainer{
+  .activityContainer {
     height: 300vh !important;
   }
   .alignHeadings {
@@ -76,29 +76,53 @@
     margin-left: 40px !important;
   }
 }
-@media (min-width: 411px) and (max-width:641px) {
-    .activityContainer {
-      height: 250vh !important;
-    }
-    .alignHeadings {
-      font-size: 25px !important;
-      line-height: 32px !important;
-      margin-top: 950px !important;
-      margin-right: -150px !important;
-    }
-    .subHeading {
-      font-size: 15px !important;
-      margin-right: -200px !important;
-      line-height: 25px !important;
-      margin-right: -150px !important;
-    }
-    .marginLeft {
-      margin-left: 80px !important;
-    }
-    .cardMarginTwo {
-      margin-left: -2px !important;
-    }
-    .activityDesc {
-      margin-left: 80px !important;
-    }
+@media (min-width: 411px) and (max-width: 641px) {
+  .activityContainer {
+    height: 250vh !important;
   }
+  .alignHeadings {
+    font-size: 25px !important;
+    line-height: 32px !important;
+    margin-top: 950px !important;
+    margin-right: -150px !important;
+  }
+  .subHeading {
+    font-size: 15px !important;
+    margin-right: -200px !important;
+    line-height: 25px !important;
+    margin-right: -150px !important;
+  }
+  .marginLeft {
+    margin-left: 80px !important;
+  }
+  .cardMarginTwo {
+    margin-left: -2px !important;
+  }
+  .activityDesc {
+    margin-left: 80px !important;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .activityContainer {
+    width: 77vw !important;
+    height: 110vh !important;
+  }
+  .marginLeft {
+    margin-left: 120px !important;
+    margin-top: 50vh !important;
+  }
+  .alignHeadings {
+    margin-left: -420px !important;
+    margin-right: 30px !important;
+  }
+  .subHeading {
+    font-size: 18px !important;
+    margin-left: -420px !important;
+  }
+  .activityBtn{
+    margin-left: -420px !important;
+  }
+  .cardMarginTwo{
+    margin-left: 140px !important;
+  }
+}

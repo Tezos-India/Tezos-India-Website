@@ -83,68 +83,6 @@
 .appbarMagrinLeft {
   margin: -30px 15px 0 -30px !important;
 }
-
-/* @media (max-width: 641px) {
-  .intro p {
-    font-size: 30px;
-    line-height: 45px;
-    margin: 0 0 0 -310px;
-  }
-  .logo{
-    margin-top:5px;
-    margin-bottom: -5px;
-    width: 5vw;
-  }
-  .introBtn {
-    margin-left: -70px !important;
-  }
-}
-@media (max-width: 360px) {
-  .intro p {
-    font-size: 30px;
-    line-height: 45px;
-    padding-left:-2px;
-    padding-right: 40px;
-  }
-  .banner {
-    height: 800px;
-    background-position: -870px;
-  }
-  .logo{
-    width:7vw;
-  }
-  .introBtn{
-    margin-top: 120px !important;
-    font-weight: bold;
-  }
-  .headerButton{
-    width: 25vw !important;
-    font-size: 10px !important;
-    margin-top: -45px !important;
-    margin-right: -100px !important;
-    border: 1px solid white !important;
-
-  }
-  .headerImg{
-    margin-left: -10px;
-    width: 35vw !important;
-    height: 10vh;
-  }
-  .headerLinks{
-    margin-left: -40px !important;
-    margin-top: 60px !important;
-    font-size: 10px !important;
-  }
-  .githubLink{
-    margin-left: 20px !important;
-  }
-}
-@media (min-width: 1025px) {
-
-}
-@media (min-width: 1281px) {
-  
-} */
 @media (max-width: 641px) {
   .headerImg {
     margin-left: -30px;
@@ -203,5 +141,25 @@
     margin-top: 120px !important;
     font-weight: bold;
     margin-left: -80px !important;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .banner {
+    overflow-x: hidden !important;
+    width:73vw !important;
+  }
+  .intro p {
+    margin-left: -250px !important;
+    font-size: 40px !important;
+  }
+  .introBtn {
+    margin-left: -150px !important;
+    margin-top: -300px !important;
+  }
+  .headerLinks {
+    margin-left: -530px !important;
+  }
+  .headerImg{
+    margin-left: 20px !important;
   }
 }
