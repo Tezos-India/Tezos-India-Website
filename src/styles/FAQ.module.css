@@ -84,3 +84,16 @@
     padding-right: 50px;
   }
 }
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .marginTwoCard {
+    margin-top: 12px !important;
+    margin-left: 2px !important;
+  }
+  .container{
+    height: 80vh !important;
+    padding-top: 150px !important;
+  }
+  .btn {
+    margin-left: 300px !important;
+  }
+}

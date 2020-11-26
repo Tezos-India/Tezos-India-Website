@@ -66,15 +66,18 @@
 }
 @media (min-width: 1024px) and (max-width: 1280px) {
   .infraContainer {
-    background-size: 144vw !important;
-    height: 170vw !important ;
+    background-size: 180vw !important;
+    height: 180vw !important ;
   }
   .alignHeading {
-    margin-left: 180px !important;
-    margin-top: 800px !important;
+    margin-left: 280px !important;
+    margin-top: 950px !important;
   }
   .paraText {
-    margin-left: 180px !important;
-    margin-top: 50px !important;
+    margin-left: 300px !important;
+    margin-top: 80px !important;
+  }
+  .vector {
+    margin-left: 80vw !important;
   }
 }

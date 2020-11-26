@@ -146,18 +146,17 @@
 @media (min-width: 1024px) and (max-width: 1280px) {
   .banner {
     overflow-x: hidden !important;
-    width:73vw !important;
   }
   .intro p {
-    margin-left: -250px !important;
+    margin-left: -150px !important;
     font-size: 40px !important;
   }
   .introBtn {
-    margin-left: -150px !important;
+    margin-left: -30px !important;
     margin-top: -300px !important;
   }
   .headerLinks {
-    margin-left: -530px !important;
+    margin-left: -300px !important;
   }
   .headerImg{
     margin-left: 20px !important;

@@ -103,26 +103,22 @@
   }
 }
 @media (min-width: 1024px) and (max-width: 1280px) {
-  .activityContainer {
-    width: 77vw !important;
-    height: 110vh !important;
-  }
   .marginLeft {
-    margin-left: 120px !important;
-    margin-top: 50vh !important;
+    margin-left: 40px !important;
+    margin-top: 10vh !important;
   }
   .alignHeadings {
-    margin-left: -420px !important;
-    margin-right: 30px !important;
+    margin-top: 65vh !important;
+    font-size: 38px !important;
+    margin-left: 30px !important;
   }
   .subHeading {
-    font-size: 18px !important;
-    margin-left: -420px !important;
+    margin-left: 30px !important;
   }
   .activityBtn{
-    margin-left: -420px !important;
+    margin-left: 25px !important;
   }
   .cardMarginTwo{
-    margin-left: 140px !important;
+    margin-left: 100px !important;
   }
 }

@@ -156,3 +156,19 @@
     margin-top: -13px !important;
   }
 }
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .bannerDesc{
+    margin-left: 20px !important;
+    margin-top: 30px !important;
+    font-size: 40px !important;
+  }
+  .bannerBtn {
+    margin-left: 300px !important;
+    width:150px !important;
+    height: 70px !important;
+    margin-top: 40px !important;
+  }
+  .container{
+    height: 100vh !important;
+  }
+}

@@ -81,11 +81,11 @@
 }
 @media (min-width: 1024px) and (max-width: 1280px) {
   .team{
-    margin-left: -200px !important;
+    margin-left: -80px !important;
     margin-top: -30px !important;
   }
   .heading{
-    margin-left: -220px !important;
+    margin-left: -20px !important;
     padding-top: 150px !important;
     font-size: 50px !important;
   }
@@ -93,9 +93,13 @@
     height:110vh !important;
   }
   .teamSocial img{
-    margin-left: -10px !important;
+    margin-left: -20px !important;
+    margin-right: -40px !important;
   }
   .btn{
-    margin-left: -180px !important;
+    margin-left: -60px !important;
+  }
+  .teamSocial{
+    margin-left: 100px !important;
   }
 }
