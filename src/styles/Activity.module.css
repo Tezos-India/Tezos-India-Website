@@ -2,6 +2,7 @@
   background-color: var(--tezos-secondary-background);
   height: 900px;
   width: 100%;
+  overflow-x: hidden !important;
 }
 .cardDesc {
   font-size: 12px;
@@ -50,7 +51,7 @@
   margin-left: 220px !important ;
   margin-top: 150px !important;
 }
-@media (max-width: 360px) {
+@media screen and (max-width: 360px) {
   .activityContainer {
     height: 300vh !important;
   }
@@ -67,7 +68,7 @@
     margin-right: -150px !important;
   }
   .marginLeft {
-    margin-left: 30px !important;
+    margin-left: 40px !important;
   }
   .cardMarginTwo {
     margin-left: 5px !important;
@@ -76,7 +77,12 @@
     margin-left: 40px !important;
   }
 }
-@media (min-width: 411px) and (max-width: 641px) {
+@media screen and (min-width:300px) and (max-width:320px){
+  .marginLeft{
+    margin-left: 25px !important;
+  }
+}
+@media screen and (min-width: 411px) and (max-width: 641px) {
   .activityContainer {
     height: 250vh !important;
   }
@@ -93,7 +99,7 @@
     margin-right: -150px !important;
   }
   .marginLeft {
-    margin-left: 80px !important;
+    margin-left: 70px !important;
   }
   .cardMarginTwo {
     margin-left: -2px !important;
@@ -102,7 +108,7 @@
     margin-left: 80px !important;
   }
 }
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
   .marginLeft {
     margin-left: 40px !important;
     margin-top: 10vh !important;
@@ -115,10 +121,47 @@
   .subHeading {
     margin-left: 30px !important;
   }
-  .activityBtn{
+  .activityBtn {
     margin-left: 25px !important;
   }
-  .cardMarginTwo{
+  .cardMarginTwo {
     margin-left: 100px !important;
+  }
+}
+@media screen and (min-width:700px) and(max-width:768px){
+  .activityContainer{
+    height: 150vh !important;
+  }
+  .marginLeft{
+    margin-left: 8vw !important;
+    margin-top: 10vh !important;
+  }
+  .cardMarginTwo{
+    margin: 8px 0 0 2px !important;
+  }
+  .activityDesc{
+    margin: -110vh 0 0 50vw !important;
+  }
+}
+@media screen and (min-width: 368px) and (max-width: 375px) {
+  .activityContainer{
+    height: 300vh !important;
+  }
+  .marginLeft{
+    margin-left: 15vw !important;
+  }
+  .cardMarginTwo{
+    margin-left: 2px !important;
+  }
+  .alignHeadings{
+    font-size: 30px !important;
+    line-height: 30px !important;
+    margin: 750px -50px 0 -175px !important;
+  }
+  .subHeading{
+    margin: 20px 10px 0 -175px !important;
+  }
+  .activityBtn{
+    margin-left: -175px !important;
   }
 }
