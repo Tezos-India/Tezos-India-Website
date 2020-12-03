@@ -3,6 +3,8 @@ body {
   font-family:'Poppins','Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black !important;
+  outline: 1px solid red;
 }
 
 code {

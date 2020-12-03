@@ -49,6 +49,11 @@ const Header = (props) => {
                 <List className={heroStyles.navHambergerWidth}>
                   <ListItem>Documentation</ListItem>
                   <ListItem>GitHub</ListItem>
+                  <ListItem>
+                    <Button className={heroStyles.mobileHeaderButton}>
+                      Get in Touch
+                    </Button>
+                  </ListItem>
                 </List>
               </SwipeableDrawer>
             </span>
@@ -57,14 +62,6 @@ const Header = (props) => {
           <Typography variant="h12" className={heroStyles.logoStyle}>
             <img className={heroStyles.headerImg} src={logo} alt="" />
           </Typography>
-          <Hidden smUp>
-            <ListItem>
-              <Button className={heroStyles.mobileHeaderButton}>
-                Get in Touch
-              </Button>
-            </ListItem>
-          </Hidden>
-
           <Hidden smDown>
             <span className={heroStyles.header}>
               <div className={heroStyles.headerLinks}>

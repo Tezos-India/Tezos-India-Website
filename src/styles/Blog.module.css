@@ -1,6 +1,7 @@
 .container {
   background: var(--tezos-secondary-background);
   height: 150vh;
+  width:100%;
 }
 .header {
   text-align: center;
