@@ -18,11 +18,11 @@ function App() {
         <Partners />
         <Activity />
         <Infra />
-        {/* <Community />
+        <Community />
         <Team />
         <Blogs />
         <FAQ />
-        <Footer /> */}
+        <Footer />
       </div>
 
   );

@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import Carousel from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
+import Hidden from "@material-ui/core/Hidden";
 import communityStyles from "../styles/Community.module.css";
 import {
   TextComponent,
   SubHeadingComponent,
 } from "./common/TextComponent";
 import CommunityCard from "./common/CommunityCard";
+import MobileCommunityCard from "./common/MobileCommunityCard";
 import sampleImg from "../assets/sample-img.png";
 
 export class Community extends Component {
@@ -30,8 +32,9 @@ export class Community extends Component {
           componentStyle={communityStyles.alignRowTwoHeader}
           text={"Lorem ipsum dolor sit amet."} />
         </div>
+        <Hidden smDown>
         <div className={communityStyles.carouselBg}>
-          <Carousel arrows className={communityStyles.carousel}>
+          <Carousel className={communityStyles.carousel}>
             <div>
               <CommunityCard>
                 <div className={communityStyles.card}>
@@ -53,7 +56,7 @@ export class Community extends Component {
                     <TextComponent
                       componentStyle={communityStyles.testimonial}
                       text={
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper magna justo, sed aliquam purus dapibus vel. Vestibulum posuere faucibus sem quis sagittis."
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper magna justo."
                       }
                     />
                   </div>
@@ -82,7 +85,7 @@ export class Community extends Component {
                     <TextComponent
                       componentStyle={communityStyles.testimonial}
                       text={
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper magna justo, sed aliquam purus dapibus vel. Vestibulum posuere faucibus sem quis sagittis."
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper magna justo."
                       }
                     />
                   </div>
@@ -111,7 +114,7 @@ export class Community extends Component {
                     <TextComponent
                       componentStyle={communityStyles.testimonial}
                       text={
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper magna justo, sed aliquam purus dapibus vel. Vestibulum posuere faucibus sem quis sagittis."
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper magna justo."
                       }
                     />
                   </div>
@@ -120,6 +123,99 @@ export class Community extends Component {
             </div>
           </Carousel>
         </div>
+        </Hidden>
+        <Hidden smUp>
+        <div className={communityStyles.carouselBg}>
+          <Carousel className={communityStyles.carousel}>
+            <div>
+              <MobileCommunityCard>
+                <div className={communityStyles.card}>
+                  <div className={communityStyles.cardContainer}>
+                    <img
+                      src={sampleImg}
+                      alt=""
+                      className={communityStyles.cardImg}
+                    />
+                  </div>
+                  <div>
+                    <SubHeadingComponent
+                      text={"Om Malviya"}
+                      componentStyle={communityStyles.personName}
+                    />
+                    <p className={communityStyles.subHeading}>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    </p>
+                    <TextComponent
+                      componentStyle={communityStyles.testimonial}
+                      text={
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper magna justo."
+                      }
+                    />
+                  </div>
+                </div>
+              </MobileCommunityCard>
+            </div>
+
+            <div>
+              <MobileCommunityCard>
+                <div className={communityStyles.card}>
+                  <div className={communityStyles.cardContainer}>
+                    <img
+                      src={sampleImg}
+                      alt=""
+                      className={communityStyles.cardImg}
+                    />
+                  </div>
+                  <div>
+                    <SubHeadingComponent
+                      text={"ABC"}
+                      componentStyle={communityStyles.personName}
+                    />
+                    <p className={communityStyles.subHeading}>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    </p>
+                    <TextComponent
+                      componentStyle={communityStyles.testimonial}
+                      text={
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper magna justo."
+                      }
+                    />
+                  </div>
+                </div>
+              </MobileCommunityCard>
+            </div>
+
+            <div>
+              <MobileCommunityCard>
+                <div className={communityStyles.card}>
+                  <div className={communityStyles.cardContainer}>
+                    <img
+                      src={sampleImg}
+                      alt=""
+                      className={communityStyles.cardImg}
+                    />
+                  </div>
+                  <div>
+                    <SubHeadingComponent
+                      text={"XYZ"}
+                      componentStyle={communityStyles.personName}
+                    />
+                    <p className={communityStyles.subHeading}>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    </p>
+                    <TextComponent
+                      componentStyle={communityStyles.testimonial}
+                      text={
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper magna justo."
+                      }
+                    />
+                  </div>
+                </div>
+              </MobileCommunityCard>
+            </div>
+          </Carousel>
+        </div>
+        </Hidden>
         <div className={communityStyles.info}>
           <div className={communityStyles.infoContent}>
             <p

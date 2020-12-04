@@ -2,6 +2,7 @@
   background: var(--tezos-secondary-background);
   height: 1000px;
   margin-top: -20px;
+  overflow-x: hidden !important;
 }
 .heading {
   text-align: center;
@@ -40,10 +41,6 @@
 .carousel {
   margin-top: 80px;
 }
-.vector {
-  width: 13vw;
-  margin-left: 160px;
-}
 .carouselBg {
   background-image: url("../assets/vector-left.svg");
   background-repeat: no-repeat;
@@ -78,48 +75,96 @@
   color: var(--tezos-white);
   line-height: 50px;
 }
-@media (max-width: 360px) {
+@media screen and (min-width: 320px) and (max-width: 360px) {
   .container {
-    height: 220vh !important;
+    height: 250vh !important;
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+  }
+  .heading {
+    margin-left: -10px !important;
   }
   .header {
-    font-size: 25px !important;
-    line-height: 30px !important;
-    margin-right: 30px;
+    font-size: 30px !important;
+    line-height: 35px !important;
   }
   .alignHeader {
-    margin-right: 38px !important;
+    margin: 0 30px 0 30px !important;
   }
-  .carousel {
-    margin-right: 40px !important;
+  .alignRowTwoHeader {
+    margin-left: 15px !important;
   }
   .info {
-    display: flex !important;
     flex-direction: column !important;
-    justify-content: center;
+    margin-left: 8vw !important;
   }
-  .infoHeading {
-    font-size: 40px !important;
+  .carouselBg {
+    background-position-y: 22px !important;
+    background-position-x: 2vw !important;
+    background-size: 50vw;
+  }
+  .cardContainer {
+    width: 22vw !important;
+    height: 16vh !important;
+    margin-top: 5vh !important;
+    border-radius: 5px !important;
+  }
+  .cardImg {
+    margin-top: 3vh !important;
+  }
+  .testimonial {
+    margin-left: -20vw !important;
+    text-align: left !important;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 411px) {
+  .container {
+    height: 250vh !important;
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+  }
+  .heading {
+    margin-left: 8px !important;
+    margin-right: 10px !important;
+  }
+  .header {
+    font-size: 30px !important;
+    line-height: 35px !important;
+  }
+  .alignHeader {
+    margin: 0 30px 0 30px !important;
+  }
+  .alignRowTwoHeader {
+    margin-left: 15px !important;
+  }
+  .info {
+    flex-direction: column !important;
+    margin-left: 12vw !important;
+  }
+  .carouselBg {
+    background-position-y: 22px !important;
+    background-position-x: 2vw !important;
+    background-size: 50vw;
+  }
+  .cardContainer {
+    width: 22vw !important;
+    height: 16vh !important;
+    margin-top: 5vh !important;
+    border-radius: 5px !important;
+  }
+  .cardImg {
+    margin-top: 3vh !important;
+  }
+  .testimonial {
+    margin-left: -20vw !important;
+    text-align: left !important;
   }
 }
 @media (min-width: 1024px) and (max-width: 1280px) {
-  .container{
-    height:80vh !important;
-  }
-  .header {
-    margin-left: -10px !important;
-  }
-  .alignHeader {
-    margin-left: 60px !important;
-  }
-  .alignRowTwoHeader {
-    margin-left: 20px !important;
-    margin-top: 10px !important;
-  }
   .carousel{
-      margin-left: 100px !important;
-  }
-  .info{
-      margin-left: -50px !important;
-  }
+      margin-left: 20px !important;
+}
+.carouselBg{
+  background-position-x: 70px !important;
+}
 }

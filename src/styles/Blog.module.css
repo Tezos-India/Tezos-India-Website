@@ -2,6 +2,7 @@
   background: var(--tezos-secondary-background);
   height: 150vh;
   width:100%;
+  overflow-x: hidden !important;
 }
 .header {
   text-align: center;
@@ -52,6 +53,7 @@
 .blogTitle {
   margin-top: 20px;
   padding-right: 42px;
+  color:white !important;
   font-family: "Inter", sans-serif;
 }
 .blogDuration {
@@ -122,7 +124,7 @@
   margin-top: 50px !important;
   margin-left: -50px !important;
 }
-@media (max-width: 360px) {
+@media screen and (min-width:320px) and (max-width: 360px) {
   .blogImg {
     width: 75vw !important;
   }
@@ -143,7 +145,7 @@
   }
   .header {
     font-size: 25px !important;
-    margin-right: 30px !important;
+    margin-right: -10px !important;
   }
   .bannerBtn {
     margin-left: 60px !important;
@@ -155,6 +157,39 @@
     font-size: 18px !important;
     margin-left: -40px !important;
     margin-top: -13px !important;
+  }
+  .alignCard{
+    margin-left: 20px !important;
+  }
+}
+@media screen and (min-width:375px) and (max-width: 411px) {
+  .container{
+    height: 100vh !important;
+  }
+  .banner{
+    background-size: 100vw !important;
+  }
+  .bannerDesc{
+    margin:-5vh -80vw 0 -10vw !important ;
+    font-size: 20px !important;
+  }
+  .alignBannerBtn{
+    margin-top: -48px !important;
+    margin-left: 30vw !important;
+  }
+  .blogImg{
+    width: 70vw !important;
+  }
+  .blogStar{
+    margin-left: 10px !important;
+    margin-top: 15px !important;
+  }
+  .blogDate{
+    font-size: 13px !important;
+    margin:20px 0 0 10px !important;
+  }
+  .nextAction{
+    margin-top: 10px !important;
   }
 }
 @media (min-width: 1024px) and (max-width: 1280px) {

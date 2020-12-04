@@ -128,7 +128,7 @@
     margin-left: 100px !important;
   }
 }
-@media screen and (min-width:700px) and(max-width:768px){
+@media screen and (max-width:768px){
   .activityContainer{
     height: 150vh !important;
   }

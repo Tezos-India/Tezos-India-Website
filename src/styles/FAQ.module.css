@@ -1,6 +1,7 @@
 .container {
   background: var(--tezos-secondary-background);
   height: 100vh;
+  overflow-x: hidden !important;
 }
 .header {
   text-align: center;
@@ -77,11 +78,11 @@
     margin-left: 70px !important;
   }
   .header{
-    margin-right: 30px !important;
+    margin-right: -5px !important;
   }
     .faqDesc {
-    padding-left: 15px;
-    padding-right: 50px;
+    padding-left: 25px;
+    padding-right: 20px;
   }
 }
 @media (min-width: 1024px) and (max-width: 1280px) {

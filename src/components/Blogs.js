@@ -118,7 +118,9 @@ function Blogs() {
         <h1 className={blogStyles.bannerDesc}>
           Ready to work with <br /> Tezos India?
         </h1>
+        <div className={blogStyles.alignBannerBtn}>
         <Button className={blogStyles.bannerBtn}>Get In Touch</Button>
+        </div>
       </div>
     </div>
   );
