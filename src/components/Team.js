@@ -18,7 +18,7 @@ function Team() {
         text={"The A Team"}
         componentStyle={teamStyles.heading}
       />
-      <Hidden smDown>
+      <Hidden xsDown>
       <div className={teamStyles.team}>
         {team.members.map((member) => (
           <div className={teamStyles.alignImage}>

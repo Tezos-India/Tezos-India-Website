@@ -1,12 +1,13 @@
 .activityContainer {
   background-color: var(--tezos-secondary-background);
   height: 900px;
+  margin-bottom: -15vw !important;
   width: 100%;
   overflow-x: hidden !important;
 }
 .cardDesc {
-  font-size: 12px;
-  margin-right: 30px;
+  font-size: 14px;
+  padding-right: 50px;
   margin-top: 10px;
   line-height: 23px;
 }
@@ -27,7 +28,7 @@
 }
 .subHeading {
   color: var(--tezos-text);
-  font-size: var(--font-size-semi-medium);
+  font-size: var(--font-size-medium);
   margin-top: 30px !important;
 }
 .activityBtn {
@@ -45,7 +46,7 @@
   margin: 10px !important;
 }
 .cardMarginTwo {
-  margin-left: 20px !important;
+  margin-left: 10px !important;
 }
 .marginLeft {
   margin-left: 220px !important ;
@@ -77,8 +78,8 @@
     margin-left: 40px !important;
   }
 }
-@media screen and (min-width:300px) and (max-width:320px){
-  .marginLeft{
+@media screen and (min-width: 300px) and (max-width: 320px) {
+  .marginLeft {
     margin-left: 25px !important;
   }
 }
@@ -128,40 +129,40 @@
     margin-left: 100px !important;
   }
 }
-@media screen and (max-width:768px){
-  .activityContainer{
+@media screen and (max-width: 768px) {
+  .activityContainer {
     height: 150vh !important;
   }
-  .marginLeft{
+  .marginLeft {
     margin-left: 8vw !important;
     margin-top: 10vh !important;
   }
-  .cardMarginTwo{
+  .cardMarginTwo {
     margin: 8px 0 0 2px !important;
   }
-  .activityDesc{
+  .activityDesc {
     margin: -110vh 0 0 50vw !important;
   }
 }
 @media screen and (min-width: 368px) and (max-width: 375px) {
-  .activityContainer{
+  .activityContainer {
     height: 300vh !important;
   }
-  .marginLeft{
+  .marginLeft {
     margin-left: 15vw !important;
   }
-  .cardMarginTwo{
+  .cardMarginTwo {
     margin-left: 2px !important;
   }
-  .alignHeadings{
+  .alignHeadings {
     font-size: 30px !important;
     line-height: 30px !important;
     margin: 750px -50px 0 -175px !important;
   }
-  .subHeading{
+  .subHeading {
     margin: 20px 10px 0 -175px !important;
   }
-  .activityBtn{
+  .activityBtn {
     margin-left: -175px !important;
   }
 }

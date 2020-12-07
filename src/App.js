@@ -11,20 +11,18 @@ import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
 
 function App() {
-
   return (
-      <div>
-        <Hero />
-        <Partners />
-        <Activity />
-        <Infra />
-        <Community />
-        <Team />
-        <Blogs />
-        <FAQ />
-        <Footer />
-      </div>
-
+    <div>
+      <Hero />
+      <Partners />
+      <Activity />
+      <Infra />
+      <Community />
+      <Team />
+      <Blogs />
+      <FAQ />
+      <Footer />
+    </div>
   );
 }
 

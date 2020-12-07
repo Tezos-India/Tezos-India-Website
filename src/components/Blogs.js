@@ -77,7 +77,7 @@ function Blogs() {
         ))}
       </div>
       </Hidden>
-      <Hidden smUp>
+      <Hidden mdUp>
       <Carousel className={blogStyles.carousel}>
         {team.blogs.map((blogContent) => (
           <div className={blogStyles.alignCard}>
