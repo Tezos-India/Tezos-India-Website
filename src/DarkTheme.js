@@ -9,12 +9,11 @@ import Team from "./components/Team";
 import Blogs from "./components/Blogs";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
-import Routes from "./Routes";
 
-function App() {
+function DarkTheme() {
   return (
     <div>
-      {/* <Hero />
+      <Hero />
       <Partners />
       <Activity />
       <Infra />
@@ -22,10 +21,9 @@ function App() {
       <Team />
       <Blogs />
       <FAQ />
-      <Footer /> */}
-      <Routes />
+      <Footer />
     </div>
   );
 }
 
-export default App;
+export default DarkTheme;

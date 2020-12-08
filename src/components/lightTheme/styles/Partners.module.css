@@ -1,5 +1,5 @@
 .container {
-  background-color: var(--tezos-background);
+  background-color: #2B48BE;
   color: var(--tezos-white);
   margin-top: -80px;
   height: 200px;
@@ -10,10 +10,11 @@
   margin-left: 250px;
   top: 50px !important;
   position: relative;
+  color:white;
 }
 .line {
   width: 800px;
-  border-bottom: 4px solid #1e2029;
+  border-bottom: 4px solid white;
   position: absolute;
   top: 820px;
   left: 700px;

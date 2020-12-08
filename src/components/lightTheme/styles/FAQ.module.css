@@ -1,0 +1,100 @@
+.container {
+  background: #4A62FF;
+  height: 100vh;
+  overflow-x: hidden !important;
+}
+.header {
+  text-align: center;
+}
+.faqDesc {
+  color: var(--tezos-white);
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+.faqCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 80px;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  margin-left: -300px;
+}
+.faqCardMargin {
+  padding-bottom: 30px !important;
+}
+.faqAlignCard {
+  margin-right: 40px;
+}
+.marginTwoCard {
+  margin-left: 600px !important;
+  margin-top: -300px !important;
+}
+.btn {
+  text-transform: inherit !important;
+  color: var(--tezos-white) !important;
+  background-color: #2C7DF7 !important;
+  width: 450px !important;
+  height: 55px !important;
+  font-size: var(--font-size-mod-medium) !important;
+  border-radius: 10px !important;
+  margin: 5% 25% 0 35% !important;
+}
+@media (max-width: 641px) {
+  .container {
+    height: 130vh !important;
+  }
+  .marginTwoCard {
+    margin-top: 2px !important;
+    margin-left: 2px !important;
+  }
+  .faqCard {
+    margin-left: 20px !important;
+  }
+  .btn {
+    width: 250px !important;
+    height: 55px !important;
+    font-size: 15px !important;
+    margin-left: 80px !important;
+  }
+  .header {
+    font-size: 35px;
+    padding: 5px;
+    padding-top: 30px;
+  }
+  .faqDesc {
+    padding-left: 45px;
+    padding-right: 50px;
+  }
+}
+@media (max-width: 360px){
+  .container{
+    height: 170vh !important;
+  }
+  .btn {
+    width: 200px !important;
+    height: 55px !important;
+    font-size: 12px !important;
+    margin-left: 70px !important;
+  }
+  .header{
+    margin-right: -5px !important;
+  }
+    .faqDesc {
+    padding-left: 25px;
+    padding-right: 20px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .marginTwoCard {
+    margin-top: 12px !important;
+    margin-left: 2px !important;
+  }
+  .container{
+    height: 80vh !important;
+    padding-top: 150px !important;
+  }
+  .btn {
+    margin-left: 300px !important;
+  }
+}

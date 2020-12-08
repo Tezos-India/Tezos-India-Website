@@ -1,5 +1,5 @@
 .container {
-  background: var(--tezos-secondary-background);
+  background: #4A62FF;
   height: 150vh;
   margin-top: -20px;
   overflow-x: hidden !important;
@@ -10,6 +10,10 @@
 }
 .alignHeader {
   margin-top: 30px;
+  color:var(--tezos-white);
+}
+.alignRowTwoHeader{
+  color:var(--tezos-white);
 }
 .cardContainer {
   background: white;
@@ -33,6 +37,7 @@
   text-align: justify;
   justify-content: inherit;
   padding: 0 70px 0 30px;
+  color:white;
 }
 .subHeading {
   margin-left: 30px;
@@ -42,7 +47,7 @@
   margin-top: 80px;
 }
 .carouselBg {
-  background-image: url("../assets/vector-left.svg");
+  background-image: url("../../../assets/vector-left.svg");
   background-repeat: no-repeat;
   background-size: 15vw;
   background-position: 282px 20px;
@@ -67,7 +72,7 @@
   margin-top: -30px;
 }
 .infoDesc {
-  color: var(--tezos-text);
+  color: var(--tezos-white);
 }
 .header {
   font-size: 40px;

@@ -1,5 +1,5 @@
 .container {
-  background: var(--tezos-background);
+  background: #2B48BE;
   height: 150vh;
   font-family: "Inter", sans-serif;
   overflow-x: hidden !important;
@@ -26,7 +26,7 @@
 }
 .designation {
   font-size: var(--font-size-mod-medium);
-  color: var(--tezos-text);
+  color: var(--tezos-white);
   text-align: center;
   margin-left: 5px;
 }
@@ -40,8 +40,8 @@
 }
 .btn {
   text-transform: inherit !important;
-  color: var(--tezos-text) !important;
-  background-color: #2a2c34 !important;
+  color: var(--tezos-white) !important;
+  background-color: #4A62FF !important;
   width: 450px !important;
   height: 55px !important;
   font-size: var(--font-size-mod-medium) !important;

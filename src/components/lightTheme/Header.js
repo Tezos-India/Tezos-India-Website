@@ -10,9 +10,9 @@ import SwipeableDrawer from "@material-ui/core/SwipeableDrawer";
 import Typography from "@material-ui/core/Typography";
 import ListItem from "@material-ui/core/ListItem";
 import List from "@material-ui/core/List";
-import heroStyles from "../styles/Hero.module.css";
-import logo from "../assets/logo.png";
-import lightTheme from '../assets/light-theme.svg'
+import heroStyles from "./styles/Hero.module.css";
+import logo from "../../assets/logo.png";
+import darkTheme from '../../assets/dark-theme.png'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -67,8 +67,8 @@ const Header = (props) => {
           <Hidden smDown>
             <span className={heroStyles.header}>
               <div className={heroStyles.headerLinks}>
-              <Link to = "/tezos-india">
-                <ListItem><img src={lightTheme} alt=""/></ListItem>
+              <Link to = "/">
+                <ListItem><img src={darkTheme} alt=""/></ListItem>
                 </Link>
                 <ListItem>Documentation</ListItem>
                 <ListItem>GitHub</ListItem>
