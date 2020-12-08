@@ -1,7 +1,6 @@
 .activityContainer {
   background-color: var(--tezos-secondary-background);
   height: 900px;
-  margin-bottom: -15vw !important;
   width: 100%;
   overflow-x: hidden !important;
 }

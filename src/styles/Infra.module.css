@@ -2,7 +2,7 @@
   background-image: url("../assets/infraBg.jpg");
   background-color: var(--tezos-background) !important;
   background-size: 100vw;
-  height: 140vh;
+  height: 160vh;
   margin-top: -20px;
   background-repeat: no-repeat !important;
   overflow-x: hidden !important;
@@ -24,9 +24,22 @@
 }
 .paraText {
   color: var(--tezos-text);
-  margin-left: 900px;
   line-height: 28px;
-  margin-top: -10px !important;
+  margin:-10px 200px 30px 900px !important;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.subHeading{
+  color: var(--tezos-text);
+  margin:-10px 200px 30px 900px !important;
+  line-height: 28px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.paraHeading{
+  font-size: 20px;
+  color: var(--tezos-white);
+  font-weight: bold;
 }
 .vector {
   width: 200px;
