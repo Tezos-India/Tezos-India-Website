@@ -35,7 +35,7 @@
 .partnerLogo {
   width: 70vw;
   position: absolute;
-  top: 880px !important;
+  top: 860px !important;
   left: 250px;
 }
 @media screen and (max-width: 360px) {
