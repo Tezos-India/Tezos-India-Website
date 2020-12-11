@@ -21,6 +21,10 @@
   text-decoration: none;
   cursor: pointer;
   font-family: "Poppins", sans-serif;
+  font-size: 14px ;
+}
+.align-logo{
+  width: 14vw;
 }
 .header .menu-icon {
   cursor: pointer;
