@@ -15,13 +15,14 @@
   top: 20px !important;
   position: relative;
   padding: 0 !important;
+  font-size: 15px;
 }
 .line {
   width: 52vw;
   border-bottom: 4px solid #ffffff;
   position: relative;
   top: -150px !important;
-  margin-left: 190px !important;
+  margin-left: 220px !important;
 }
 .dark-line {
   width: 52vw;
