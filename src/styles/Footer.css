@@ -53,6 +53,7 @@
 }
 .footer-copyright p {
   color: var(--tezos-white);
+  font-size: var(--font-size-mod-medium);
 }
 .dark-footer-copyright p {
   color: var(--tezos-text);
