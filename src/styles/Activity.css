@@ -38,6 +38,9 @@
   margin: -10px -10px 0 0;
   line-height: 1.4;
 }
+.dark-activity-subTitle{
+  color: var(--tezos-text);
+}
 .align-div-text {
   margin: 40vh 8vw 0 -5vw !important;
 }

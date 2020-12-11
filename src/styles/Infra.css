@@ -38,14 +38,17 @@
 .infra-paraSubHeading{
   font-size: var(--font-size-mod-medium);
 }
+.dark-infra-paraHeading{
+  color:var(--tezos-text) !important;
+}
 .infra-subHeading {
   color: var(--tezos-white);
   margin-top: 10px !important;
   line-height: 28px;
   font-size: var(--font-size-mod-medium);
 }
-.dark-infra-subHeading {
-  color: var(--tezos-text);
+.dark-infra-subHeading,.dark-infra-paraSubHeading {
+  color: var(--tezos-text) !important;
 }
 .vector {
   width: 200px;

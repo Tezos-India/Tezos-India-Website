@@ -18,7 +18,7 @@ function Activity() {
                 <div className="card-content">
                   <img src={cardDesc.img} alt="" className="activity-img" />
                   <p className="activity-title">{cardDesc.title}</p>
-                  <p className="activity-subTitle">{cardDesc.subTitle}</p>
+                  <p className={isDark?"activity-subTitle dark-activity-subTitle":"activity-subTitle"}>{cardDesc.subTitle}</p>
                 </div>
               </ActivityCard>
             ))}
@@ -29,7 +29,7 @@ function Activity() {
                 <div className="card-content">
                   <img src={cardDesc.img} alt="" className="activity-img" />
                   <p className="activity-title">{cardDesc.title}</p>
-                  <p className="activity-subTitle">{cardDesc.subTitle}</p>
+                  <p className={isDark?"activity-subTitle dark-activity-subTitle":"activity-subTitle"}>{cardDesc.subTitle}</p>
                 </div>
               </ActivityCard>
             ))}
