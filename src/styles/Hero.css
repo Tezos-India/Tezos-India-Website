@@ -1,0 +1,90 @@
+.hero-main {
+  background-image: url("../assets/light-hero.svg");
+  max-width: 100%;
+  height: 800px;
+  background-size: cover;
+  padding: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden !important;
+}
+.dark-hero-main {
+  background-image: url("../assets/hero.svg");
+}
+.hero-text-div h1 {
+  font-size: var(--font-size-banner);
+  line-height: 1.5;
+  color: var(--tezos-white) !important;
+  text-align: center;
+  padding: 5vh 20vw;
+}
+.introBtn {
+  position: relative !important;
+  margin: -6vh 0 0 43vw !important;
+  color: white !important;
+  background-color: transparent !important;
+  border: 3px solid var(--tezos-white) !important;
+  text-align: center;
+  width: 170px !important;
+  font-size: var(--font-size-mod-medium) !important;
+  text-transform: inherit !important;
+  border-radius: 5px;
+}
+.tezos-logo{
+  width: 2.5vw;
+  margin-bottom: -5px;
+}
+@media (max-width: 768px) {
+  .hero-text-div h1 {
+    font-size: 40px;
+    padding: 8vh 8vw;
+  }
+  .tezos-logo {
+    width: 3vw !important;
+  }
+  .introBtn {
+    margin: -10vh 0 0 38vw !important;
+  }
+  .align-intro-btn {
+    margin: 2vh 0 0 -3vw !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 360px) {
+  .hero-text-div h1 {
+    font-size: 40px;
+    padding: 0 8vw;
+  }
+  .tezos-logo {
+    width: 7vw !important;
+  }
+  .introBtn {
+    margin: 2vh 0 0 26vw !important;
+  }
+  .align-intro-btn {
+    margin: 10vh 0 0 -15vw !important;
+  }
+}
+@media (min-width: 375px) and (max-width: 411px) {
+  .hero-text-div h1 {
+    font-size: 40px;
+    padding: 1vh 15vw;
+  }
+  .tezos-logo {
+    width: 6vw !important;
+  }
+  .introBtn {
+    margin: -1vh 0 0 30vw !important;
+  }
+  .align-intro-btn {
+    margin: 10vh 0 0 -12vw !important;
+  }
+}
+@media (max-width: 1024px) {
+  .introBtn {
+    margin: -10vh 0 0 43vw !important;
+  }
+  .tezos-logo {
+    width: 3.5vw;
+  }
+}

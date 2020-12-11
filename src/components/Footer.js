@@ -1,88 +1,53 @@
-import React from "react";
-import Grid from "@material-ui/core/Grid";
-import footerStyles from "../styles/Footer.module.css";
+import React, { useContext } from "react";
+import StyleContext from "../contexts/StyleContext";
+import "../styles/Footer.css";
 import logo from "../assets/logo.png";
 import dribbble from "../assets/Dribbble.svg";
 import facebook from "../assets/Facebook.svg";
 import twitter from "../assets/Twitter.svg";
 import youtube from "../assets/YouTube.svg";
 
-function Footer() {
+export default function Footer() {
+  const { isDark } = useContext(StyleContext);
   return (
-    <div className={footerStyles.container}>
-      <Grid container>
-        <Grid
-          item
-          className={[footerStyles.logo].join(" ")}
-          xs={12}
-          sm={12}
-          md={7}
-          lg={7}
-        >
+    <div
+      className={
+        isDark ? "footer-container dark-footer-container" : "footer-container"
+      }
+    >
+      <div className="footer-align-div">
+        <div className="footer-logo">
           <img src={logo} alt="" />
-        </Grid>
-        <Grid
-          item
-          className={footerStyles.margin}
-          xs={12}
-          sm={12}
-          md={7}
-          lg={7}
-        >
-          <Grid container>
-            <Grid item xs={12} sm={12} md={7} lg={7}>
-              <Grid container>
-                <Grid item xs={12} sm={12} md={12} lg={12}>
-                  <div className={footerStyles.footerLinks}>
-                    <p className={footerStyles.footerAlignLinks}>Home</p>
-                    <p className={footerStyles.footerAlignLinks}>Pages</p>
-                    <p className={footerStyles.footerAlignLinks}>Contact</p>
-                    <p className={footerStyles.footerAlignLinks}>Blog</p>
-                    <p className={footerStyles.footerAlignLinks}>Portfolio</p>
-                  </div>
-                </Grid>
-                <Grid
-                  item
-                  className={footerStyles.footerContentSpacing}
-                  xs={12}
-                  sm={12}
-                  md={12}
-                  lg={12}
-                >
-                  <div className={footerStyles.social}>
-                    <img
-                      src={dribbble}
-                      alt=""
-                      className={footerStyles.footerSocialLinks}
-                    />
-                    <img
-                      src={facebook}
-                      alt=""
-                      className={footerStyles.footerSocialLinks}
-                      style={{ width: "12px" }}
-                    />
-                    <img
-                      src={twitter}
-                      alt=""
-                      className={footerStyles.footerSocialLinks}
-                    />
-                    <img
-                      src={youtube}
-                      alt=""
-                      className={footerStyles.footerSocialLinks}
-                    />
-                  </div>
-                </Grid>
-              </Grid>
-            </Grid>
-          </Grid>
-        </Grid>
-      </Grid>
-      <p className={footerStyles.copyright}>
-        © Copyright 2019 Tezos India Foundation - All Rights Reserved{" "}
-      </p>
+        </div>
+        <div className="footer-list">
+          <ul className={isDark? "footer-menu dark-footer-menu" : "footer-menu"}>
+            <li>
+              <a>Home</a>
+            </li>
+            <li>
+              <a>Pages</a>
+            </li>
+            <li>
+              <a>Blog</a>
+            </li>
+            <li>
+              <a>Portfolio</a>
+            </li>
+            <li>
+              <a>Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div className="footer-social-links">
+            <img src={dribbble} alt="" className="footer-align-img"/>
+            <img src={facebook} alt="" className="footer-align-fb-img"/>
+            <img src={twitter} alt="" className="footer-align-img"/>
+            <img src={youtube} alt="" className="footer-align-img"/>
+        </div>
+        <div className={isDark?"footer-copyright dark-footer-copyright":"footer-copyright"}>
+            <p>© Copyright 2019 Tezos India Foundation - All Rights Reserved</p>
+        </div>
+      </div>
     </div>
   );
 }
-
-export default Footer;

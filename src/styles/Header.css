@@ -1,0 +1,175 @@
+.header {
+  max-width: 100%;
+  padding: 15px 20px;
+  margin: 0px auto;
+}
+
+.header ul {
+  margin: -6vh 5vw 0 0 !important;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+.grey-color {
+  color: #868e96;
+}
+
+.header li a {
+  display: block;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+.header .menu-icon {
+  cursor: pointer;
+  display: flex;
+  float: right;
+  padding: 15px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .navicon {
+  background: rgb(255, 255, 255);
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background 0.2s ease-out;
+  width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: rgb(255, 255, 255);
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon-dark:before,
+.header .menu-icon .navicon-dark:after {
+  background: white !important;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+.header .logo {
+  display: block;
+  flex: none;
+  float: left;
+  font-size: 1.5em;
+  text-decoration: none;
+  margin: -30px 0 0 50px;
+  line-height: normal;
+}
+.header-button {
+  color: white !important;
+  background-color: transparent !important;
+  border: 3px solid var(--tezos-white) !important;
+  text-align: center;
+  width: 130px !important;
+  font-size: var(--font-size-semi-medium) !important;
+  text-transform: inherit !important;
+  border-radius: 5px;
+  margin-top: -10px!important;
+}
+
+/* menu */
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 486px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header .menu {
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
+@media (max-width: 960px) and (min-width: 768px) {
+  .header ul {
+    margin: 0vh 2vw 0 0 !important;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+  }
+  .align-logo{
+    margin-left: -8vw;
+  }
+  .header-button{
+    margin: -9vh 0 0 40vw !important;
+  }
+}
+@media (min-width:320px) and (max-width:360px){
+  .align-logo{
+    margin-left: -10vw;
+    width:55vw;
+  }
+}
+  @media (min-width:375px) and (max-width:411px){
+    .align-logo{
+      margin-left: -10vw !important;
+      width:55vw;
+    }
+    .header .menu-icon {
+      padding: 3vh 2vw;;
+    }
+}

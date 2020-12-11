@@ -1,17 +1,15 @@
-import React from "react";
-import partnerStyles from "../styles/Partners.module.css";
-import { TextComponent } from "./common/TextComponent";
+import React, { useContext } from "react";
+import "../styles/Partners.css";
+import StyleContext from "../contexts/StyleContext";
 import partners from "../assets/partners.png";
 
 function Partners() {
+  const { isDark } = useContext(StyleContext);
   return (
-    <div className={partnerStyles.container}>
-      <TextComponent
-        componentStyle={partnerStyles.partnerTitle}
-        text={"Institutes that have already tried our app"}
-      />
-      <div className={partnerStyles.line}></div>
-        <img src={partners} alt="" className={partnerStyles.partnerLogo} />
+    <div className={isDark ? "container dark-container" : "container"}>
+      <p className="partnerTitle">Institutes that have already tried our app</p>
+      <div className={isDark ? "line dark-line" : "line"}> </div>
+      <img src={partners} alt="" className="partnerLogo" />
     </div>
   );
 }

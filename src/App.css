@@ -4,6 +4,7 @@
   --tezos-grey: #707070;
   --tezos-text: #858A8F;
   --tezos-background: #12141D;
+  --tezos-light-background:#2B48BE;
   --tezos-secondary-background:#1D1F28;
   --tezos-blue:#377DFF;
   --font-size-banner:55px;
@@ -13,15 +14,4 @@
   --font-size-big:24px;
   --font-size-semi-large:32px;
   --font-size-large:40px;
-}
-.MuiPaper-root, .MuiDrawer-paper, .MuiDrawer-paperAnchorLeft, .MuiPaper-elevation16{
-  background-color: var(--tezos-white) !important;
-  color: var(--tezos-background) !important;
-  font-size: 15px !important;
-}
-.MuiToolbar-root, .MuiToolbar-regular, .MuiToolbar-gutters{
-  padding: 0 !important;
-}
-.MuiSvgIcon-root{
-  color:white !important;
 }

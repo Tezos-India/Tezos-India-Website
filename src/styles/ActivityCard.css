@@ -1,0 +1,40 @@
+.cardContainer {
+  background-color: #647afc !important;
+  height: 47vh !important;
+  width: 16vw !important;
+  border-radius: 10px !important;
+  color: var(--tezos-white);
+  padding: 10px !important;
+}
+.dark-cardContainer {
+  background-color: #2a2c34 !important;
+  height: 47vh !important;
+  width: 16vw !important;
+  border-radius: 10px !important;
+  color: var(--tezos-text);
+  padding: 10px !important;
+}
+@media (min-width: 320px) and (max-width: 360px) {
+  .cardContainer {
+    height: 55vh !important;
+    width: 70vw !important;
+  }
+}
+@media (min-width: 375px) and (max-width: 411px) {
+  .cardContainer {
+    height: 50vh !important;
+    width: 70vw !important;
+  }
+}
+@media (min-width: 412px) and (max-width: 768px) {
+  .cardContainer {
+    height: 50vh !important;
+    width: 70vw !important;
+  }
+}
+@media (min-width: 800px) and (max-width: 1024px) {
+  .cardContainer {
+    height: 40vh !important;
+    width: 40vw !important;
+  }
+}
