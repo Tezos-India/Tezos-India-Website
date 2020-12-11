@@ -17,7 +17,7 @@
   line-height: 1.5;
   color: var(--tezos-white) !important;
   text-align: center;
-  padding: 2vh 20vw;
+  padding: 2vh 24vw;
 }
 .introBtn {
   position: relative !important;
@@ -29,7 +29,7 @@
   width: 170px !important;
   font-size: var(--font-size-mod-medium) !important;
   text-transform: inherit !important;
-  border-radius: 5px;
+  border-radius: 5px !important;
 }
 .tezos-logo{
   width: 2.5vw;
