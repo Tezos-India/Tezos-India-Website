@@ -13,7 +13,7 @@
   background-image: url("../assets/hero.svg");
 }
 .hero-text-div h1 {
-  font-size: var(--font-size-banner);
+  font-size: var(--font-size-banner); 
   line-height: 1.5;
   color: var(--tezos-white) !important;
   text-align: center;

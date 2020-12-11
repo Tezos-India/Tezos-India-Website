@@ -33,7 +33,7 @@
   font-weight: bold;
 }
 .activity-subTitle {
-  font-size: var(--font-size-mod-medium);
+  font-size: var(--font-size-mod-medium); 
   color: var(--tezos-white);
   margin: -10px -10px 0 0;
   line-height: 1.4;

@@ -49,7 +49,7 @@ function Infra() {
             >
               Secure, Institutional Grade Smart Contracts
             </p>
-            <p>
+            <p className="infra-paraSubHeading">
               Tezos is designed to provide the safety and code correctness
               required for assets and other high value use cases. Its native
               smart contract language, Michelson, facilitates formal
@@ -66,7 +66,7 @@ function Infra() {
             >
               Upgradable to the State of the Art{" "}
             </p>
-            <p>
+            <p className="infra-paraSubHeading">
               Tezos’ modular architecture and formal upgrade mechanism allow the
               network to propose and adopt new technological innovations
               smoothly as they emerge. These aspects, combined with Tezos’
@@ -83,7 +83,7 @@ function Infra() {
             >
               Open Participation and Incentive Alignment{" "}
             </p>
-            <p>
+            <p className="infra-paraSubHeading">
               In Tezos, all stakeholders may participate in network upgrades by
               evaluating, proposing, or approving amendments. Unlike in
               Proof-of-Work and other Proof-of-Stake networks, all stakeholders

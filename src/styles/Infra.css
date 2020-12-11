@@ -35,10 +35,14 @@
   font-weight: bold;
   font-size: 18px;
 }
+.infra-paraSubHeading{
+  font-size: var(--font-size-mod-medium);
+}
 .infra-subHeading {
   color: var(--tezos-white);
   margin-top: 10px !important;
   line-height: 28px;
+  font-size: var(--font-size-mod-medium);
 }
 .dark-infra-subHeading {
   color: var(--tezos-text);

@@ -9,12 +9,6 @@
 }
 .dark-container {
   background-color: var(--tezos-background);
-  color: var(--tezos-white);
-  margin-top: -20px;
-  height: 200px;
-  display: flex;
-  flex-direction: row;
-  overflow: hidden !important;
 }
 .partnerTitle {
   margin-left: 250px;
