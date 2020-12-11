@@ -25,11 +25,11 @@ function Header() {
             </a>
           </li>
           <li>
-            <a>GitHub</a>
+            <a>Documentation</a>
           </li>
 
           <li>
-            <a>Documentation</a>
+            <a>GitHub</a>
           </li>
           <li>
             <a>
