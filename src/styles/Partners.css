@@ -18,11 +18,11 @@
   font-size: 14px;
 }
 .line {
-  width: 50vw;
+  width: 48vw;
   border-bottom: 4px solid #ffffff;
   position: relative;
   top: -150px !important;
-  margin-left: 220px !important;
+  margin-left: 240px !important;
 }
 .dark-line {
   width: 52vw;
