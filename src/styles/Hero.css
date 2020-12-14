@@ -13,7 +13,7 @@
   background-image: url("../assets/hero.svg");
 }
 .hero-text-div h1 {
-  font-size: var(--font-size-banner); 
+  font-size: var(--font-size-banner);
   line-height: 1.5;
   color: var(--tezos-white) !important;
   text-align: center;
@@ -31,14 +31,14 @@
   text-transform: inherit !important;
   border-radius: 5px !important;
 }
-.tezos-logo{
+.tezos-logo {
   width: 2.5vw;
   margin-bottom: -5px;
 }
 @media (max-width: 768px) {
   .hero-text-div h1 {
     font-size: 40px;
-    padding: 8vh 8vw;
+    padding: 5vh 8vw;
   }
   .tezos-logo {
     width: 3vw !important;
@@ -54,6 +54,7 @@
   .hero-text-div h1 {
     font-size: 40px;
     padding: 0 8vw;
+    margin-top: -3vh !important;
   }
   .tezos-logo {
     width: 7vw !important;
@@ -69,6 +70,7 @@
   .hero-text-div h1 {
     font-size: 40px;
     padding: 1vh 15vw;
+    margin-top: -3vh !important;
   }
   .tezos-logo {
     width: 6vw !important;
