@@ -1,6 +1,6 @@
 .faq-container {
   background-color: #4a62ff;
-  height: 80vh;
+  height: 100vh;
   font-family: "Inter", sans-serif;
 }
 .dark-faq-container {
@@ -35,4 +35,12 @@
 .dark-faqStyles-btn {
   color: var(--tezos-text) !important;
   background-color: #2a2c34 !important;
+}
+.faq-headers{
+  margin-top: -3vh;
+  text-align: center;
+  color: white;
+}
+.faq-headers p{
+  padding:  0 30vw;
 }

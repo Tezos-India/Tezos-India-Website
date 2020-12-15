@@ -1,6 +1,6 @@
 .blog-container {
   background-color: #4a62ff !important;
-  height: 150vh;
+  height: 180vh;
   font-family: "Inter", sans-serif !important;
 }
 .dark-blog-container {
@@ -101,4 +101,26 @@
   width: 4vw;
   height: 4vh;
   margin: 12px 0 0 -10px;
+}
+.align-banner {
+  margin: 15vh 0 0 14vw;
+}
+.banner-content {
+  display: flex;
+  flex-direction: row;
+}
+.banner-content h1 {
+  margin: 5vh 5vw 0 2vw;
+  color: white;
+  font-size: 30px;
+}
+.banner-button {
+  background: var(--tezos-blue) !important;
+  color: var(--tezos-white) !important;
+  text-transform: inherit !important;
+  width: 10vw !important;
+  height: 8vh !important;
+  border-radius: 10px !important;
+  margin-left: 20vw !important;
+  margin-top: 5vh;
 }

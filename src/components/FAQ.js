@@ -12,6 +12,13 @@ export default function Faq() {
     <div
       className={isDark ? "faq-container dark-faq-container" : "faq-container"}
     >
+      <div className="faq-headers">
+        <h1>Frequently asked question</h1>
+        <p>
+          Jobs that are available from us and looking for their own people!
+          Browse our vacancies and find the one that is right for you!
+        </p>
+      </div>
       <div className="faq-align-cards">
         <div className="faq-margin-cards">
           {faq.faqRowOne.map((content) => (

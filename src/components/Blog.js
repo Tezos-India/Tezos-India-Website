@@ -6,6 +6,7 @@ import BlogsCard from "./constants/BlogCard";
 import { blogCard } from "./constants/Constant";
 import speaker from "../assets/Button.png";
 import like from "../assets/like.png";
+import BlogBannerCard from "./constants/BlogBannerCard";
 
 function Blog() {
   const { isDark } = useContext(StyleContext);
@@ -15,9 +16,9 @@ function Blog() {
         isDark ? "blog-container dark-blog-container" : "blog-container"
       }
     >
-        <div className="blog-div-title">
+      <div className="blog-div-title">
         <h1>Blogs & Announcements</h1>
-        </div>
+      </div>
       <div className="align-blog-horizontal-cards">
         <div className="blog-podcast">
           <BlogsCard>
@@ -68,6 +69,16 @@ function Blog() {
             </BlogsCard>
           ))}
         </div>
+      </div>
+      <div className="align-banner">
+        <BlogBannerCard>
+          <div className="banner-content">
+            <h1>
+              Ready to work with Tezos <br /> India?
+            </h1>
+            <Button className="banner-button">Get in Touch</Button>
+          </div>
+        </BlogBannerCard>
       </div>
     </div>
   );
