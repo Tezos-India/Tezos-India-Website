@@ -1,0 +1,10 @@
+.teamCardContainer {
+  height: 300px !important;
+  width: 200px !important;
+  border-radius: 10px !important;
+  color: var(--tezos-white);
+  padding: 10px !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}

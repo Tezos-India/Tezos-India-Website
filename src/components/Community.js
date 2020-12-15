@@ -78,8 +78,8 @@ export class Community extends Component {
           <div>
             <p style={{ color: "#FF715B"}}className="com-numbers">99.99%</p>
             <p className="com-info-header">Positive feedback</p>
-            <p>
-              We get mostly positive ratings for <br /> the quality of our app.
+            <p className="com-info-subHeader">
+              We get mostly positive ratings <br /> for the quality of our app.
             </p>
           </div>
         </div>

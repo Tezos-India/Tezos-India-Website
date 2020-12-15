@@ -30,16 +30,16 @@
   flex-direction: column;
   padding: 10px 20px;
 }
-.align-com-card-desc p{
-    color: var(--tezos-white);
+.align-com-card-desc p {
+  color: var(--tezos-white);
 }
-.com-card-title{
-    font-size: 18px;
-    font-weight: bold;
+.com-card-title {
+  font-size: 18px;
+  font-weight: bold;
 }
-.com-card-designation{
-    font-size: 14px;
-    margin-top: -10px;
+.com-card-designation {
+  font-size: 14px;
+  margin-top: -10px;
 }
 .align-com-img {
   margin: -5px 10px -8px -8px;
@@ -57,20 +57,20 @@
   font-size: 16px;
   padding: 5px 500px;
 }
-.com-info{
-    display: flex;
-    flex-direction: row;
-    gap: 0 5vw;
-    margin: 5vh 0 0 26vw;
-    font-family: 'Inter',sans-serif;
-    color: var(--tezos-white);
+.com-info {
+  display: flex;
+  flex-direction: row;
+  gap: 0 3vw;
+  margin: 5vh 0 0 26vw;
+  font-family: "Inter", sans-serif;
+  color: var(--tezos-white);
 }
-.com-numbers{
-    font-size: 45px;
-    font-weight: bold;
+.com-numbers {
+  font-size: 45px;
+  font-weight: bold;
 }
-.com-info-header{
-    font-size: 18px;
-    margin-top: -20px;
-    font-weight: bold;
+.com-info-header {
+  font-size: 18px;
+  margin-top: -20px;
+  font-weight: bold;
 }

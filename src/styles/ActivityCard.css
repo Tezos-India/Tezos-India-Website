@@ -8,11 +8,6 @@
 }
 .dark-cardContainer {
   background-color: #2a2c34 !important;
-  height: 47vh !important;
-  width: 16vw !important;
-  border-radius: 10px !important;
-  color: var(--tezos-text);
-  padding: 10px !important;
 }
 @media (min-width: 320px) and (max-width: 360px) {
   .cardContainer {
