@@ -7,6 +7,7 @@ import Infra from "./components/Infra";
 import Footer from "./components/Footer";
 import Community from "./components/Community";
 import Team from "./components/Team";
+import Blog from "./components/Blog";
 import FAQ from "./components/FAQ";
 
 export class Main extends Component {
@@ -36,6 +37,7 @@ export class Main extends Component {
           <Infra />
           <Community />
           <Team />
+          <Blog />
           <FAQ />
           <Footer />
         </StyleProvider>

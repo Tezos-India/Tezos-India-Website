@@ -2,11 +2,13 @@ import edu from "../../assets/edu.svg";
 import event from "../../assets/media.svg";
 import business from "../../assets/business.svg";
 import community from "../../assets/community.svg";
-import user from "../../assets/sample-img.png";
 import om from "../../assets/om.jpg";
 import dribbble from "../../assets/Dribbble.svg";
 import insta from "../../assets/Instagram.svg";
 import linkedin from "../../assets/Linkedin.svg";
+import like from "../../assets/like.png";
+import sample from "../../assets/example.jpg";
+import arrow from "../../assets/next.svg";
 
 const activity = {
   activityCard: [
@@ -51,7 +53,7 @@ const carousel = {
     {
       name: "Om Malviya",
       designation: "Founder & CEO",
-      image: user,
+      image: om,
       testimonial:
         "Move Music app that changed my opinion about music! I would never have thought that you can import your music from another app!",
     },
@@ -77,7 +79,7 @@ const team = {
     {
       name: "Om Malviya",
       designation: "Founder & CEO",
-      image: om ,
+      image: om,
       instagram: insta,
       dribbble: dribbble,
       linkedin: linkedin,
@@ -143,5 +145,33 @@ const faq = {
     },
   ],
 };
+const blogCard = {
+  blogs: [
+    {
+      type: "Business",
+      date: "12th May",
+      subTitle: "How to start earning",
+      desc:
+        "The right priorities help us in the direction of our potential which is why it is important for earnings.",
+      next: "Read story",
+      image: sample,
+      like: like,
+      stars: "49",
+      arrow: arrow,
+    },
+    {
+      type: "Business",
+      date: "12th May",
+      subTitle: "How to start earning",
+      desc:
+        "The right priorities help us in the direction of our potential which is why it is important for earnings.",
+      next: "Read story",
+      image: sample,
+      like: like,
+      stars: "49",
+      arrow: arrow,
+    },
+  ],
+};
 
-export { activity, carousel, team, faq };
+export { activity, carousel, team, faq, blogCard };

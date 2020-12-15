@@ -1,0 +1,104 @@
+.blog-container {
+  background-color: #4a62ff !important;
+  height: 150vh;
+  font-family: "Inter", sans-serif !important;
+}
+.dark-blog-container {
+  background-color: #1d1f28 !important;
+}
+.blog-div-title h1 {
+  padding-top: 15vh;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 45px;
+}
+.blog-div-title {
+  margin-top: -30px;
+}
+.align-blog-cards {
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: row;
+  gap: 0 40px;
+}
+.align-blog-horizontal-cards {
+  display: flex;
+  flex-direction: row;
+}
+.blog-podcast {
+  margin: 10vh 40px 0 14vw;
+}
+.align-card-heading {
+  display: flex;
+  flex-direction: row;
+  gap: 0 15px;
+  margin-left: 10px;
+}
+.align-card-headings {
+  display: flex;
+  flex-direction: row;
+  gap: 0 15px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.align-card-likes {
+  background: var(--tezos-blue);
+  font-size: 15px;
+  width: 60px;
+  height: 25px;
+  border-radius: 15px;
+  margin-left: 70px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 0 5px;
+}
+.align-card-likes img {
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+.align-card-likes p {
+  margin: 3px 0 0 2px;
+}
+.blog-card-img img {
+  width: 5vw;
+}
+.blog-card-img {
+  margin-top: 18vh;
+  margin-left: 10px;
+}
+.blog-card-text {
+  margin-top: 5vh;
+  margin-left: 10px;
+}
+.blog-card-text p {
+  padding: 0 5px;
+  margin-top: 8vh;
+}
+.align-card-header-img img {
+  width: 24vw;
+  height: 35vh;
+  object-fit: fill;
+  margin-top: -20px;
+  margin-left: -35px;
+}
+.blog-title {
+  margin-left: 10px;
+}
+.blog-desc {
+  padding: 20px 10px;
+}
+.blog-next {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.blog-next img {
+  width: 4vw;
+  height: 4vh;
+  margin: 12px 0 0 -10px;
+}

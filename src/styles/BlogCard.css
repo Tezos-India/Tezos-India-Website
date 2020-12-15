@@ -1,0 +1,10 @@
+.BlogCard{
+    background-color: #647afc !important;
+    color:rgb(255, 255, 255) !important;
+    border-radius: 10px !important;
+    width: 22vw !important;
+    height: 80vh !important;
+}
+.dark-BlogCard{
+    background-color: #2a2c34 !important;
+}
