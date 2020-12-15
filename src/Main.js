@@ -7,6 +7,7 @@ import Infra from "./components/Infra";
 import Footer from "./components/Footer";
 import Community from "./components/Community";
 import Team from "./components/Team";
+import FAQ from "./components/FAQ";
 
 export class Main extends Component {
   constructor(props) {
@@ -35,6 +36,7 @@ export class Main extends Component {
           <Infra />
           <Community />
           <Team />
+          <FAQ />
           <Footer />
         </StyleProvider>
       </div>

@@ -119,5 +119,29 @@ const team = {
     },
   ],
 };
+const faq = {
+  faqRowOne: [
+    {
+      title: "Can I use this template for commercial purposes?",
+    },
+    {
+      title: "Do you offer bulk discounts?",
+    },
+    {
+      title: "Will there be updates related to the store?",
+    },
+  ],
+  faqRowTwo: [
+    {
+      title: "Can support help me work with the template?",
+    },
+    {
+      title: "In which applications can I edit your template?",
+    },
+    {
+      title: "Will there be a version for Figma in the future?",
+    },
+  ],
+};
 
-export { activity, carousel, team };
+export { activity, carousel, team, faq };

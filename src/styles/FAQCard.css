@@ -1,0 +1,12 @@
+.faqCardContainer {
+  background-color: #647afc !important;
+  height: 3vw !important;
+  width: 60vh !important;
+  border-radius: 10px !important;
+  color: var(--tezos-white) !important;
+  padding: 10px !important;
+}
+.dark-faqCardContainer {
+  background-color: #2a2c34 !important;
+  color: var(--tezos-text) !important;
+}
