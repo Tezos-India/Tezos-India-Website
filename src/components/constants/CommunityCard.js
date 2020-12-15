@@ -1,14 +1,18 @@
 import React, { useContext } from "react";
+import StyleContext from "../../contexts/StyleContext";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
-import StyleContext from "../../contexts/StyleContext";
-import "../../styles/ActivityCard.css";
+import "../../styles/CommunityCard.css";
 
-export default function ActivityCard(props) {
+export default function CommunityCard(props) {
   const { isDark } = useContext(StyleContext);
   return (
     <Card
-      className={isDark ? "cardContainer dark-cardContainer" : "cardContainer"}
+      className={
+        isDark
+          ? "communityCardContainer dark-communityCardContainer"
+          : "communityCardContainer"
+      }
     >
       <CardContent>{props.children}</CardContent>
     </Card>
