@@ -61,14 +61,14 @@
   margin-left: 12px;
 }
 .align-card-likes p {
-  margin: 3px 0 0 2px;
+  margin: 3px 0 0 -2px;
 }
 .blog-card-img img {
   width: 5vw;
 }
 .blog-card-img {
   margin-top: 18vh;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 .blog-card-text {
   margin-top: 5vh;
@@ -123,4 +123,14 @@
   border-radius: 10px !important;
   margin-left: 20vw !important;
   margin-top: 7vh !important;
+}
+.blog-card-type{
+  color:white;
+  font-size: 14px;
+}
+.dark-blog-card-type{
+  color:var(--tezos-blue);
+}
+.blog-card-date{
+  font-size: 14px;
 }
