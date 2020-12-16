@@ -1,10 +1,8 @@
-import React, { Children, Component, useContext } from "react";
+import React, { Component } from "react";
 import "../styles/Community.css";
 import CommunityCard from "./constants/CommunityCard";
 import CommunityCarousel from "./constants/CommunityCarousel";
 import { carousel } from "./constants/Constant";
-import { StyleProvider } from "../contexts/StyleContext";
-import StyleContext from "../contexts/StyleContext";
 import CommunityBg from "./CommunityBg";
 export class Community extends Component {
   constructor(props) {
@@ -12,12 +10,8 @@ export class Community extends Component {
     this.state = {
       communityCardData: "",
       value: 0,
-      isDark: false,
     };
   }
-  changeTheme = () => {
-    this.setState({ isDark: !this.state.isDark });
-  };
   componentDidMount() {
     this.createCommunityCard();
   }

@@ -12,7 +12,7 @@
   flex-direction: column;
   gap: 5vh 10vh;
   padding: 50px 0;
-  margin-left: 25vw;
+  margin-left: 24vw;
 }
 .team-memberImg {
   width: 10vw;
@@ -58,7 +58,7 @@
   height: 55px !important;
   font-size: var(--font-size-mod-medium) !important;
   border-radius: 10px !important;
-  margin: 4% 25% 0 36% !important;
+  margin: 4% 25% 0 34% !important;
 }
 .dark-teamMore-btn {
   color: var(--tezos-text) !important;
