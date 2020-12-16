@@ -34,7 +34,6 @@
   flex-direction: row;
   gap: 0 15px;
   margin-left: 10px;
-  width: 20vw;
 }
 .align-card-headings {
   display: flex;
@@ -49,8 +48,8 @@
   width: 60px;
   height: 25px;
   border-radius: 15px;
-  margin-left: 100px;
-  margin-top: 10px;
+  margin-top: 5px;
+  margin-left: 5vw;
   display: flex;
   flex-direction: row;
   gap: 0 5px;
