@@ -44,11 +44,11 @@
 }
 .align-card-likes {
   background: var(--tezos-blue);
-  font-size: 14px;
+  font-size: 12px;
   width: 60px;
   height: 25px;
   border-radius: 15px;
-  margin-left: 100px;
+  margin-left: 80px;
   margin-top: 10px;
   display: flex;
   flex-direction: row;
