@@ -1,9 +1,11 @@
-import React, { Component } from "react";
+import React, { Children, Component, useContext } from "react";
 import "../styles/Community.css";
 import CommunityCard from "./constants/CommunityCard";
 import CommunityCarousel from "./constants/CommunityCarousel";
 import { carousel } from "./constants/Constant";
 import { StyleProvider } from "../contexts/StyleContext";
+import StyleContext from "../contexts/StyleContext";
+import CommunityBg from "./CommunityBg";
 export class Community extends Component {
   constructor(props) {
     super(props);
@@ -43,46 +45,50 @@ export class Community extends Component {
   }
   render() {
     return (
-      <div
-        className={
-          this.setState.isDark
-            ? "community-background dark-community-background"
-            : "community-background"
-        }
-      >
-        <div className="com-headers">
-          <h1>Our Community members about us</h1>
-          <p>
-            Our Community members about us Our Community members about us Our
-            Community members about us
-          </p>
-        </div>
-        <div className="align-carousel">
-          <CommunityCarousel slides={this.state.communityCardData} />
-        </div>
-        <div className="com-info">
-          <div>
-            <p style={{ color: "#2DCA8C" }} className="com-numbers">900K+</p>
-            <p className="com-info-header">Educational programe</p>
+      <div>
+        <CommunityBg>
+          <div className="com-headers">
+            <h1>Our Community members about us</h1>
             <p>
-              We are proud to provide our <br /> music app to so many people.
+              Our Community members about us Our Community members about us Our
+              Community members about us
             </p>
           </div>
-          <div>
-            <p style={{ color: "#FFBE3D"}} className="com-numbers">2M+</p>
-            <p className="com-info-header">People's community</p>
-            <p>
-              Our app has been downloaded <br /> by more than 2 million people.
-            </p>
+          <div className="align-carousel">
+            <CommunityCarousel slides={this.state.communityCardData} />
           </div>
-          <div>
-            <p style={{ color: "#FF715B"}}className="com-numbers">99.99%</p>
-            <p className="com-info-header">Positive feedback</p>
-            <p className="com-info-subHeader">
-              We get mostly positive ratings <br /> for the quality of our app.
-            </p>
+          <div className="com-info">
+            <div>
+              <p style={{ color: "#2DCA8C" }} className="com-numbers">
+                900K+
+              </p>
+              <p className="com-info-header">Educational programe</p>
+              <p>
+                We are proud to provide our <br /> music app to so many people.
+              </p>
+            </div>
+            <div>
+              <p style={{ color: "#FFBE3D" }} className="com-numbers">
+                2M+
+              </p>
+              <p className="com-info-header">People's community</p>
+              <p>
+                Our app has been downloaded <br /> by more than 2 million
+                people.
+              </p>
+            </div>
+            <div>
+              <p style={{ color: "#FF715B" }} className="com-numbers">
+                99.99%
+              </p>
+              <p className="com-info-header">Positive feedback</p>
+              <p className="com-info-subHeader">
+                We get mostly positive ratings <br /> for the quality of our
+                app.
+              </p>
+            </div>
           </div>
-        </div>
+        </CommunityBg>
       </div>
     );
   }
