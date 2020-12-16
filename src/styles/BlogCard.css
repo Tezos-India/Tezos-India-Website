@@ -3,8 +3,11 @@
     color:rgb(255, 255, 255) !important;
     border-radius: 10px !important;
     width: 22vw !important;
-    height: 80vh !important;
+    height: 85vh !important;
 }
 .dark-BlogCard{
     background-color: #2a2c34 !important;
+}
+.blog-card-type{
+    color:var(--tezos-blue);
 }

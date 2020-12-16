@@ -48,7 +48,7 @@
   width: 60px;
   height: 25px;
   border-radius: 15px;
-  margin-left: 70px;
+  margin-left: 100px;
   margin-top: 10px;
   display: flex;
   flex-direction: row;
@@ -122,5 +122,5 @@
   height: 8vh !important;
   border-radius: 10px !important;
   margin-left: 20vw !important;
-  margin-top: 5vh;
+  margin-top: 7vh !important;
 }

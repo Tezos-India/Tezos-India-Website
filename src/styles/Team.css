@@ -50,3 +50,17 @@
   margin-top: 10vh;
   color: white;
 }
+.teamMore-btn {
+  text-transform: inherit !important;
+  color: var(--tezos-white) !important;
+  background-color: #647afc !important;
+  width: 450px !important;
+  height: 55px !important;
+  font-size: var(--font-size-mod-medium) !important;
+  border-radius: 10px !important;
+  margin: 5% 25% 0 36% !important;
+}
+.dark-teamMore-btn {
+  color: var(--tezos-text) !important;
+  background-color: #2a2c34 !important;
+}

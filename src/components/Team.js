@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import Button from "@material-ui/core/Button";
 import "../styles/Team.css";
 import { team } from "./constants/Constant";
 import Card from "./constants/TeamCard";
@@ -47,6 +48,15 @@ export default function Team() {
         ))}
       </div>
       </div>
+      <div>
+      <Button
+        className={
+          isDark ? "teamMore-btn dark-teamMore-btn" : "teamMore-btn"
+        }
+      >
+        Still have unanswered questions? Get in touch
+      </Button>
+        </div>
     </div>
   );
 }
