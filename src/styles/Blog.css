@@ -55,16 +55,16 @@
   gap: 0 5px;
 }
 .align-card-likes img {
-  width: 10px;
-  height: 10px;
+  width: 13px;
+  height: 13px;
   margin-top: 5px;
-  margin-left: 12px;
+  margin-left: 10px;
 }
 .align-card-likes p {
   margin: 3px 0 0 -2px;
 }
 .blog-card-img img {
-  width: 3vw;
+  width: 4vw;
 }
 .blog-card-img {
   margin-top: 15vh;
@@ -126,12 +126,11 @@
 }
 .blog-card-type{
   color:white;
-  font-size: 14px;
+  font-size: 12px;
 }
 .dark-blog-card-type{
   color:var(--tezos-blue);
 }
 .blog-card-date{
-  font-size: 14px;
-  padding-right: 0 !important;
+  font-size: 12px;
 }
