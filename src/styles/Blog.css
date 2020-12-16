@@ -44,7 +44,7 @@
 }
 .align-card-likes {
   background: var(--tezos-blue);
-  font-size: 15px;
+  font-size: 14px;
   width: 60px;
   height: 25px;
   border-radius: 15px;
@@ -55,8 +55,8 @@
   gap: 0 5px;
 }
 .align-card-likes img {
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
   margin-top: 5px;
   margin-left: 12px;
 }
@@ -64,10 +64,10 @@
   margin: 3px 0 0 -2px;
 }
 .blog-card-img img {
-  width: 5vw;
+  width: 3vw;
 }
 .blog-card-img {
-  margin-top: 18vh;
+  margin-top: 15vh;
   margin-left: 5px;
 }
 .blog-card-text {
@@ -133,4 +133,5 @@
 }
 .blog-card-date{
   font-size: 14px;
+  padding-right: 0 !important;
 }
