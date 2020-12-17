@@ -1,6 +1,18 @@
 .BlogBannerCard {
   background-image: url("../assets/banner.svg") !important;
+  background-repeat: no-repeat !important;
   width: 72vw !important;
   height: 25vh !important;
   border-radius: 15px !important;
+}
+@media (min-width: 320px) and (max-width: 411px) {
+  .BlogBannerCard {
+    height: 30vw !important;
+  }
+}
+@media (min-width: 412px) and (max-width: 950px) {
+  .BlogBannerCard {
+    background-size: 80vw !important;
+    height: 16.5vh !important;
+  }
 }

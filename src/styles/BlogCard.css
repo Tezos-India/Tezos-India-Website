@@ -1,10 +1,40 @@
-.BlogCard{
-    background-color: #647afc !important;
-    color:rgb(255, 255, 255) !important;
-    border-radius: 10px !important;
-    width: 22vw !important;
-    height: 85vh !important;
+.BlogCard {
+  background-color: #647afc !important;
+  color: rgb(255, 255, 255) !important;
+  border-radius: 10px !important;
+  width: 22vw !important;
+  height: 85vh !important;
 }
-.dark-BlogCard{
-    background-color: #2a2c34 !important;
+.dark-BlogCard {
+  background-color: #2a2c34 !important;
+}
+@media (max-width: 375px) {
+  .BlogCard {
+    width: 70vw !important;
+    height: 80vh !important;
+  }
+}
+@media (min-width: 376px) and (max-width: 760px) {
+  .BlogCard {
+    width: 55vw !important;
+    height: 85vh !important;
+  }
+}
+@media (min-width: 761px) and (max-width: 800px) {
+  .BlogCard {
+    width: 45vw !important;
+    height: 85vh !important;
+  }
+}
+@media (min-width: 801px) and (max-width: 950px) {
+  .BlogCard {
+    width: 27vw !important;
+    height: 95vh !important;
+  }
+}
+@media (min-width: 951px) and (max-width: 1024px) {
+  .BlogCard {
+    width: 28vw !important;
+    height: 95vh !important;
+  }
 }

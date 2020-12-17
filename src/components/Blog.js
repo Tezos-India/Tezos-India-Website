@@ -23,7 +23,15 @@ function Blog() {
         <div className="blog-podcast">
           <BlogsCard>
             <div className="align-card-heading">
-              <p className={isDark? "blog-card-type dark-blog-card-type":"blog-card-type"}>Podcasts</p>
+              <p
+                className={
+                  isDark
+                    ? "blog-card-type dark-blog-card-type"
+                    : "blog-card-type"
+                }
+              >
+                Podcasts
+              </p>
               <p className="blog-card-date">14th May</p>
               <div className="align-card-likes">
                 <img src={like} alt="" />
@@ -51,7 +59,15 @@ function Blog() {
                 <img src={content.image} alt="" />
               </div>
               <div className="align-card-headings">
-                <p className={isDark? "blog-card-type dark-blog-card-type":"blog-card-type"}>{content.type}</p>
+                <p
+                  className={
+                    isDark
+                      ? "blog-card-type dark-blog-card-type"
+                      : "blog-card-type"
+                  }
+                >
+                  {content.type}
+                </p>
                 <p className="blog-card-date">{content.date}</p>
                 <div className="align-card-likes">
                   <img src={content.like} alt="" />
