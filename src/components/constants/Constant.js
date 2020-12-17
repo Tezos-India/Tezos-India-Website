@@ -16,7 +16,7 @@ const activity = {
       img: edu,
       title: "Education",
       subTitle:
-        "We conduct regular education programs to enable the community to build om  Tezos Protocol",
+        "We conduct regular education programs to enable the community to build on Tezos Protocol",
     },
     {
       img: event,
@@ -30,7 +30,7 @@ const activity = {
       img: business,
       title: "Business Development",
       subTitle:
-        "We help our ecosystem partners to leverage the power of Tezos Protocol by making relevant connections and help with grants om  a case by case basis",
+        "We help our ecosystem partners to leverage the power of Tezos Protocol by making relevant connections and help with grants on a case by case basis",
     },
     {
       img: community,
