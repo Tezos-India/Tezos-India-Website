@@ -16,10 +16,10 @@ export class Community extends Component {
     this.createCommunityCard();
   }
   createCommunityCard() {
-    let array = [];
+    const array = [];
     carousel.members.map((membersDesc) => {
       array.push(
-        <CommunityCard>
+        <CommunityCard className="padding-com-carousel">
           <div className="align-com-card-content">
             <div className="align-com-img">
               <img src={membersDesc.image} alt="" className="com-img" />
@@ -57,7 +57,7 @@ export class Community extends Component {
                 900K+
               </p>
               <p className="com-info-header">Educational programe</p>
-              <p>
+              <p className="com-info-subHeader">
                 We are proud to provide our <br /> music app to so many people.
               </p>
             </div>
@@ -66,7 +66,7 @@ export class Community extends Component {
                 2M+
               </p>
               <p className="com-info-header">People's community</p>
-              <p>
+              <p className="com-info-subHeader">
                 Our app has been downloaded <br /> by more than 2 million
                 people.
               </p>

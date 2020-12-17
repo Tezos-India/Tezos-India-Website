@@ -9,3 +9,27 @@
 .dark-communityCardContainer {
   background-color: #2a2c34 !important;
 }
+@media (max-width: 375px) {
+  .communityCardContainer {
+    width: 250px !important;
+    height: 150px !important;
+  }
+}
+@media (min-width: 376px) and (max-width: 475px) {
+  .communityCardContainer {
+    width: 380px !important;
+    height: 240px !important;
+  }
+}
+@media (min-width: 476px) and (max-width: 510px) {
+  .communityCardContainer {
+    width: 400px !important;
+    height: 240px !important;
+  }
+}
+@media (min-width: 511px) and (max-width: 768px) {
+  .communityCardContainer {
+    width: 450px !important;
+    height: 240px !important;
+  }
+}

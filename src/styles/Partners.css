@@ -27,7 +27,7 @@
 }
 .dark-line {
   width: 52vw;
-  border-bottom: 4px solid #1E2029;
+  border-bottom: 4px solid #1e2029;
   position: relative;
   top: -150px !important;
   margin-left: 190px !important;
@@ -53,9 +53,9 @@
     width: 80vw !important;
   }
   .partnerLogo {
-    margin-left: -63vw !important;
-    width: 90vw !important;
-    margin-top: 10px !important;
+    margin-left: -58vw !important;
+    width: 95vw !important;
+    margin-top: -120vh !important;
   }
 }
 @media screen and (max-width: 320px) {
@@ -88,7 +88,7 @@
   }
   .partnerLogo {
     margin-left: -190px !important;
-    margin-top: 20px !important;
+    margin-top: -115vh !important;
     width: 75vw !important;
   }
 }
@@ -106,8 +106,8 @@
     margin: 10px 0 0 55px;
   }
   .partnerLogo {
-    margin-left: -190px !important;
-    margin-top: 20px !important;
+    margin-left: -180px !important;
+    margin-top: -95vh !important;
     width: 80vw !important;
   }
 }
@@ -121,8 +121,8 @@
     width: 80vw !important;
   }
   .partnerLogo {
-    margin-left: -190px !important;
-    margin-top: 40px !important;
+    margin-left: -150px !important;
+    margin-top: -75vh !important;
     width: 80vw !important;
   }
   .partnerTitle {
@@ -133,8 +133,8 @@
 }
 @media screen and (min-width: 780px) and (max-width: 1024px) {
   .line {
-    margin-left: 10px !important;
-    width: 80vw !important;
+    margin-left: 70px !important;
+    width: 50vw !important;
   }
   .dark-line {
     margin-left: 10px !important;
@@ -142,7 +142,7 @@
   }
   .partnerLogo {
     margin-left: -200px !important;
-    margin-top: 30px !important;
+    margin-top: -55vh !important;
     width: 90vw !important;
   }
   .partnerTitle {

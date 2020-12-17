@@ -1,7 +1,6 @@
 import React, {useContext} from 'react'
-import StyleContext from "../contexts/StyleContext";
+import StyleContext from '../contexts/StyleContext';
 import '../styles/Community.css'
-import Community from './Community';
 
 function CommunityBg(props) {
     const { isDark } = useContext(StyleContext);
