@@ -8,3 +8,14 @@
   border: none !important;
   box-shadow: none !important;
 }
+@media (max-width: 455px) {
+  .teamCardContainer {
+    height: 220px !important;
+  }
+}
+@media (min-width: 456px) and (max-width: 700px) {
+  .teamCardContainer {
+    height: 250px !important;
+    width: 100px !important;
+  }
+}
