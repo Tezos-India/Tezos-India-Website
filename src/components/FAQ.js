@@ -27,7 +27,7 @@ export default function Faq() {
             </Card>
           ))}
         </div>
-        <div className="faq-margin-cards">
+        <div className="faq-margin-cards-two">
           {faq.faqRowTwo.map((content) => (
             <Card>
               <p>{content.title}</p>

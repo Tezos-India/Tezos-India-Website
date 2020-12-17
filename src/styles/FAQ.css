@@ -2,6 +2,8 @@
   background-color: #4a62ff;
   height: 100vh;
   font-family: "Inter", sans-serif;
+  padding: 0 !important;
+  overflow-x: hidden !important;
 }
 .dark-faq-container {
   background-color: #1d1f28;
@@ -13,12 +15,17 @@
   margin-left: 18vw;
   padding-top: 15vh;
 }
-.faq-margin-cards {
+.faq-margin-cards,
+.faq-margin-cards-two {
   display: flex;
   flex-direction: column;
   gap: 20px 0;
 }
 .faq-margin-cards p {
+  margin-top: -4px;
+  font-size: 14px;
+}
+.faq-margin-cards-two p {
   margin-top: -4px;
   font-size: 14px;
 }
@@ -36,11 +43,88 @@
   color: var(--tezos-text) !important;
   background-color: #2a2c34 !important;
 }
-.faq-headers{
+.faq-headers {
   margin-top: -3vh;
   text-align: center;
   color: white;
 }
-.faq-headers p{
-  padding:  0 30vw;
+.faq-headers p {
+  padding: 0 30vw;
+}
+@media (max-width: 375px) {
+  .faq-container {
+    height: 120vh !important;
+  }
+  .faq-align-cards {
+    margin-top: -40px !important;
+    flex-direction: column !important;
+    margin-left: 20px !important;
+  }
+  .faq-headers p {
+    padding: 0 10vw !important;
+  }
+  .faqStyles-btn {
+    width: 250px !important;
+    height: 55px !important;
+    margin-left: 50px !important;
+    margin-top: 50px !important;
+  }
+  .faq-margin-cards p {
+    font-size: 12px !important;
+    margin-top: -15px !important;
+  }
+  .faq-margin-cards-two p {
+    font-size: 12px !important;
+    margin-top: -15px !important;
+  }
+  .faq-margin-cards-two {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 376px) and (max-width: 760px) {
+  .faq-container {
+    height: 120vh !important;
+  }
+  .faq-headers p {
+    padding: 0 10vw !important;
+  }
+  .faq-align-cards {
+    margin-top: -40px !important;
+    flex-direction: column !important;
+    margin-left: 20px !important;
+  }
+  .faqStyles-btn {
+    width: 350px !important;
+    height: 45px !important;
+    margin-left: 25px !important;
+    margin-top: 50px !important;
+  }
+  .faq-margin-cards p {
+    font-size: 12px !important;
+    margin-top: -15px !important;
+  }
+  .faq-margin-cards-two p {
+    font-size: 12px !important;
+    margin-top: -15px !important;
+  }
+  .faq-margin-cards-two {
+    margin-top: 20px;
+  }
+  .faq-margin-cards,
+  .faq-margin-cards-two {
+    padding: 0 5px !important;
+  }
+}
+@media (min-width: 761px) and (max-width: 1024px) {
+  .faq-margin-cards {
+    margin-top: -20px !important;
+    margin-left: -12vw !important;
+  }
+  .faq-margin-cards-two {
+    margin-top: -20px !important;
+    margin-left: -20px !important;
+  }
+  .faqStyles-btn {
+    margin-left: 22% !important;
+  }
 }

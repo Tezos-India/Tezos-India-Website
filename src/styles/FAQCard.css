@@ -1,7 +1,7 @@
 .faqCardContainer {
   background-color: #647afc !important;
-  height: 3vw !important;
-  width: 60vh !important;
+  height: 4vh !important;
+  width: 30vw !important;
   border-radius: 10px !important;
   color: var(--tezos-white) !important;
   padding: 10px !important;
@@ -9,4 +9,22 @@
 .dark-faqCardContainer {
   background-color: #2a2c34 !important;
   color: var(--tezos-text) !important;
+}
+@media (max-width: 375px) {
+  .faqCardContainer {
+    width: 83vw !important;
+    height: 5vh !important;
+  }
+}
+@media (min-width: 376px) and (max-width: 760px) {
+  .faqCardContainer {
+    width: 83vw !important;
+    height: 5vh !important;
+  }
+}
+@media (min-width: 761px) and (max-width: 1024px) {
+  .faqCardContainer {
+    width: 40vw !important;
+    height: 10vh !important;
+  }
 }
