@@ -34,9 +34,9 @@ const activity = {
     },
     {
       img: community,
-      title: "Hackathons",
+      title: "Hackathons and Fellowships/Developer Activities",
       subTitle:
-        "We actively conduct and support hackathons to enable teams to build innovative PoCs",
+        " We actively conduct and support hackathons, developer activites to enable individuals and teams to build innovative projects, PoCs on Tezos.",
     },
   ],
 };
