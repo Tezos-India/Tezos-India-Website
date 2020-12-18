@@ -17,6 +17,7 @@
 .team-memberImg {
   width: 10vw;
   border-radius: 50%;
+  margin-left: 10px;
 }
 .team-align--horizontal {
   display: flex;

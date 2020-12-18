@@ -122,8 +122,11 @@
   width: 10vw !important;
   height: 8vh !important;
   border-radius: 10px !important;
-  margin-left: 20vw !important;
-  margin-top: 7vh !important;
+  margin-left: 25vw !important;
+  margin-top: 6vh !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  box-shadow: 5px 3px #5d78ff !important;
 }
 .blog-card-type {
   color: white;

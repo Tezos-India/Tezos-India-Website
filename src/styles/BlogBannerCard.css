@@ -1,5 +1,6 @@
 .BlogBannerCard {
   background-image: url("../assets/banner.svg") !important;
+  background-position: -15vw 0 !important;
   background-repeat: no-repeat !important;
   width: 72vw !important;
   height: 25vh !important;
