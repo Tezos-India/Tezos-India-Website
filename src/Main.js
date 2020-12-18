@@ -9,6 +9,7 @@ import Community from "./components/Community";
 import Team from "./components/Team";
 import Blog from "./components/Blog";
 import FAQ from "./components/FAQ";
+import YtVideos from "./components/YtVideos";
 
 export class Main extends Component {
   constructor(props) {
@@ -36,6 +37,7 @@ export class Main extends Component {
           <Activity />
           <Infra />
           <Community />
+          <YtVideos />
           <Team />
           <Blog />
           <FAQ />
