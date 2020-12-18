@@ -39,115 +39,105 @@
   top: 860px !important;
   left: 220px;
 }
-@media screen and (max-width: 360px) {
-  .partnerTitle {
-    font-size: 14px !important;
-    margin: 15px 0 0 20px;
+@media (min-width:320px) and (max-width:345px){
+  .container{
+    height: 30vh !important;
   }
-  .line {
-    margin-left: 10px !important;
-    width: 80vw !important;
+  .line{
+    margin-left: -8vw !important;
+    padding-bottom: 38vh !important;
   }
-  .dark-line {
-    margin-left: 10px !important;
-    width: 80vw !important;
+  .partnerTitle{
+    margin-left: 2vw !important;
   }
-  .partnerLogo {
-    margin-left: -58vw !important;
-    width: 95vw !important;
-    margin-top: -120vh !important;
-  }
-}
-@media screen and (max-width: 320px) {
-  .line {
-    margin-left: 10px !important;
-    width: 80vw !important;
-  }
-  .dark-line {
-    margin-left: 10px !important;
-    width: 80vw !important;
-  }
-  .partnerLogo {
-    margin-left: -220px !important;
-    width: 80vw !important;
-    margin-top: 20px !important;
-  }
-}
-@media screen and (min-width: 365px) and (max-width: 375px) {
-  .line {
-    margin-left: 10px !important;
-    width: 80vw !important;
-  }
-  .dark-line {
-    margin-left: 10px !important;
-    width: 80vw !important;
-  }
-  .partnerTitle {
-    font-size: 14px !important;
-    margin: 10px 0 0 55px;
-  }
-  .partnerLogo {
-    margin-left: -190px !important;
-    margin-top: -115vh !important;
-    width: 75vw !important;
-  }
-}
-@media screen and (min-width: 411px) and (max-width: 414px) {
-  .line {
-    margin-left: 10px !important;
-    width: 80vw !important;
-  }
-  .dark-line {
-    margin-left: 10px !important;
-    width: 80vw !important;
-  }
-  .partnerTitle {
-    font-size: 16px !important;
-    margin: 10px 0 0 55px;
-  }
-  .partnerLogo {
-    margin-left: -180px !important;
-    margin-top: -95vh !important;
-    width: 80vw !important;
-  }
-}
-@media screen and (min-width: 420px) and (max-width: 768px) {
-  .line {
-    margin-left: 10px !important;
-    width: 80vw !important;
-  }
-  .dark-line {
-    margin-left: 10px !important;
-    width: 80vw !important;
-  }
-  .partnerLogo {
-    margin-left: -150px !important;
-    margin-top: -75vh !important;
-    width: 80vw !important;
-  }
-  .partnerTitle {
-    font-size: 20px !important;
-    margin-left: 60px !important;
-    margin-top: 15px !important;
-  }
-}
-@media screen and (min-width: 780px) and (max-width: 1024px) {
-  .line {
-    margin-left: 70px !important;
-    width: 50vw !important;
-  }
-  .dark-line {
-    margin-left: 10px !important;
-    width: 80vw !important;
-  }
-  .partnerLogo {
-    margin-left: -200px !important;
-    margin-top: -55vh !important;
+  .partnerLogo{
+    margin-top: 2vh !important;
+    margin-left: -60vw !important;
     width: 90vw !important;
   }
-  .partnerTitle {
-    font-size: 24px !important;
-    margin-left: 50px !important;
-    margin-top: 15px !important;
+}
+@media (min-width:344px) and (max-width:375px){
+  .container{
+    height: 30vh !important;
+  }
+  .line{
+    margin-left: 5vw !important;
+    padding-bottom: 35vh !important;
+  }
+  .partnerTitle{
+    margin-left: 5vw !important;
+  }
+  .partnerLogo{
+    margin-top: 2vh !important;
+    margin-left: -53vw !important;
+    width: 90vw !important;
+  }
+}
+@media (min-width:376px) and (max-width:520px){
+  .container{
+    height: 30vh !important;
+  }
+  .line{
+    margin-left: 5vw !important;
+    padding-bottom: 35vh !important;
+  }
+  .partnerTitle{
+    margin-left: 5vw !important;
+  }
+  .partnerLogo{
+    margin-top: 2vh !important;
+    margin-left: -36vw !important;
+    width: 90vw !important;
+  }
+}
+@media (min-width:521px) and (max-width:768px){
+  .container{
+    height: 30vh !important;
+  }
+  .line{
+    margin-left: 5vw !important;
+    padding-bottom: 35vh !important;
+  }
+  .partnerTitle{
+    margin-left: 5vw !important;
+  }
+  .partnerLogo{
+    margin-top: 2vh !important;
+    margin-left: -35vw !important;
+    width: 90vw !important;
+  }
+}
+@media (min-width:769px) and (max-width:950px){
+  .container{
+    height: 30vh !important;
+  }
+  .line{
+    margin-left: 12vw !important;
+    padding-bottom: 35vh !important;
+  }
+  .partnerTitle{
+    margin-left: 5vw !important;
+  }
+  .partnerLogo{
+    margin-top: 2vh !important;
+    margin-left: -20vw !important;
+    width: 90vw !important;
+  }
+}
+@media (min-width:951px) and (max-width:1024px){
+  .container{
+    height: 30vh !important;
+  }
+  .line{
+    margin-left: 20vw !important;
+    padding-bottom: 35vh !important;
+  }
+  .partnerTitle{
+    margin-left: 5vw !important;
+  }
+  .partnerLogo{
+    margin-top: 2vh !important;
+    margin-left: -18vw !important;
+    width: 90vw !important;
   }
 }
