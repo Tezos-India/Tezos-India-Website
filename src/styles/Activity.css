@@ -76,6 +76,13 @@
   background-color: #377dff !important;
   border: none !important;
 }
+.activityBtn:hover{
+  background-color: #52009e !important;
+  border: 3px solid #52009e!important;
+}
+.dark-activityBtn:hover {
+  background-color: #2974ff !important;
+}
 @media (min-width: 320px) and (max-width: 360px) {
   .align-card {
     flex-direction: column;

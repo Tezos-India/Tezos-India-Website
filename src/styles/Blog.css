@@ -128,6 +128,9 @@
   font-weight: bold !important;
   box-shadow: 5px 3px #5d78ff !important;
 }
+.banner-button:hover {
+  background-color: #2b3b97 !important;
+}
 .blog-card-type {
   color: white;
   font-size: 12px;

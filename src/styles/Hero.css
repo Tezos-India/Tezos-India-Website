@@ -31,6 +31,10 @@
   text-transform: inherit !important;
   border-radius: 5px !important;
 }
+.introBtn:hover{
+  background-color: #52009e !important;
+  border: 3px solid #52009e!important;
+}
 .tezos-logo {
   width: 2.5vw;
   margin-bottom: -5px;

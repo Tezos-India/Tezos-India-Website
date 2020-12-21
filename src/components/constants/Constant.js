@@ -3,9 +3,13 @@ import event from "../../assets/media.svg";
 import business from "../../assets/business.svg";
 import community from "../../assets/community.svg";
 import om from "../../assets/om.jpg";
-import dribbble from "../../assets/Dribbble.svg";
-import insta from "../../assets/Instagram.svg";
-import linkedin from "../../assets/Linkedin.svg";
+import bernd from "../../assets/bernd.png";
+import jignesh from "../../assets/jignesh.jpg";
+import mudit from "../../assets/mudit.jpg";
+import sandeep from "../../assets/sandeep.jpg";
+import akhil from "../../assets/akhil.jpg";
+import sanket from "../../assets/sanket.jpg";
+import sneha from "../../assets/sneha.jpg";
 import like from "../../assets/like.png";
 import sample from "../../assets/example.jpg";
 import arrow from "../../assets/next.svg";
@@ -69,55 +73,71 @@ const carousel = {
 const team = {
   teammates: [
     {
-      name: "Om Malviya",
-      designation: "Founder & CEO",
-      image: om,
-      instagram: insta,
-      dribbble: dribbble,
-      linkedin: linkedin,
+      name: "Bernd Oostrum",
+      designation: "Director",
+      image: bernd,
+      linkedin: "https://www.linkedin.com/in/bernd-oostrum/",
+      twitter: "https://twitter.com/bernd_oostrum",
+      telegram: "https://t.me/berndoostrum",
     },
     {
       name: "Om Malviya",
-      designation: "Founder & CEO",
+      designation: "Director",
       image: om,
-      instagram: insta,
-      dribbble: dribbble,
-      linkedin: linkedin,
+      linkedin:" https://www.linkedin.com/in/om-malviya-821052119/",
+      twitter:"https://twitter.com/MalviyaOp",
+      telegram:"https://t.me/malviyaop",
     },
     {
-      name: "Om Malviya",
-      designation: "Founder & CEO",
-      image: om,
-      instagram: insta,
-      dribbble: dribbble,
-      linkedin: linkedin,
+      name: "Sandeep Sangli",
+      designation: "Head, Business Development (India)",
+      image: sandeep,
+      linkedin: "https://www.linkedin.com/in/sandeepsangli/",
+      twitter: "https://twitter.com/sandeepsangli",
+      telegram: "https://t.me/sandeepsangli",
+    },
+    {
+      name: "Sneha Biradar",
+      designation: "Community Manager",
+      image: sneha,
+      linkedin: "https://www.linkedin.com/in/sneha-biradar-431943153/",
+      twitter: "https://twitter.com/iSnehaBiradar",
+      telegram: "https://t.me/Snehabiradar",
     },
   ],
 
   teamamtesRowTwo: [
     {
-      name: "Om Malviya",
-      designation: "Founder & CEO",
-      image: om,
-      instagram: insta,
-      dribbble: dribbble,
-      linkedin: linkedin,
+      name: "Jignesh Vasoya",
+      designation: "Lead Developer & Solutions Architect",
+      image: jignesh,
+      linkedin:"https://www.linkedin.com/in/jigneshvasoya/",
+      twitter:"https://twitter.com/rakhduJeeV",
+      telegram:"https://t.me/jigneshvasoya",
     },
     {
-      name: "Om Malviya",
-      designation: "Founder & CEO",
-      image: om,
-      instagram: insta,
-      dribbble: dribbble,
-      linkedin: linkedin,
+      name: "Mudit Marda",
+      designation: "Blockchain Technology Analyst",
+      image: mudit,
+      linkedin:"https://www.linkedin.com/in/muditmarda/",
+      twitter:"https://twitter.com/mudit_marda",
+      telegram:"https://t.me/mudit_m",
     },
     {
-      name: "Om Malviya",
-      designation: "Founder & CEO",
-      image: om,
-      instagram: insta,
-      dribbble: dribbble,
-      linkedin: linkedin,
+      name: "Akhil Bharati",
+      designation: "Senior Software Engineer",
+      image: akhil,
+      linkedin:"https://www.linkedin.com/in/akhil-bharti-17161272/ ",
+      twitter:"https://twitter.com/ItsJustAkhil",
+      telegram:"https://t.me/akhilbharti"
+    },
+    {
+      name: "Sanket Pal",
+      designation: "UI/UX Desginer",
+      image: sanket,
+      linkedin:"https://www.linkedin.com/in/sanketpal/",
+      twitter:"https://twitter.com/sanket1994pal",
+      telegram:"https://t.me/UX_Sanket"
     },
   ],
 };

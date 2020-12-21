@@ -22,11 +22,11 @@
   gap: 20px 0;
 }
 .faq-margin-cards p {
-  margin-top: -5px;
+  margin-top: -8px;
   font-size: 14px;
 }
 .faq-margin-cards-two p {
-  margin-top: -5px;
+  margin-top: -8px;
   font-size: 14px;
 }
 .faqStyles-btn {
@@ -42,6 +42,12 @@
 .dark-faqStyles-btn {
   color: var(--tezos-text) !important;
   background-color: #2a2c34 !important;
+}
+.faqStyles-btn:hover {
+  background-color: #2b3b97 !important;
+}
+.dark-faqStyles-btn:hover {
+  background-color: #35363a !important;
 }
 .faq-headers {
   margin-top: -3vh;
