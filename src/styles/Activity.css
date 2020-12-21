@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: row;
   font-family: "Poppins", sans-serif;
+  overflow: hidden !important;
 }
 .dark-container-div {
   background-color: var(--tezos-secondary-background);
@@ -99,15 +100,23 @@
   }
   .alignHeadings {
     margin: -50vh -1vw 0 18vw;
-    font-size: 35px;
+    font-size: 30px;
   }
   .subHeading {
     margin: 2vh 0 0 18vw;
     line-height: 1.5;
+    font-size: 16px !important;
   }
   .activityBtn {
     margin-left: 18vw !important;
   }
+  .activity-title{
+    font-size: 14px !important;
+  }
+  .activity-subTitle{
+    font-size: 12px !important;
+  }
+
 }
 @media (min-width: 375px) and (max-width: 411px) {
   .align-card {
@@ -118,21 +127,31 @@
   }
   .container-div {
     flex-direction: column;
-    height: 350vh !important;
+    height: 380vh !important;
   }
   .activity-img {
     width: 22vw;
   }
   .alignHeadings {
     margin: -50vh -1vw 0 18vw;
-    font-size: 35px;
+    font-size: 30px;
   }
   .subHeading {
     margin: 2vh 0 0 18vw;
     line-height: 1.5;
+    font-size: 16px;
   }
   .activityBtn {
     margin-left: 18vw !important;
+  }
+  .card-div{
+    margin-left: 5vw !important;
+  }
+  .activity-title{
+    font-size: 16px !important;
+  }
+  .activity-subTitle{
+    font-size: 12px !important;
   }
 }
 @media (min-width: 412px) and (max-width: 768px) {
@@ -144,63 +163,70 @@
   }
   .container-div {
     flex-direction: column;
-    height: 300vh !important;
+    height: 400vh !important;
   }
   .activity-img {
     width: 15vw;
   }
   .alignHeadings {
-    margin: -50vh -1vw 0 18vw;
-    font-size: 38px;
-  }
-  .subHeading {
-    margin: 2vh 0 0 18vw;
-    line-height: 1.5;
-  }
-  .activityBtn {
-    margin-left: 18vw !important;
-  }
-  .activity-title {
+    margin: -50vh -1vw 0 20vw;
     font-size: 30px;
   }
-  .activity-subTitle {
-    font-size: 25px;
+  .subHeading {
+    margin: 2vh 0 0 20vw;
+    line-height: 1.5;
+    font-size: 16px;
+  }
+  .activityBtn {
+    margin-left: 20vw !important;
   }
   .card-content {
     margin: 40px 10px 0 20px;
   }
-  .subHeading {
-    font-size: 18px;
+  .card-div{
+    margin-left: 5vw !important;
+  }
+  .activity-title{
+    font-size: 18px !important;
+  }
+  .activity-subTitle{
+    font-size: 14px !important;
   }
 }
 @media (min-width: 800px) and (max-width: 1024px) {
   .container-div {
     flex-direction: column;
-    height: 170vh !important;
+    height: 180vh !important;
   }
   .alignHeadings {
-    margin: -50vh -1vw 0 18vw;
-    font-size: 45px;
+    margin: -50vh -1vw 0 22vw;
+    font-size: 40px;
   }
   .subHeading {
-    margin: 2vh 0 0 18vw;
+    margin: 2vh 0 0 22vw;
     line-height: 1.6;
-    font-size: 30px;
+    font-size: 24px;
   }
   .activityBtn {
-    margin-left: 18vw !important;
+    margin-left: 22vw !important;
     margin-top: 40px !important;
     height: 8vh !important;
-    width: 25vw !important;
-    font-size: 25px !important;
-  }
-  .activity-title {
-    font-size: 30px;
+    width: 18vw !important;
+    font-size: 18px !important;
   }
   .activity-subTitle {
     font-size: 25px;
   }
   .activity-img {
     width: 10vw;
+  }
+  .card-div{
+    margin-left: 5vw !important;
+  }
+  .activity-title{
+    font-size: 18px !important;
+  }
+  .activity-subTitle{
+    font-size: 14px !important;
   }
 }

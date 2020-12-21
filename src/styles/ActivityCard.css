@@ -17,14 +17,14 @@
 }
 @media (min-width: 375px) and (max-width: 411px) {
   .cardContainer {
-    height: 50vh !important;
-    width: 70vw !important;
+    height: 60vh !important;
+    width: 60vw !important;
   }
 }
 @media (min-width: 412px) and (max-width: 768px) {
   .cardContainer {
-    height: 50vh !important;
-    width: 70vw !important;
+    height: 65vh !important;
+    width: 60vw !important;
   }
 }
 @media (min-width: 800px) and (max-width: 1024px) {

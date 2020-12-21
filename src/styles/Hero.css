@@ -39,7 +39,7 @@
   width: 2.5vw;
   margin-bottom: -5px;
 }
-@media (max-width: 768px) {
+@media (max-width: 960px) and (min-width: 768px) {
   .hero-text-div h1 {
     font-size: 40px;
     padding: 5vh 8vw;
@@ -56,9 +56,9 @@
 }
 @media (min-width: 320px) and (max-width: 360px) {
   .hero-text-div h1 {
-    font-size: 40px;
+    font-size: 28px;
     padding: 0 8vw;
-    margin-top: -3vh !important;
+    margin-top: 5vh !important;
   }
   .tezos-logo {
     width: 7vw !important;
@@ -67,14 +67,14 @@
     margin: 2vh 0 0 26vw !important;
   }
   .align-intro-btn {
-    margin: 10vh 0 0 -15vw !important;
+    margin: 10vh 0 0 -18vw !important;
   }
 }
-@media (min-width: 375px) and (max-width: 411px) {
+@media (min-width: 375px) and (max-width: 425px) {
   .hero-text-div h1 {
-    font-size: 40px;
-    padding: 1vh 15vw;
-    margin-top: -3vh !important;
+    font-size: 30px;
+    padding: 1vh 12vw;
+    margin-top: 5vh !important;
   }
   .tezos-logo {
     width: 6vw !important;
@@ -83,14 +83,18 @@
     margin: -1vh 0 0 30vw !important;
   }
   .align-intro-btn {
-    margin: 10vh 0 0 -12vw !important;
+    margin: 10vh 0 0 -15vw !important;
   }
 }
 @media (max-width: 1024px) {
   .introBtn {
-    margin: -10vh 0 0 43vw !important;
+    margin: -10vh 0 0 40vw !important;
   }
   .tezos-logo {
     width: 3.5vw;
+  }
+  .hero-text-div h1 {
+    margin-left: -13vw !important;
+    margin-right: -10vw !important;
   }
 }

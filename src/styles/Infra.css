@@ -76,6 +76,7 @@
   .infra-heading {
     margin: 50vh -80vw 0 8vw !important;
     display: block;
+    font-size: 24px !important;
   }
   .infra-logo {
     margin: 50vh 0 0 5vw !important;
@@ -84,7 +85,7 @@
     width: 15vw !important;
   }
   .infra-subHeading {
-    margin: 10vh -80vw 0 10vw !important;
+    margin: 5vh -80vw 0 10vw !important;
   }
   .infra-paraText {
     margin: 10vh -80vw 0 10vw !important;
@@ -97,18 +98,19 @@
 }
 @media (min-width: 375px) and (max-width: 411px) {
   .infraContainer {
-    height: 250vh !important;
+    height: 320vh !important;
     background-size: 180vw !important;
   }
   .grid-div {
     margin: 0;
   }
   .infra-heading {
-    margin: 50vh -80vw 0 8vw !important;
+    margin: 55vh -80vw 0 8vw !important;
     display: block;
+    font-size: 25px !important;
   }
   .infra-logo {
-    margin: 50vh 0 0 5vw !important;
+    margin: 53vh 0 0 5vw !important;
   }
   .align-infra-logo {
     width: 15vw !important;
@@ -120,23 +122,50 @@
     margin: 10vh -80vw 0 10vw !important;
   }
 }
-@media (min-width: 414px) and (max-width: 768px) {
+@media (min-width: 414px) and (max-width: 520px) {
   .infraContainer {
-    height: 180vh !important;
+    height: 320vh !important;
     background-size: 180vw !important;
   }
   .grid-div {
     margin: 0;
   }
   .infra-heading {
-    margin: 70vh -80vw 0 8vw !important;
+    margin: 75vh -80vw 0 8vw !important;
     display: block;
+    font-size: 25px !important;
   }
   .infra-logo {
-    margin: 68vh 0 0 5vw !important;
+    margin: 73vh 0 0 5vw !important;
   }
   .align-infra-logo {
     width: 15vw !important;
+  }
+  .infra-subHeading {
+    margin: 10vh -80vw 0 10vw !important;
+  }
+  .infra-paraText {
+    margin: 10vh -80vw 0 10vw !important;
+  }
+}
+@media (min-width: 521px) and (max-width: 769px) {
+  .infraContainer {
+    height: 300vh !important;
+    background-size: 180vw !important;
+  }
+  .grid-div {
+    margin: 0;
+  }
+  .infra-heading {
+    margin: 130vh -80vw 0 2vw !important;
+    display: block;
+    font-size: 25px !important;
+  }
+  .infra-logo {
+    margin: 129vh 0 0 10vw !important;
+  }
+  .align-infra-logo {
+    width: 8vw !important;
   }
   .infra-subHeading {
     margin: 10vh -80vw 0 10vw !important;
@@ -147,22 +176,22 @@
 }
 @media (min-width: 770px) and (max-width: 1024px) {
   .infraContainer {
-    height: 230vh !important;
+    height: 300vh !important;
     background-size: 180vw !important;
   }
   .grid-div {
     margin: 0;
   }
   .infra-heading {
-    margin: 70vh -80vw 0 8vw !important;
+    margin: 150vh -80vw 0 4vw !important;
     display: block;
     font-size: 50px;
   }
   .infra-logo {
-    margin: 68vh 0 0 5vw !important;
+    margin: 148vh 0 0 5vw !important;
   }
   .align-infra-logo {
-    width: 15vw !important;
+    width: 8vw !important;
   }
   .infra-subHeading {
     margin: 10vh -50vw 0 10vw !important;
@@ -170,14 +199,21 @@
     line-height: 1.5;
   }
   .infra-paraText {
-    margin: 10vh -50vw 0 10vw !important;
+    margin: 5vh -50vw 0 10vw !important;
     line-height: 1.5;
     font-size: 30px;
   }
   .infra-paraHeading {
     font-size: 40px;
+    margin-top: 2vh !important;
   }
   .vector {
     margin-left: 80vw;
+  }
+  .infra-subHeading{
+    font-size: 20px !important;
+  }
+  .infra-paraSubHeading{
+    margin-top: -2vh !important;
   }
 }

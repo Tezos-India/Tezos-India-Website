@@ -45,7 +45,8 @@
   }
   .line{
     margin-left: -8vw !important;
-    padding-bottom: 38vh !important;
+    padding-bottom: 38.5vh !important;
+    width: 70vw;
   }
   .partnerTitle{
     margin-left: 2vw !important;
@@ -86,7 +87,7 @@
   }
   .partnerLogo{
     margin-top: 2vh !important;
-    margin-left: -36vw !important;
+    margin-left: -46vw !important;
     width: 90vw !important;
   }
 }
@@ -95,7 +96,7 @@
     height: 30vh !important;
   }
   .line{
-    margin-left: 5vw !important;
+    margin-left: 14vw !important;
     padding-bottom: 35vh !important;
   }
   .partnerTitle{
@@ -103,7 +104,7 @@
   }
   .partnerLogo{
     margin-top: 2vh !important;
-    margin-left: -35vw !important;
+    margin-left: -23vw !important;
     width: 90vw !important;
   }
 }
@@ -130,14 +131,14 @@
   }
   .line{
     margin-left: 20vw !important;
-    padding-bottom: 35vh !important;
   }
   .partnerTitle{
     margin-left: 5vw !important;
+    margin-top: 5vh !important;
   }
   .partnerLogo{
     margin-top: 2vh !important;
-    margin-left: -18vw !important;
+    margin-left: -15vw !important;
     width: 90vw !important;
   }
 }

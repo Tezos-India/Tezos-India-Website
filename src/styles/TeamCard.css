@@ -8,9 +8,14 @@
   border: none !important;
   box-shadow: none !important;
 }
-@media (max-width: 455px) {
+@media (min-width: 320px) and (max-width: 360px) {
   .teamCardContainer {
-    height: 220px !important;
+    height: 208px !important;
+  }
+}
+@media (min-width: 360px) and (max-width: 454px) {
+  .teamCardContainer {
+    height: 225px !important;
   }
 }
 @media (min-width: 456px) and (max-width: 700px) {

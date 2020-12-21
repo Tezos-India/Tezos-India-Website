@@ -57,9 +57,40 @@
 .faq-headers p {
   padding: 0 30vw;
 }
-@media (max-width: 375px) {
+@media (min-width: 320px) and (max-width: 374px) {
   .faq-container {
-    height: 120vh !important;
+    height: 140vh !important;
+  }
+  .faq-align-cards {
+    margin-top: -40px !important;
+    flex-direction: column !important;
+    margin-left: 20px !important;
+  }
+  .faq-headers p {
+    padding: 0 10vw !important;
+  }
+  .faqStyles-btn {
+    width: 250px !important;
+    height: 55px !important;
+    margin-left: 40px !important;
+    margin-top: 50px !important;
+    font-size: 12px !important;
+  }
+  .faq-margin-cards p {
+    font-size: 12px !important;
+    margin-top: -15px !important;
+  }
+  .faq-margin-cards-two p {
+    font-size: 12px !important;
+    margin-top: -15px !important;
+  }
+  .faq-margin-cards-two {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 375px) and (max-width:411px){
+  .faq-container {
+    height: 140vh !important;
   }
   .faq-align-cards {
     margin-top: -40px !important;
@@ -74,6 +105,7 @@
     height: 55px !important;
     margin-left: 50px !important;
     margin-top: 50px !important;
+    font-size: 12px !important;
   }
   .faq-margin-cards p {
     font-size: 12px !important;
@@ -87,7 +119,38 @@
     margin-top: 20px;
   }
 }
-@media (min-width: 376px) and (max-width: 760px) {
+@media (min-width: 412px) and (max-width:425px){
+  .faq-container {
+    height: 140vh !important;
+  }
+  .faq-align-cards {
+    margin-top: -40px !important;
+    flex-direction: column !important;
+    margin-left: 20px !important;
+  }
+  .faq-headers p {
+    padding: 0 10vw !important;
+  }
+  .faqStyles-btn {
+    width: 300px !important;
+    height: 55px !important;
+    margin-left: 60px !important;
+    margin-top: 50px !important;
+    font-size: 12px !important;
+  }
+  .faq-margin-cards p {
+    font-size: 12px !important;
+    margin-top: -15px !important;
+  }
+  .faq-margin-cards-two p {
+    font-size: 12px !important;
+    margin-top: -15px !important;
+  }
+  .faq-margin-cards-two {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 520px) and (max-width: 640px) {
   .faq-container {
     height: 120vh !important;
   }
@@ -121,7 +184,10 @@
     padding: 0 5px !important;
   }
 }
-@media (min-width: 761px) and (max-width: 1024px) {
+@media (min-width: 640px) and (max-width: 768px) {
+  .faq-container{
+    height: 120vh !important;
+  }
   .faq-margin-cards {
     margin-top: -20px !important;
     margin-left: -12vw !important;
@@ -132,5 +198,24 @@
   }
   .faqStyles-btn {
     margin-left: 22% !important;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .faq-container{
+    height: 110vh !important;
+  }
+  .faq-margin-cards {
+    margin-top: -20px !important;
+    margin-left: -12vw !important;
+  }
+  .faq-margin-cards-two {
+    margin-top: -20px !important;
+    margin-left: -20px !important;
+  }
+  .faqStyles-btn {
+    margin-left: 27% !important;
+  }
+  .faq-headers{
+    margin-top: 20vh !important;
   }
 }

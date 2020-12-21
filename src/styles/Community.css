@@ -111,10 +111,11 @@
     margin: 0 !important;
   }
   .com-numbers {
-    font-size: 30px !important;
+    font-size: 26px !important;
   }
   .com-info-header {
     font-size: 14px !important;
+    font-weight: 500 !important;
   }
   .com-info-subHeader {
     font-size: 10px !important;
@@ -126,6 +127,9 @@
 @media (min-width: 376px) and (max-width: 768px) {
   .carousel-control img {
     width: 45px !important;
+  }
+  .community-background {
+    height: 110vh !important;
   }
   .carousel-control {
     margin-left: 40vw !important;
@@ -175,7 +179,7 @@
 }
 @media (min-width: 530px) and (max-width: 770px) {
   .com-info {
-    padding: 0 180px !important;
+    padding-left: 140px !important;
   }
 }
 @media (min-width: 770px) and (max-width: 1024px) {
@@ -188,6 +192,9 @@
     font-size: 14px;
   }
   .com-info {
-    margin: 0 60px !important;
+    margin-left: 160px !important;
+  }
+  .community-background {
+    height: 130vh !important;
   }
 }

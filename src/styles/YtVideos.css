@@ -25,10 +25,30 @@
   font-size: 40px;
   overflow-x: hidden !important;
 }
-@media (max-width: 375px) {
+@media (min-width: 320px) and (max-width: 360px) {
   .yt-container {
     height: 120vh !important;
-    width:100%;
+    width: 100%;
+  }
+  .yt-align-videos {
+    flex-direction: column;
+    gap: 20px 0 !important;
+    margin-left: 22vw;
+  }
+  .player-alignment {
+    width: 55vw !important;
+    height: 18vh !important;
+  }
+  .yt-container h1 {
+    font-size: 30px;
+    padding: 0 30px;
+    text-align: center !important;
+  }
+}
+@media (min-width: 361px) and (max-width: 375px) {
+  .yt-container {
+    height: 120vh !important;
+    width: 100%;
   }
   .yt-align-videos {
     flex-direction: column;
@@ -45,58 +65,78 @@
     text-align: center !important;
   }
 }
-@media (min-width: 376px) and (max-width:520px){
-    .yt-container {
-      height: 120vh !important;
-      width:100%;
-    }
-    .yt-align-videos {
-      flex-direction: column;
-      gap: 20px 0 !important;
-      margin-left: 22vw;
-    }
-    .player-alignment {
-      width: 55vw !important;
-      height: 28vh !important;
-    }
-    .yt-container h1 {
-      font-size: 30px;
-      padding: 0 30px;
-      text-align: center !important;
-    }
+@media (min-width: 376px) and (max-width: 424px) {
+  .yt-container {
+    height: 120vh !important;
+    width: 100%;
   }
-  @media (min-width: 521px) and (max-width:799px){
-    .yt-container {
-      height: 200vh !important;
-      width:100%;
-    }
-    .yt-align-videos {
-      flex-direction: column;
-      gap: 20px 0 !important;
-      margin-left: 22vw;
-    }
-    .player-alignment {
-      width: 55vw !important;
-      height: 45vh !important;
-    }
-    .yt-container h1 {
-      font-size: 30px;
-      padding: 0 30px;
-      text-align: center !important;
-    }
+  .yt-align-videos {
+    flex-direction: column;
+    gap: 20px 0 !important;
+    margin-left: 22vw;
   }
-  @media (min-width: 800px) and (max-width:1024px){
-    .yt-container {
-      height: 80vh !important;
-      width:100%;
-    }
-    .player-alignment {
-      width: 25vw !important;
-      height: 20vh !important;
-    }
-    .yt-container h1 {
-      font-size: 30px;
-      padding: 0 30px;
-      text-align: center !important;
-    }
+  .player-alignment {
+    width: 55vw !important;
+    height: 28vh !important;
   }
+  .yt-container h1 {
+    font-size: 30px;
+    padding: 0 30px;
+    text-align: center !important;
+  }
+}
+@media (min-width: 425px) and (max-width: 520px) {
+  .yt-container {
+    height: 120vh !important;
+    width: 100%;
+  }
+  .yt-align-videos {
+    flex-direction: column;
+    gap: 20px 0 !important;
+    margin-left: 22vw;
+  }
+  .player-alignment {
+    width: 55vw !important;
+    height: 24vh !important;
+  }
+  .yt-container h1 {
+    font-size: 30px;
+    padding: 0 30px;
+    text-align: center !important;
+  }
+}
+@media (min-width: 521px) and (max-width: 779px) {
+  .yt-container {
+    height: 150vh !important;
+    width: 100%;
+  }
+  .yt-align-videos {
+    flex-direction: column;
+    gap: 20px 0 !important;
+    margin-left: 22vw;
+  }
+  .player-alignment {
+    width: 55vw !important;
+    height: 32vh !important;
+  }
+  .yt-container h1 {
+    font-size: 30px;
+    padding: 0 30px !important;
+    text-align: center !important;
+  }
+}
+@media (min-width: 800px) and (max-width: 1024px) {
+  .yt-container {
+    height: 70vh !important;
+    width: 100%;
+  }
+  .player-alignment {
+    width: 25vw !important;
+    height: 20vh !important;
+  }
+  .yt-container h1 {
+    font-size: 30px;
+    padding: 0 30px;
+    text-align: center !important;
+  }
+}

@@ -10,13 +10,13 @@
 }
 @media (max-width: 375px) {
   .BlogCard {
-    width: 70vw !important;
+    width: 78vw !important;
     height: 80vh !important;
   }
 }
 @media (min-width: 376px) and (max-width: 760px) {
   .BlogCard {
-    width: 55vw !important;
+    width: 70vw !important;
     height: 85vh !important;
   }
 }

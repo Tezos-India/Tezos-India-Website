@@ -22,9 +22,15 @@
     height: 5vh !important;
   }
 }
-@media (min-width: 761px) and (max-width: 1024px) {
+@media (min-width: 761px) and (max-width: 900px) {
   .faqCardContainer {
     width: 40vw !important;
     height: 10vh !important;
+  }
+}
+@media (min-width: 910px) and (max-width: 1024px) {
+  .faqCardContainer {
+    width: 40vw !important;
+    height: 5vh !important;
   }
 }

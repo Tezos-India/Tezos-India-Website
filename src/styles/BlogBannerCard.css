@@ -11,9 +11,15 @@
     height: 30vw !important;
   }
 }
-@media (min-width: 412px) and (max-width: 950px) {
+@media (min-width: 412px) and (max-width: 799px) {
   .BlogBannerCard {
-    background-size: 80vw !important;
-    height: 16.5vh !important;
+    height: 18vw !important;
+    background-size: 110vw !important;
+  }
+}
+@media (min-width: 800px) and (max-width: 1024px) {
+  .BlogBannerCard {
+    background-size: 110vw !important;
+    height: 20vh !important;
   }
 }
