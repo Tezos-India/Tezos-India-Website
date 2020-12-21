@@ -83,6 +83,7 @@
 }
 .dark-activityBtn:hover {
   background-color: #2974ff !important;
+  border: 3px solid #2974ff!important;
 }
 @media (min-width: 320px) and (max-width: 360px) {
   .align-card {
