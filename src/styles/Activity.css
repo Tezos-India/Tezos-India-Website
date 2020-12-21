@@ -67,7 +67,7 @@
   margin-left: -1vw !important;
   height: 50px !important;
   width: 160px !important;
-  border: 4px solid white !important;
+  border: 3px solid white !important;
   border-radius: 10px !important;
   text-transform: inherit !important;
   font-weight: bold !important;
@@ -78,12 +78,14 @@
   border: none !important;
 }
 .activityBtn:hover{
-  background-color: #52009e !important;
-  border: 3px solid #52009e!important;
+  background-color: #ffffff !important;
+  border: 3px solid #ffffff!important;
+  color:#377dff !important;
 }
 .dark-activityBtn:hover {
-  background-color: #2974ff !important;
-  border: 3px solid #2974ff!important;
+  background-color: #ffffff !important;
+  border: 3px solid #ffffff!important;
+  color:#1d1f28 !important;
 }
 @media (min-width: 320px) and (max-width: 360px) {
   .align-card {
