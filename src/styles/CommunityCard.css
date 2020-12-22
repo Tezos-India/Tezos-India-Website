@@ -5,6 +5,7 @@
   border-radius: 10px !important;
   color: var(--tezos-white);
   padding: 10px !important;
+  box-shadow: none !important;
 }
 .dark-communityCardContainer {
   background-color: #2a2c34 !important;

@@ -4,6 +4,7 @@
   border-radius: 10px !important;
   width: 22vw !important;
   height: 85vh !important;
+  box-shadow: none !important;
 }
 .dark-BlogCard {
   background-color: #2a2c34 !important;
