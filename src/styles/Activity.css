@@ -26,7 +26,8 @@
   margin-top: 20px;
 }
 .activity-img {
-  width: 5vw;
+  width: 4vw;
+  object-fit: cover !important;
 }
 .activity-title {
   font-size: 20px;
@@ -43,7 +44,7 @@
   color: var(--tezos-text);
 }
 .align-div-text {
-  margin: 40vh 8vw 0 -5vw !important;
+  margin: 35vh 8vw 0 -5vw !important;
 }
 .alignHeadings {
   color: var(--tezos-white);
