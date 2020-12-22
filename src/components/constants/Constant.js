@@ -13,6 +13,7 @@ import sneha from "../../assets/sneha.jpg";
 import like from "../../assets/like.png";
 import sample from "../../assets/example.jpg";
 import arrow from "../../assets/next.svg";
+import dribbble from "../../assets/Dribbble.svg";
 
 const activity = {
   activityCard: [
@@ -84,9 +85,17 @@ const team = {
       name: "Om Malviya",
       designation: "Director",
       image: om,
-      linkedin:" https://www.linkedin.com/in/om-malviya-821052119/",
-      twitter:"https://twitter.com/MalviyaOp",
-      telegram:"https://t.me/malviyaop",
+      linkedin: " https://www.linkedin.com/in/om-malviya-821052119/",
+      twitter: "https://twitter.com/MalviyaOp",
+      telegram: "https://t.me/malviyaop",
+    },
+    {
+      name: "Jignesh Vasoya",
+      designation: "Lead Developer & Solutions Architect",
+      image: jignesh,
+      linkedin: "https://www.linkedin.com/in/jigneshvasoya/",
+      twitter: "https://twitter.com/rakhduJeeV",
+      telegram: "https://t.me/jigneshvasoya",
     },
     {
       name: "Sandeep Sangli",
@@ -95,6 +104,25 @@ const team = {
       linkedin: "https://www.linkedin.com/in/sandeepsangli/",
       twitter: "https://twitter.com/sandeepsangli",
       telegram: "https://t.me/sandeepsangli",
+    },
+  ],
+
+  teamamtesRowTwo: [
+    {
+      name: "Mudit Marda",
+      designation: "Blockchain Technology Analyst",
+      image: mudit,
+      linkedin: "https://www.linkedin.com/in/muditmarda/",
+      twitter: "https://twitter.com/mudit_marda",
+      telegram: "https://t.me/mudit_m",
+    },
+    {
+      name: "Akhil Bharati",
+      designation: "Senior Software Engineer",
+      image: akhil,
+      linkedin: "https://www.linkedin.com/in/akhil-bharti-17161272/ ",
+      twitter: "https://twitter.com/ItsJustAkhil",
+      telegram: "https://t.me/akhilbharti",
     },
     {
       name: "Sneha Biradar",
@@ -105,41 +133,18 @@ const team = {
       telegram: "https://t.me/Snehabiradar",
     },
   ],
-
-  teamamtesRowTwo: [
-    {
-      name: "Jignesh Vasoya",
-      designation: "Lead Developer & Solutions Architect",
-      image: jignesh,
-      linkedin:"https://www.linkedin.com/in/jigneshvasoya/",
-      twitter:"https://twitter.com/rakhduJeeV",
-      telegram:"https://t.me/jigneshvasoya",
-    },
-    {
-      name: "Mudit Marda",
-      designation: "Blockchain Technology Analyst",
-      image: mudit,
-      linkedin:"https://www.linkedin.com/in/muditmarda/",
-      twitter:"https://twitter.com/mudit_marda",
-      telegram:"https://t.me/mudit_m",
-    },
-    {
-      name: "Akhil Bharati",
-      designation: "Senior Software Engineer",
-      image: akhil,
-      linkedin:"https://www.linkedin.com/in/akhil-bharti-17161272/ ",
-      twitter:"https://twitter.com/ItsJustAkhil",
-      telegram:"https://t.me/akhilbharti"
-    },
+  sanket: [
     {
       name: "Sanket Pal",
       designation: "UI/UX Desginer",
       image: sanket,
-      linkedin:"https://www.linkedin.com/in/sanketpal/",
-      twitter:"https://twitter.com/sanket1994pal",
-      telegram:"https://t.me/UX_Sanket"
+      linkedin: "https://www.linkedin.com/in/sanketpal/",
+      twitter: "https://twitter.com/sanket1994pal",
+      telegram: "https://t.me/UX_Sanket",
+      dribbbleLink:"https://dribbble.com/sanketpal",
+      dribbble:dribbble,
     },
-  ],
+  ]
 };
 const faq = {
   faqRowOne: [

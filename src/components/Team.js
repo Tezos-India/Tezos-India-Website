@@ -7,6 +7,7 @@ import StyleContext from "../contexts/StyleContext";
 import linkedin from "../assets/Linkedin.svg";
 import twitter from "../assets/Twitter.svg";
 import telegram from "../assets/telegram.svg";
+import dribbble from "../assets/Dribbble.svg";
 
 export default function Team() {
   const { isDark } = useContext(StyleContext);
@@ -27,7 +28,7 @@ export default function Team() {
                 <p className="team-header">{member.name}</p>
                 <p className="team-designation">{member.designation}</p>
                 <div className="teamSocial">
-                <a href={member.linkedin} target="_blank" rel="noreferrer">
+                  <a href={member.linkedin} target="_blank" rel="noreferrer">
                     <img src={linkedin} alt="" />
                   </a>
                   <a href={member.twitter} target="_blank" rel="noreferrer">
@@ -49,7 +50,7 @@ export default function Team() {
                 <p className="team-header">{member.name}</p>
                 <p className="team-designation">{member.designation}</p>
                 <div className="teamSocial">
-                <a href={member.linkedin} target="_blank" rel="noreferrer">
+                  <a href={member.linkedin} target="_blank" rel="noreferrer">
                     <img src={linkedin} alt="" />
                   </a>
                   <a href={member.twitter} target="_blank" rel="noreferrer">
@@ -59,6 +60,24 @@ export default function Team() {
                     <img src={telegram} alt="" />
                   </a>
                 </div>
+              </div>
+            </Card>
+          ))}
+          {team.sanket.map((member) => (
+            <Card>
+              <img src={member.image} alt="" className="team-memberImg" />
+              <p className="team-header">{member.name}</p>
+              <p className="team-designation">{member.designation}</p>
+              <div className="teamSocial">
+                <a href={member.linkedin} target="_blank" rel="noreferrer">
+                  <img src={linkedin} alt="" />
+                </a>
+                <a href={member.dribbbleLink} target="_blank" rel="noreferrer">
+                  <img src={member.dribbble} alt="" />
+                </a>
+                <a href={member.telegram} target="_blank" rel="noreferrer">
+                  <img src={telegram} alt="" />
+                </a>
               </div>
             </Card>
           ))}
