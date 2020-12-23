@@ -41,11 +41,11 @@
 }
 @media (min-width:320px) and (max-width:345px){
   .container{
-    height: 30vh !important;
+    height: 25vh !important;
   }
   .line{
     margin-left: -8vw !important;
-    padding-bottom: 38.5vh !important;
+    padding-bottom: 30.5vh !important;
     width: 70vw;
   }
   .partnerTitle{
@@ -53,7 +53,7 @@
   }
   .partnerLogo{
     margin-top: 2vh !important;
-    margin-left: -60vw !important;
+    margin-left: -65vw !important;
     width: 90vw !important;
   }
 }

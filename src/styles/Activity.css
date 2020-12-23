@@ -77,15 +77,15 @@
   background-color: #377dff !important;
   border: none !important;
 }
-.activityBtn:hover{
+.activityBtn:hover {
   background-color: #ffffff !important;
-  border: 3px solid #ffffff!important;
-  color:#377dff !important;
+  border: 3px solid #ffffff !important;
+  color: #377dff !important;
 }
 .dark-activityBtn:hover {
   background-color: #ffffff !important;
-  border: 3px solid #ffffff!important;
-  color:#1d1f28 !important;
+  border: 3px solid #ffffff !important;
+  color: #1d1f28 !important;
 }
 @media (min-width: 320px) and (max-width: 360px) {
   .align-card {
@@ -96,7 +96,7 @@
   }
   .container-div {
     flex-direction: column;
-    height: 350vh !important;
+    height: 340vh !important;
   }
   .activity-img {
     width: 20vw;
@@ -113,13 +113,12 @@
   .activityBtn {
     margin-left: 18vw !important;
   }
-  .activity-title{
+  .activity-title {
     font-size: 14px !important;
   }
-  .activity-subTitle{
+  .activity-subTitle {
     font-size: 12px !important;
   }
-
 }
 @media (min-width: 375px) and (max-width: 411px) {
   .align-card {
@@ -130,7 +129,7 @@
   }
   .container-div {
     flex-direction: column;
-    height: 380vh !important;
+    height: 330vh !important;
   }
   .activity-img {
     width: 22vw;
@@ -147,17 +146,17 @@
   .activityBtn {
     margin-left: 18vw !important;
   }
-  .card-div{
+  .card-div {
     margin-left: 5vw !important;
   }
-  .activity-title{
+  .activity-title {
     font-size: 16px !important;
   }
-  .activity-subTitle{
+  .activity-subTitle {
     font-size: 12px !important;
   }
 }
-@media (min-width: 412px) and (max-width: 768px) {
+@media (min-width: 412px) and (max-width: 767px) {
   .align-card {
     flex-direction: column;
   }
@@ -166,10 +165,10 @@
   }
   .container-div {
     flex-direction: column;
-    height: 400vh !important;
+    height: 330vh !important;
   }
   .activity-img {
-    width: 15vw;
+    width: 8vw;
   }
   .alignHeadings {
     margin: -50vh -1vw 0 20vw;
@@ -186,13 +185,52 @@
   .card-content {
     margin: 40px 10px 0 20px;
   }
-  .card-div{
+  .card-div {
     margin-left: 5vw !important;
   }
-  .activity-title{
+  .activity-title {
     font-size: 18px !important;
   }
-  .activity-subTitle{
+  .activity-subTitle {
+    font-size: 14px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 799px) {
+  .align-card {
+    flex-direction: column;
+  }
+  .align-card-two {
+    flex-direction: column;
+  }
+  .container-div {
+    flex-direction: column;
+    height: 300vh !important;
+  }
+  .activity-img {
+    width: 8vw;
+  }
+  .alignHeadings {
+    margin: -50vh -1vw 0 20vw;
+    font-size: 30px;
+  }
+  .subHeading {
+    margin: 2vh 0 0 20vw;
+    line-height: 1.5;
+    font-size: 16px;
+  }
+  .activityBtn {
+    margin-left: 20vw !important;
+  }
+  .card-content {
+    margin: 40px 10px 0 20px;
+  }
+  .card-div {
+    margin-left: 5vw !important;
+  }
+  .activity-title {
+    font-size: 18px !important;
+  }
+  .activity-subTitle {
     font-size: 14px !important;
   }
 }
@@ -223,13 +261,13 @@
   .activity-img {
     width: 10vw;
   }
-  .card-div{
+  .card-div {
     margin-left: 5vw !important;
   }
-  .activity-title{
+  .activity-title {
     font-size: 18px !important;
   }
-  .activity-subTitle{
+  .activity-subTitle {
     font-size: 14px !important;
   }
 }
