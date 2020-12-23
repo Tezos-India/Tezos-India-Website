@@ -1,3 +1,6 @@
+*{
+  font-family: 'Poppins',sans-serif;
+}
 :root {
   --tezos-black: #1a1818;
   --tezos-white: #ffffff;

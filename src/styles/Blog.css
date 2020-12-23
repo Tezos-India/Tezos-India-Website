@@ -1,7 +1,6 @@
 .blog-container {
   background-color: #4a62ff !important;
   height: 180vh;
-  font-family: "Inter", sans-serif !important;
   padding: 0 !important;
 }
 .dark-blog-container {
@@ -10,7 +9,6 @@
 .blog-div-title h1 {
   padding-top: 15vh;
   text-align: center;
-  font-family: "Poppins", sans-serif;
   color: white;
   font-size: 45px;
 }

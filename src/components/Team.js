@@ -7,7 +7,6 @@ import StyleContext from "../contexts/StyleContext";
 import linkedin from "../assets/Linkedin.svg";
 import twitter from "../assets/Twitter.svg";
 import telegram from "../assets/telegram.svg";
-import dribbble from "../assets/Dribbble.svg";
 
 export default function Team() {
   const { isDark } = useContext(StyleContext);
