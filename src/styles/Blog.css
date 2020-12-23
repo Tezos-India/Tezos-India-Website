@@ -170,7 +170,8 @@
     font-size: 12px !important;
   }
   .align-card-header-img img {
-    width: 75vw !important;
+    width: 85vw !important;
+    object-fit: cover !important;
   }
   .blog-title {
     margin-top: 10px !important;
@@ -185,7 +186,7 @@
   }
   .blog-next img {
     width: 5vw !important;
-    margin: 10px 0 0 5px !important;
+    margin: 5px 0 0 5px !important;
   }
   .blog-next p {
     font-size: 12px !important;
@@ -202,8 +203,13 @@
     width: 30vw !important;
     box-shadow: none !important;
   }
-  .blog-podcast{
+  .blog-podcast {
     margin-left: 35px !important;
+  }
+}
+@media (min-width: 375px) and (max-width: 400px) {
+  .blog-container{
+    height: 300vh !important;
   }
 }
 @media (min-width: 376px) and (max-width: 515px) {
@@ -212,7 +218,7 @@
     padding: 5vh 20vw 0 20vw !important;
   }
   .blog-container {
-    height: 350vh !important;
+    height: 300vh !important;
   }
   .align-blog-horizontal-cards {
     flex-direction: column;
@@ -241,6 +247,7 @@
   }
   .align-card-header-img img {
     width: 75vw !important;
+    object-fit: cover !important;
   }
   .blog-title {
     margin-top: 10px !important;
@@ -271,7 +278,7 @@
     margin-left: 0 !important;
     font-size: 8px !important;
     box-shadow: none !important;
-    width:20vw !important;
+    width: 20vw !important;
   }
 }
 @media (min-width: 516px) and (max-width: 760px) {
@@ -402,7 +409,7 @@
     margin-left: 16vw !important;
     font-size: 8px !important;
     box-shadow: none !important;
-    width:15vw !important;
+    width: 15vw !important;
   }
 }
 @media (min-width: 801px) and (max-width: 950px) {
@@ -529,6 +536,6 @@
     margin-left: 12vw !important;
     font-size: 14px !important;
     box-shadow: none !important;
-    width:20vw !important;
+    width: 20vw !important;
   }
 }

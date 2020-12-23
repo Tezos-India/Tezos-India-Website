@@ -129,10 +129,10 @@
   }
   .container-div {
     flex-direction: column;
-    height: 330vh !important;
+    height: 270vh !important;
   }
   .activity-img {
-    width: 22vw;
+    width: 18vw;
   }
   .alignHeadings {
     margin: -50vh -1vw 0 18vw;
@@ -154,6 +154,11 @@
   }
   .activity-subTitle {
     font-size: 12px !important;
+  }
+}
+@media (min-width: 411px) and (max-width: 420px) {
+  .container-div{
+    height: 230vh !important;
   }
 }
 @media (min-width: 412px) and (max-width: 767px) {

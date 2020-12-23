@@ -16,9 +16,15 @@
     width: 70vw !important;
   }
 }
-@media (min-width: 375px) and (max-width: 411px) {
+@media (min-width: 375px) and (max-width: 390px) {
   .cardContainer {
-    height: 50vh !important;
+    height: 40vh !important;
+    width: 60vw !important;
+  }
+}
+@media (min-width: 391px) and (max-width: 411px) {
+  .cardContainer {
+    height: 35vh !important;
     width: 60vw !important;
   }
 }

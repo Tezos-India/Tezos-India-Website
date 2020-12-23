@@ -66,17 +66,17 @@
 }
 @media (min-width: 376px) and (max-width: 424px) {
   .yt-container {
-    height: 120vh !important;
+    height: 100vh !important;
     width: 100%;
   }
   .yt-align-videos {
     flex-direction: column;
     gap: 20px 0 !important;
-    margin-left: 22vw;
+    margin-left: 18vw;
   }
   .player-alignment {
-    width: 55vw !important;
-    height: 28vh !important;
+    width: 65vw !important;
+    height: 18vh !important;
   }
   .yt-container h1 {
     font-size: 30px;

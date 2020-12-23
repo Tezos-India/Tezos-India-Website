@@ -76,18 +76,18 @@
 }
 @media (min-width:376px) and (max-width:520px){
   .container{
-    height: 30vh !important;
+    height: 20vh !important;
   }
   .line{
     margin-left: 5vw !important;
-    padding-bottom: 35vh !important;
+    padding-bottom: 25vh !important;
   }
   .partnerTitle{
     margin-left: 5vw !important;
   }
   .partnerLogo{
     margin-top: 2vh !important;
-    margin-left: -46vw !important;
+    margin-left: -50vw !important;
     width: 90vw !important;
   }
 }

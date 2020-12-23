@@ -122,6 +122,9 @@
   .com-info {
     padding: 0 25px !important;
   }
+  .community-background{
+    height: 130vh !important;
+  }
 }
 @media (min-width: 376px) and (max-width: 768px) {
   .carousel-control img {
@@ -195,5 +198,10 @@
   }
   .community-background {
     height: 130vh !important;
+  }
+}
+@media (min-width:400px) and (max-width:411px){
+  .community-background{
+    height: 120vh !important;
   }
 }

@@ -102,27 +102,32 @@
 }
 @media (min-width: 361px) and (max-width: 455px) {
   .team-container {
-    height: 430vh !important;
+    height: 330vh !important;
   }
   .team-align--horizontal {
     flex-direction: column !important;
     margin-top: -8vh !important;
   }
   .team-memberImg {
-    width: 25vw !important;
-    height: 18vh !important;
+    width: 28vw !important;
+    height: 13vh !important;
   }
   .team-header,
   .team-designation,
   .teamSocial {
-    margin-left: -70px !important;
+    margin-left: -30px !important;
   }
   .team-align-cards {
     margin-left: 25vw !important;
   }
   .teamMore-btn {
-    margin-left: 18vw !important;
+    margin-left: 20vw !important;
     width: 60vw !important;
+  }
+}
+@media (min-width: 400px) and (max-width: 411px) {
+  .team-container {
+    height: 330vh !important;
   }
 }
 @media (min-width: 456px) and (max-width: 700px) {

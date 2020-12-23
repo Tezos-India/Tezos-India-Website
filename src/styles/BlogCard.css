@@ -12,13 +12,13 @@
 @media (max-width: 375px) {
   .BlogCard {
     width: 78vw !important;
-    height: 80vh !important;
+    height: 70vh !important;
   }
 }
 @media (min-width: 376px) and (max-width: 760px) {
   .BlogCard {
     width: 70vw !important;
-    height: 85vh !important;
+    height: 70vh !important;
   }
 }
 @media (min-width: 761px) and (max-width: 800px) {

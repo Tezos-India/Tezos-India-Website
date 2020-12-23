@@ -88,27 +88,27 @@
 }
 @media (min-width: 375px) and (max-width: 760px) {
   .footer-container {
-    height: 50vh;
+    height: 60vh !important;
   }
   .footer-menu {
-    padding: 0 5px;
+    padding: 0 5px !important;
   }
   .footer-menu li a {
-    padding: 5px 20px;
+    padding: 5px 20px !important;
     font-size: 10px !important;
   }
   .footer-copyright {
-    padding: 0 20px;
+    padding: 0 20px !important;
   }
   .footer-social-links img {
-    padding: 0 25px;
+    padding: 0 25px !important;
     width: 3vw !important;
   }
   .footer-copyright p{
     font-size: 10px !important;
   }
   .footer-social-links {
-    padding: 0 10vw;
+    padding: 0 10vw !important;
     margin-top: 5vh !important;
   }
   .footer-logo img{
