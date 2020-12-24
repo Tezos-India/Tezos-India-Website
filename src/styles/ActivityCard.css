@@ -30,13 +30,13 @@
 }
 @media (min-width: 412px) and (max-width: 768px) {
   .cardContainer {
-    height: 50vh !important;
+    height: 30vh !important;
     width: 60vw !important;
   }
 }
 @media (min-width: 800px) and (max-width: 1024px) {
   .cardContainer {
-    height: 40vh !important;
+    height: 25vh !important;
     width: 40vw !important;
   }
 }

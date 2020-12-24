@@ -67,7 +67,7 @@
 }
 @media (min-width: 320px) and (max-width: 360px) {
   .infraContainer {
-    height: 320vh !important;
+    height: 300vh !important;
     background-size: 180vw !important;
   }
   .grid-div {
@@ -156,70 +156,67 @@
 }
 @media (min-width: 521px) and (max-width: 769px) {
   .infraContainer {
-    height: 300vh !important;
+    height: 170vh !important;
     background-size: 180vw !important;
   }
   .grid-div {
     margin: 0;
   }
   .infra-heading {
-    margin: 130vh -80vw 0 2vw !important;
+    margin: 72vh -80vw 0 2vw !important;
     display: block;
     font-size: 25px !important;
   }
   .infra-logo {
-    margin: 129vh 0 0 10vw !important;
+    margin: 70vh 0 0 10vw !important;
   }
   .align-infra-logo {
     width: 8vw !important;
   }
   .infra-subHeading {
-    margin: 10vh -80vw 0 10vw !important;
+    margin: 5vh -80vw 0 10vw !important;
   }
   .infra-paraText {
-    margin: 10vh -80vw 0 10vw !important;
+    margin: 5vh -80vw 0 10vw !important;
   }
 }
 @media (min-width: 770px) and (max-width: 1024px) {
   .infraContainer {
-    height: 300vh !important;
+    height: 150vh !important;
     background-size: 180vw !important;
   }
   .grid-div {
     margin: 0;
   }
   .infra-heading {
-    margin: 150vh -80vw 0 4vw !important;
+    margin: 78vh -80vw 0 4vw !important;
     display: block;
-    font-size: 50px;
+    font-size: 30px;
   }
   .infra-logo {
-    margin: 148vh 0 0 5vw !important;
+    margin: 75vh 0 0 5vw !important;
   }
   .align-infra-logo {
     width: 8vw !important;
   }
   .infra-subHeading {
-    margin: 10vh -50vw 0 10vw !important;
-    font-size: 30px;
+    margin: 5vh -50vw 0 10vw !important;
+    font-size: 20px !important;
     line-height: 1.5;
   }
   .infra-paraText {
     margin: 5vh -50vw 0 10vw !important;
     line-height: 1.5;
-    font-size: 30px;
+    font-size: 20px;
   }
   .infra-paraHeading {
-    font-size: 40px;
+    font-size: 25px;
     margin-top: 2vh !important;
   }
   .vector {
     margin-left: 80vw;
   }
-  .infra-subHeading {
-    font-size: 20px !important;
-  }
   .infra-paraSubHeading {
-    margin-top: -2vh !important;
+    margin-top: 1vh !important;
   }
 }

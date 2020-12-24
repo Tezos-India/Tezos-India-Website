@@ -76,7 +76,7 @@
 }
 @media (min-width: 320px) and (max-width: 360px) {
   .team-container {
-    height: 400vh !important;
+    height: 380vh !important;
   }
   .team-align--horizontal {
     flex-direction: column !important;
@@ -85,24 +85,25 @@
   .team-memberImg {
     width: 25vw !important;
     height: 15vh !important;
+    margin-left: 40px !important;
   }
   .team-header,
   .team-designation,
   .teamSocial {
-    margin-left: -70px !important;
+    margin-left: -10px !important;
   }
   .team-align-cards {
-    margin-left: 25vw !important;
+    margin-left: 22vw !important;
   }
   .teamMore-btn {
-    margin-left: 18vw !important;
+    margin-left: 20vw !important;
     width: 60vw !important;
     font-size: 12px !important;
   }
 }
 @media (min-width: 361px) and (max-width: 455px) {
   .team-container {
-    height: 330vh !important;
+    height: 375vh !important;
   }
   .team-align--horizontal {
     flex-direction: column !important;
@@ -127,7 +128,7 @@
 }
 @media (min-width: 400px) and (max-width: 411px) {
   .team-container {
-    height: 330vh !important;
+    height: 360vh !important;
   }
 }
 @media (min-width: 456px) and (max-width: 700px) {
@@ -160,31 +161,32 @@
 }
 @media (min-width: 701px) and (max-width: 920px) {
   .team-container {
-    height: 160vh !important;
+    height: 100vh !important;
   }
   .team-align-cards {
-    margin-left: 5vw !important;
+    margin-left: -1vw !important;
   }
   .team-header {
     font-size: 14px !important;
-    margin-left: -20px !important;
+    margin-left: 10px !important;
   }
   .team-designation {
     font-size: 12px !important;
-    margin-left: -20px !important;
+    margin-left:10px !important;
   }
   .team-memberImg {
     margin-left: 25px !important;
-    height: 15vh !important;
+    height: 10vh !important;
+    width: 12vw !important;
   }
   .teamSocial img {
     width: 2vw !important;
   }
   .teamSocial {
-    margin-left: -20px !important;
+    margin-left: 10px !important;
   }
   .team-align--horizontal {
-    margin-bottom: -20vh !important;
+    margin-bottom: -10vh !important;
   }
   .teamMore-btn {
     margin-top: 5vh !important;
@@ -195,7 +197,7 @@
 }
 @media (min-width: 921px) and (max-width: 1024px) {
   .team-container {
-    height: 120vh !important;
+    height: 100vh !important;
   }
   .team-align-cards {
     margin-left: 5vw !important;
@@ -210,7 +212,8 @@
   }
   .team-memberImg {
     margin-left: 25px !important;
-    height: 15vh !important;
+    height: 10vh !important;
+    width: 12vw !important;
   }
   .teamSocial img {
     width: 2vw !important;
@@ -219,12 +222,17 @@
     margin-left: -20px !important;
   }
   .team-align--horizontal {
-    margin-bottom: -20vh !important;
+    margin-bottom: -5vh !important;
   }
   .teamMore-btn {
     margin-top: 10vh !important;
     margin-left: 32vw !important;
     width: 40vw !important;
     font-size: 12px !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 359px) {
+  .team-container{
+    height: 430vh !important;
   }
 }

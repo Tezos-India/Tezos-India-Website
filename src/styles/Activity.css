@@ -209,7 +209,7 @@
   }
   .container-div {
     flex-direction: column;
-    height: 300vh !important;
+    height: 200vh !important;
   }
   .activity-img {
     width: 8vw;
@@ -242,23 +242,23 @@
 @media (min-width: 800px) and (max-width: 1024px) {
   .container-div {
     flex-direction: column;
-    height: 180vh !important;
+    height: 110vh !important;
   }
   .alignHeadings {
     margin: -50vh -1vw 0 22vw;
-    font-size: 40px;
+    font-size: 30px;
   }
   .subHeading {
     margin: 2vh 0 0 22vw;
     line-height: 1.6;
-    font-size: 24px;
+    font-size: 18px;
   }
   .activityBtn {
     margin-left: 22vw !important;
     margin-top: 40px !important;
-    height: 8vh !important;
-    width: 18vw !important;
-    font-size: 18px !important;
+    height: 4vh !important;
+    width: 15vw !important;
+    font-size: 14px !important;
   }
   .activity-subTitle {
     font-size: 25px;

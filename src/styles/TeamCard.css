@@ -10,7 +10,7 @@
 }
 @media (min-width: 320px) and (max-width: 360px) {
   .teamCardContainer {
-    height: 208px !important;
+    height: 240px !important;
   }
 }
 @media (min-width: 375px) and (max-width: 454px) {

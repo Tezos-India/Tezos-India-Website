@@ -131,12 +131,12 @@
     margin: -1vh 0 0 30vw !important;
   }
   .align-intro-btn {
-    margin: 10vh 0 0 -2vw !important;
+    margin: 5vh 0 0 10vw !important;
   }
 }
-@media (max-width: 1024px) {
+@media (min-width: 1001px) and (max-width: 1024px) {
   .introBtn {
-    margin: -10vh 0 0 40vw !important;
+    margin: -5vh 0 0 40vw !important;
   }
   .tezos-logo {
     width: 3.5vw;

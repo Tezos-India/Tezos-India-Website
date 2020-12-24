@@ -33,14 +33,14 @@ export class Main extends Component {
           value={{ isDark: this.state.isDark, changeTheme: this.changeTheme }}
         >
           <Hero />
-          <Partners />
+          {/* <Partners /> */}
           <Activity />
           <Infra />
           <Community />
           <YtVideos />
           <Team />
-          <Blog />
-          <FAQ />
+          {/* <Blog />
+          <FAQ /> */}
           <Footer />
         </StyleProvider>
       </div>

@@ -131,7 +131,7 @@
     width: 45px !important;
   }
   .community-background {
-    height: 150vh !important;
+    height: 100vh !important;
   }
   .carousel-control {
     margin-left: 40vw !important;
@@ -197,7 +197,7 @@
     margin-left: 160px !important;
   }
   .community-background {
-    height: 130vh !important;
+    height: 90vh !important;
   }
 }
 @media (min-width:400px) and (max-width:411px){
