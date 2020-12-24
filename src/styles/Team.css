@@ -1,6 +1,6 @@
 .team-container {
   background-color: #2b48be;
-  height: 170vh;
+  height: 190vh;
   overflow-x: hidden !important;
 }
 .dark-team-container {
@@ -22,20 +22,26 @@
   filter: grayscale(100%);
   object-fit: cover !important;
 }
-.team-align--horizontal {
+.team-align-horizontal,.team-align-intern{
   display: flex;
   flex-direction: row;
   gap: 0 20px;
 }
+.team-align-intern{
+  display: flex;
+  flex-direction: row;
+  gap: 0 20px;
+  margin-left: 18vw !important;
+}
 .team-header {
   text-align: center;
-  font-size: 18px;
+  font-size: 15px;
   color: white;
   font-weight: bold;
 }
 .team-designation {
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
   color: white;
   margin-top: -10px;
 }
@@ -62,7 +68,7 @@
   height: 55px !important;
   font-size: var(--font-size-mod-medium) !important;
   border-radius: 10px !important;
-  margin: 4% 25% 0 34% !important;
+  margin: 2% 25% 0 34% !important;
 }
 .dark-teamMore-btn {
   color: var(--tezos-text) !important;
@@ -78,7 +84,7 @@
   .team-container {
     height: 380vh !important;
   }
-  .team-align--horizontal {
+  .team-align-horizontal,.team-align-intern{
     flex-direction: column !important;
     margin-top: -8vh !important;
   }
@@ -105,7 +111,7 @@
   .team-container {
     height: 375vh !important;
   }
-  .team-align--horizontal {
+  .team-align-horizontal,.team-align-intern {
     flex-direction: column !important;
     margin-top: -8vh !important;
   }
@@ -185,7 +191,7 @@
   .teamSocial {
     margin-left: 10px !important;
   }
-  .team-align--horizontal {
+  .team-align-horizontal,.team-align-intern {
     margin-bottom: -10vh !important;
   }
   .teamMore-btn {
@@ -221,7 +227,7 @@
   .teamSocial {
     margin-left: -20px !important;
   }
-  .team-align--horizontal {
+  .team-align-horizontal,.team-align-intern {
     margin-bottom: -5vh !important;
   }
   .teamMore-btn {

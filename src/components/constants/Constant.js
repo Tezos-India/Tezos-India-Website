@@ -10,6 +10,8 @@ import sandeep from "../../assets/sandeep.jpg";
 import akhil from "../../assets/akhil.jpg";
 import sanket from "../../assets/sanket.jpg";
 import sneha from "../../assets/sneha.jpg";
+import tejaaswini from "../../assets/tejaaswini.jpg";
+import soumya from "../../assets/soumya.jpeg";
 import like from "../../assets/like.png";
 import sample from "../../assets/example.jpg";
 import arrow from "../../assets/next.svg";
@@ -74,20 +76,20 @@ const carousel = {
 const team = {
   teammates: [
     {
-      name: "Bernd Oostrum",
-      designation: "Director",
-      image: bernd,
-      linkedin: "https://www.linkedin.com/in/bernd-oostrum/",
-      twitter: "https://twitter.com/bernd_oostrum",
-      telegram: "https://t.me/berndoostrum",
-    },
-    {
       name: "Om Malviya",
-      designation: "Director",
+      designation: "President",
       image: om,
       linkedin: " https://www.linkedin.com/in/om-malviya-821052119/",
       twitter: "https://twitter.com/MalviyaOp",
       telegram: "https://t.me/malviyaop",
+    },
+    {
+      name: "Bernd Oostrum",
+      designation: "Developer Evangelist",
+      image: bernd,
+      linkedin: "https://www.linkedin.com/in/bernd-oostrum/",
+      twitter: "https://twitter.com/bernd_oostrum",
+      telegram: "https://t.me/berndoostrum",
     },
     {
       name: "Jignesh Vasoya",
@@ -144,7 +146,25 @@ const team = {
       dribbbleLink:"https://dribbble.com/sanketpal",
       dribbble:dribbble,
     },
-  ]
+  ],
+  internsRow: [
+    {
+      name: "GD Soumya",
+      designation: "Blockchain Intern",
+      image: soumya,
+      linkedin: "https://www.linkedin.com/in/gdsoumya/",
+      twitter: "https://twitter.com/gdsoumya",
+      telegram: "https://t.me/gdsoumya",
+    },
+    {
+      name: "Tejaaswini Narendra",
+      designation: "Blockchain Intern",
+      image: tejaaswini,
+      linkedin: "https://www.linkedin.com/in/tejaaswini-narendra-012b93153/",
+      twitter: "https://twitter.com/tejnaren07",
+      telegram: "https://t.me/tej_naren",
+    },
+  ],
 };
 const faq = {
   faqRowOne: [
