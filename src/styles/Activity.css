@@ -129,7 +129,7 @@
   }
   .container-div {
     flex-direction: column;
-    height: 270vh !important;
+    height: 250vh !important;
   }
   .activity-img {
     width: 18vw;

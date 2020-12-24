@@ -208,7 +208,7 @@
   }
 }
 @media (min-width: 375px) and (max-width: 400px) {
-  .blog-container{
+  .blog-container {
     height: 300vh !important;
   }
 }

@@ -98,7 +98,7 @@
 }
 @media (min-width: 375px) and (max-width: 411px) {
   .infraContainer {
-    height: 280vh !important;
+    height: 250vh !important;
     background-size: 180vw !important;
   }
   .grid-div {

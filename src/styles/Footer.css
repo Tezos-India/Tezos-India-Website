@@ -88,7 +88,7 @@
 }
 @media (min-width: 375px) and (max-width: 760px) {
   .footer-container {
-    height: 60vh !important;
+    height: 50vh !important;
   }
   .footer-menu {
     padding: 0 5px !important;
