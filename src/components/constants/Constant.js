@@ -11,7 +11,7 @@ import akhil from "../../assets/akhil.jpg";
 import sanket from "../../assets/sanket.jpg";
 import sneha from "../../assets/sneha.jpg";
 import tejaaswini from "../../assets/tejaaswini.jpg";
-import soumya from "../../assets/soumya.jpeg";
+import soumya from "../../assets/soumya.jpg";
 import like from "../../assets/like.png";
 import sample from "../../assets/example.jpg";
 import arrow from "../../assets/next.svg";
