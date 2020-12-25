@@ -22,16 +22,17 @@
   filter: grayscale(100%);
   object-fit: cover !important;
 }
-.team-align-horizontal,.team-align-intern{
+.team-align-horizontal,
+.team-align-intern {
   display: flex;
   flex-direction: row;
   gap: 0 20px;
 }
-.team-align-intern{
+.team-align-intern {
   display: flex;
   flex-direction: row;
   gap: 0 20px;
-  margin-left: 18vw !important;
+  margin-left: 16vw !important;
 }
 .team-header {
   text-align: center;
@@ -85,11 +86,11 @@
     height: 420vh !important;
     padding-bottom: 10vh !important;
   }
-  .team-align-horizontal{
+  .team-align-horizontal {
     flex-direction: column !important;
     margin-top: -8vh !important;
   }
-  .team-align-intern{
+  .team-align-intern {
     flex-direction: column !important;
     margin-top: -8vh !important;
     margin-left: -1vw !important;
@@ -124,7 +125,8 @@
     height: 465vh !important;
     padding-bottom: 10vh !important;
   }
-  .team-align-horizontal,.team-align-intern {
+  .team-align-horizontal,
+  .team-align-intern {
     flex-direction: column !important;
     margin-top: -8vh !important;
   }
@@ -145,7 +147,7 @@
     width: 60vw !important;
     margin-top: -10vh !important;
   }
-  .team-align-intern{
+  .team-align-intern {
     flex-direction: column !important;
     margin-top: -8vh !important;
     margin-left: -1vw !important;
@@ -198,7 +200,7 @@
   }
   .team-designation {
     font-size: 12px !important;
-    margin-left:10px !important;
+    margin-left: 10px !important;
   }
   .team-memberImg {
     margin-left: 25px !important;
@@ -211,7 +213,8 @@
   .teamSocial {
     margin-left: 10px !important;
   }
-  .team-align-horizontal,.team-align-intern {
+  .team-align-horizontal,
+  .team-align-intern {
     margin-bottom: -10vh !important;
   }
   .teamMore-btn {
@@ -247,7 +250,8 @@
   .teamSocial {
     margin-left: -20px !important;
   }
-  .team-align-horizontal,.team-align-intern {
+  .team-align-horizontal,
+  .team-align-intern {
     margin-bottom: -5vh !important;
   }
   .teamMore-btn {
@@ -256,12 +260,12 @@
     width: 40vw !important;
     font-size: 12px !important;
   }
-  .team-align-intern{
+  .team-align-intern {
     margin-left: 22vw !important;
   }
 }
 @media (min-width: 320px) and (max-width: 359px) {
-  .team-container{
+  .team-container {
     height: 430vh !important;
   }
 }

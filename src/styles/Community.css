@@ -21,6 +21,8 @@
   border-radius: 10px;
   object-fit: cover;
   margin-top: 2vh !important;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 .align-com-card-content {
   display: flex;
@@ -123,7 +125,7 @@
   .com-info {
     padding: 0 25px !important;
   }
-  .community-background{
+  .community-background {
     height: 130vh !important;
   }
 }
@@ -201,8 +203,8 @@
     height: 90vh !important;
   }
 }
-@media (min-width:400px) and (max-width:411px){
-  .community-background{
+@media (min-width: 400px) and (max-width: 411px) {
+  .community-background {
     height: 120vh !important;
   }
 }

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Hidden from '@material-ui/core/Hidden'
 import "../styles/Community.css";
 import CommunityCard from "./constants/CommunityCard";
 import CommunityCarousel from "./constants/CommunityCarousel";
@@ -21,9 +22,11 @@ export class Community extends Component {
       array.push(
         <CommunityCard className="padding-com-carousel">
           <div className="align-com-card-content">
-            {/* <div className="align-com-img">
+            <Hidden mdDown>
+            <div className="align-com-img">
               <img src={membersDesc.image} alt="" className="com-img" />
-            </div> */}
+            </div>
+            </Hidden>
             <div className="align-com-card-desc">
               <p className="com-card-title">{membersDesc.name}</p>
               <p className="com-card-designation">{membersDesc.designation}</p>

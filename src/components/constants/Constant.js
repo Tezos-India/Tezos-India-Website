@@ -12,6 +12,9 @@ import sanket from "../../assets/sanket.jpg";
 import sneha from "../../assets/sneha.jpg";
 import tejaaswini from "../../assets/tejaaswini.jpg";
 import soumya from "../../assets/soumya.jpg";
+import madhav from "../../assets/madhav.jpg";
+import sahil from "../../assets/sahil.jpg";
+import shivam from "../../assets/shivam.jpg";
 import like from "../../assets/like.png";
 import sample from "../../assets/example.jpg";
 import arrow from "../../assets/next.svg";
@@ -53,23 +56,23 @@ const carousel = {
     {
       name: "Madhav Aggarwal",
       designation: "Tezos India fellowship, NIT college, Tiruchirappalli",
-      image: om,
+      image: madhav,
       testimonial:
         "Tezos India Fellowship was an amazing experience and one which gave me my breakthrough and much needed experience in the blockchain community. I learnt so much and  was able to meet people from around the Tezos community. All my mentors were great people and they constantly helped me in achieving my final end product. Tezos gives you a platform to showcase your skills and build for the Tezos Community.",
     },
     {
       name: "Sahil Singh",
       designation: "Attendee, Blockchain 101 workshop on Tezos.",
-      image: om,
+      image: sahil,
       testimonial:
         "The workshop organized by Tezos India Foundation was an amazing 2 days workshop based on Blockchain and Tezos fundamentals. Totally enjoyed and learned a lot in 2 days. Content was relevant and well presented.",
     },
     {
-      name: "Om Malviya",
-      designation: "Founder & CEO",
-      image: om,
+      name: "Shivam Agrawal",
+      designation: "Attendee, Blockchain 101 workshop on Tezos",
+      image: shivam,
       testimonial:
-        "Move Music app that changed my opinion about music! I would never have thought that you can import your music from another app!",
+        "I found the Blockchain 101 on Tezos workshop to be very informative. The workshop provided me with specific hands-on skills that help me in polishing my skills in Blockchain. The skills will be surely invaluable in my professional life. The presenter was very knowledgeable and provided a pace for questions about the Blockchain or Tezos.",
     },
   ],
 };

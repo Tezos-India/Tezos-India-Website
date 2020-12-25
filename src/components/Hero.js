@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import SnowStorm from 'react-snowstorm';
 import Button from "@material-ui/core/Button";
 import "../styles/Hero.css";
 import StyleContext from "../contexts/StyleContext";
@@ -10,6 +11,7 @@ export default function Hero() {
   return (
     <div>
       <div className={isDark ? "hero-main dark-hero-main" : "hero-main"}>
+      <SnowStorm freezeOnBlur={false} />
         <div>
           <Header />
         </div>
