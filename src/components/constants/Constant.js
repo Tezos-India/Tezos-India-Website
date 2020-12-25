@@ -55,13 +55,15 @@ const carousel = {
   members: [
     {
       name: "Madhav Aggarwal",
-      designation: "Tezos India fellowship, NIT college, Tiruchirappalli",
+      insti:"NIT,Tiruchirappalli",
+      designation: "Tezos India fellowship",
       image: madhav,
       testimonial:
         "Tezos India Fellowship was an amazing experience and one which gave me my breakthrough and much needed experience in the blockchain community. I learnt so much and  was able to meet people from around the Tezos community. All my mentors were great people and they constantly helped me in achieving my final end product. Tezos gives you a platform to showcase your skills and build for the Tezos Community.",
     },
     {
       name: "Sahil Singh",
+      insti:" Amity University, Noida",
       designation: "Attendee, Blockchain 101 workshop on Tezos.",
       image: sahil,
       testimonial:
@@ -69,6 +71,7 @@ const carousel = {
     },
     {
       name: "Shivam Agrawal",
+      insti:"IIIT, Gwalior",
       designation: "Attendee, Blockchain 101 workshop on Tezos",
       image: shivam,
       testimonial:

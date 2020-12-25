@@ -29,6 +29,7 @@ export class Community extends Component {
             </Hidden>
             <div className="align-com-card-desc">
               <p className="com-card-title">{membersDesc.name}</p>
+              <p className="com-card-designation">{membersDesc.insti}</p>
               <p className="com-card-designation">{membersDesc.designation}</p>
               <p className="com-card-testimonial">{membersDesc.testimonial}</p>
             </div>

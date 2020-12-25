@@ -32,6 +32,7 @@
   display: flex;
   flex-direction: column;
   padding: 1px 20px;
+  margin-top: -1vh !important;
 }
 .align-com-card-desc p {
   color: var(--tezos-white);
@@ -75,6 +76,9 @@
   font-size: 17px;
   margin-top: -20px;
   font-weight: bold;
+}
+.com-card-testimonial{
+  margin-top: 1vh !important;
 }
 @media (max-width: 375px) {
   .carousel-control img {
