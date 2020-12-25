@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import { StyleProvider } from "./contexts/StyleContext";
 import Hero from "./components/Hero";
-import Partners from "./components/Partners";
+// import Partners from "./components/Partners";
 import Activity from "./components/Activity";
 import Infra from "./components/Infra";
 import Footer from "./components/Footer";
 import Community from "./components/Community";
 import Team from "./components/Team";
-import Blog from "./components/Blog";
-import FAQ from "./components/FAQ";
+// import Blog from "./components/Blog";
+// import FAQ from "./components/FAQ";
 import YtVideos from "./components/YtVideos";
 
 export class Main extends Component {
