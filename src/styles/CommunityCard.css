@@ -1,6 +1,6 @@
 .communityCardContainer {
   background-color: #647afc !important;
-  height: 250px !important;
+  height: 280px !important;
   width: 700px !important;
   border-radius: 10px !important;
   color: var(--tezos-white);
@@ -13,13 +13,13 @@
 @media (max-width: 375px) {
   .communityCardContainer {
     width: 250px !important;
-    height: 150px !important;
+    height: 300px !important;
   }
 }
 @media (min-width: 376px) and (max-width: 475px) {
   .communityCardContainer {
     width: 380px !important;
-    height: 240px !important;
+    height: 380px !important;
   }
 }
 @media (min-width: 476px) and (max-width: 510px) {
@@ -31,6 +31,6 @@
 @media (min-width: 511px) and (max-width: 768px) {
   .communityCardContainer {
     width: 450px !important;
-    height: 240px !important;
+    height: 300px !important;
   }
 }

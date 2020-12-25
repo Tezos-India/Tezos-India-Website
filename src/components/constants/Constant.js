@@ -51,18 +51,18 @@ const activity = {
 const carousel = {
   members: [
     {
-      name: "Om Malviya",
-      designation: "Founder & CEO",
+      name: "Madhav Aggarwal",
+      designation: "Tezos India fellowship, NIT college, Tiruchirappalli",
       image: om,
       testimonial:
-        "Move Music app that changed my opinion about music! I would never have thought that you can import your music from another app!",
+        "Tezos India Fellowship was an amazing experience and one which gave me my breakthrough and much needed experience in the blockchain community. I learnt so much and  was able to meet people from around the Tezos community. All my mentors were great people and they constantly helped me in achieving my final end product. Tezos gives you a platform to showcase your skills and build for the Tezos Community.",
     },
     {
-      name: "Om Malviya",
-      designation: "Founder & CEO",
+      name: "Sahil Singh",
+      designation: "Attendee, Blockchain 101 workshop on Tezos.",
       image: om,
       testimonial:
-        "Move Music app that changed my opinion about music! I would never have thought that you can import your music from another app!",
+        "The workshop organized by Tezos India Foundation was an amazing 2 days workshop based on Blockchain and Tezos fundamentals. Totally enjoyed and learned a lot in 2 days. Content was relevant and well presented.",
     },
     {
       name: "Om Malviya",

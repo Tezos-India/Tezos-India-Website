@@ -68,7 +68,7 @@
   height: 55px !important;
   font-size: var(--font-size-mod-medium) !important;
   border-radius: 10px !important;
-  margin: 2% 25% 0 34% !important;
+  margin: 2% 25% 0 35% !important;
 }
 .dark-teamMore-btn {
   color: var(--tezos-text) !important;
@@ -82,11 +82,17 @@
 }
 @media (min-width: 320px) and (max-width: 360px) {
   .team-container {
-    height: 380vh !important;
+    height: 420vh !important;
+    padding-bottom: 10vh !important;
   }
-  .team-align-horizontal,.team-align-intern{
+  .team-align-horizontal{
     flex-direction: column !important;
     margin-top: -8vh !important;
+  }
+  .team-align-intern{
+    flex-direction: column !important;
+    margin-top: -8vh !important;
+    margin-left: -1vw !important;
   }
   .team-memberImg {
     width: 25vw !important;
@@ -105,11 +111,18 @@
     margin-left: 20vw !important;
     width: 60vw !important;
     font-size: 12px !important;
+    margin-top: -5vh !important;
+  }
+}
+@media (min-width: 310px) and (max-width: 320px) {
+  .team-container {
+    height: 480vh !important;
   }
 }
 @media (min-width: 361px) and (max-width: 455px) {
   .team-container {
-    height: 375vh !important;
+    height: 465vh !important;
+    padding-bottom: 10vh !important;
   }
   .team-align-horizontal,.team-align-intern {
     flex-direction: column !important;
@@ -117,7 +130,7 @@
   }
   .team-memberImg {
     width: 28vw !important;
-    height: 13vh !important;
+    height: 14vh !important;
   }
   .team-header,
   .team-designation,
@@ -130,11 +143,18 @@
   .teamMore-btn {
     margin-left: 20vw !important;
     width: 60vw !important;
+    margin-top: -10vh !important;
+  }
+  .team-align-intern{
+    flex-direction: column !important;
+    margin-top: -8vh !important;
+    margin-left: -1vw !important;
   }
 }
 @media (min-width: 400px) and (max-width: 411px) {
   .team-container {
-    height: 360vh !important;
+    height: 430vh !important;
+    padding-bottom: 5vh !important;
   }
 }
 @media (min-width: 456px) and (max-width: 700px) {
@@ -203,7 +223,7 @@
 }
 @media (min-width: 921px) and (max-width: 1024px) {
   .team-container {
-    height: 100vh !important;
+    height: 120vh !important;
   }
   .team-align-cards {
     margin-left: 5vw !important;
@@ -231,10 +251,13 @@
     margin-bottom: -5vh !important;
   }
   .teamMore-btn {
-    margin-top: 10vh !important;
+    margin-top: 5vh !important;
     margin-left: 32vw !important;
     width: 40vw !important;
     font-size: 12px !important;
+  }
+  .team-align-intern{
+    margin-left: 22vw !important;
   }
 }
 @media (min-width: 320px) and (max-width: 359px) {

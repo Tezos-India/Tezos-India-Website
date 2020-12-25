@@ -16,10 +16,11 @@
   padding-top: 10vh;
 }
 .com-img {
-  width: 200px;
-  height: 230px;
+  width: 220px;
+  height: 300px;
   border-radius: 10px;
   object-fit: cover;
+  margin-top: 2vh !important;
 }
 .align-com-card-content {
   display: flex;
@@ -28,7 +29,7 @@
 .align-com-card-desc {
   display: flex;
   flex-direction: column;
-  padding: 10px 20px;
+  padding: 1px 20px;
 }
 .align-com-card-desc p {
   color: var(--tezos-white);
@@ -69,7 +70,7 @@
   font-weight: bold;
 }
 .com-info-header {
-  font-size: 18px;
+  font-size: 17px;
   margin-top: -20px;
   font-weight: bold;
 }

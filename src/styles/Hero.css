@@ -66,7 +66,7 @@
     margin: 2vh 0 0 26vw !important;
   }
   .align-intro-btn {
-    margin: 10vh 0 0 -8vw !important;
+    margin: 1vh 0 0 7vw !important;
   }
   .introBtn {
     width: 35vw !important;
@@ -90,7 +90,7 @@
     margin: -1vh 0 0 30vw !important;
   }
   .align-intro-btn {
-    margin: 10vh 0 0 -15vw !important;
+    margin: 1vh 0 0 1vw !important;
   }
 }
 @media (min-width: 425px) and (max-width: 765px) {

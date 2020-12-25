@@ -21,9 +21,9 @@ export class Community extends Component {
       array.push(
         <CommunityCard className="padding-com-carousel">
           <div className="align-com-card-content">
-            <div className="align-com-img">
+            {/* <div className="align-com-img">
               <img src={membersDesc.image} alt="" className="com-img" />
-            </div>
+            </div> */}
             <div className="align-com-card-desc">
               <p className="com-card-title">{membersDesc.name}</p>
               <p className="com-card-designation">{membersDesc.designation}</p>
@@ -54,31 +54,33 @@ export class Community extends Component {
           <div className="com-info">
             <div>
               <p style={{ color: "#2DCA8C" }} className="com-numbers">
-                900K+
+                2100+
               </p>
               <p className="com-info-header">Educational programe</p>
               <p className="com-info-subHeader">
-                We are proud to provide our <br /> music app to so many people.
+                Developers were educated, <br />interacted or applied for a Tezos <br/>
+                India program (workshop, <br /> fellowship, hackathon).
               </p>
             </div>
             <div>
               <p style={{ color: "#FFBE3D" }} className="com-numbers">
-                2M+
+                25000+
               </p>
               <p className="com-info-header">People's community</p>
               <p className="com-info-subHeader">
-                Our app has been downloaded <br /> by more than 2 million
-                people.
+                People reached via AMAs, tutorial  <br /> videos, sponsorships and
+                events
               </p>
             </div>
             <div>
               <p style={{ color: "#FF715B" }} className="com-numbers">
                 99.99%
               </p>
-              <p className="com-info-header">Positive feedback</p>
+              <p className="com-info-header">Never Ending Curiosity</p>
               <p className="com-info-subHeader">
-                We get mostly positive ratings <br /> for the quality of our
-                app.
+                Curiosity about Tezos in Indian <br /> community has been there since <br />
+                beginning and its only increasing <br /> resulting into more signups
+                into <br /> activities organised by Tezos India
               </p>
             </div>
           </div>
