@@ -271,9 +271,19 @@
 }
 @media (min-width:1900px) and (max-width:2000px){
   .team-align-cards{
-    margin-left: 20vw !important;
+    margin-left: 21vw !important;
   }
   .teamMore-btn{
     margin-left: 39vw !important;
+  }
+  .team-memberImg{
+    height: 18vh !important;
+    width: 10vw !important;
+  }
+  .team-header{
+    font-size: 18px !important;
+  }
+  .teamSocial{
+    margin-left: 10px !important;
   }
 }
