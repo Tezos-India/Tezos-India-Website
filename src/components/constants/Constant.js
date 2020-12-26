@@ -77,6 +77,13 @@ const carousel = {
       testimonial:
         "I found the Blockchain 101 on Tezos workshop to be very informative. The workshop provided me with specific hands-on skills that help me in polishing my skills in Blockchain. The skills will be surely invaluable in my professional life. The presenter was very knowledgeable and provided a pace for questions about the Blockchain or Tezos.",
     },
+    {
+      name: "Shubham Kukreja",
+      insti:"Pune Institute of Computer Technology",
+      designation: "Tezos India Fellowship",
+      testimonial:
+        "I am grateful to have had the opportunity to work with such a diverse and experienced community at Tezos India Foundation, with colleagues coming from different backgrounds of expertise and having an open mind to help me learn about the various aspects of developing a fully-fledged Dapp in a timeline of 8-weeks",
+    },
   ],
 };
 const team = {
