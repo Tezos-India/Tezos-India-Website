@@ -24,3 +24,9 @@
     width: 100px !important;
   }
 }
+@media (min-width:1900px) and (max-width:2000px){
+  .teamCardContainer{
+    height: 350px !important;
+    width:250px !important;
+  }
+}

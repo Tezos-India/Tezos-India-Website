@@ -269,3 +269,11 @@
     height: 430vh !important;
   }
 }
+@media (min-width:1900px) and (max-width:2000px){
+  .team-align-cards{
+    margin-left: 20vw !important;
+  }
+  .teamMore-btn{
+    margin-left: 39vw !important;
+  }
+}
