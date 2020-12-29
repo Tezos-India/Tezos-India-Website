@@ -15,6 +15,7 @@ import soumya from "../../assets/soumya.jpg";
 import madhav from "../../assets/madhav.jpg";
 import sahil from "../../assets/sahil.jpg";
 import shivam from "../../assets/shivam.jpg";
+import shubham from "../../assets/shubham.jpg";
 import like from "../../assets/like.png";
 import sample from "../../assets/example.jpg";
 import arrow from "../../assets/next.svg";
@@ -81,6 +82,7 @@ const carousel = {
       name: "Shubham Kukreja",
       insti:"Pune Institute of Computer Technology",
       designation: "Tezos India Fellowship",
+      image:shubham,
       testimonial:
         "I am grateful to have had the opportunity to work with such a diverse and experienced community at Tezos India Foundation, with colleagues coming from different backgrounds of expertise and having an open mind to help me learn about the various aspects of developing a fully-fledged Dapp in a timeline of 8-weeks",
     },

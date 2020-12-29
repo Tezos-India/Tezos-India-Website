@@ -11,7 +11,7 @@ export default function Hero() {
   return (
     <div>
       <div className={isDark ? "hero-main dark-hero-main" : "hero-main"}>
-      <SnowStorm freezeOnBlur={false} />
+      {/* <SnowStorm freezeOnBlur={false} /> */}
         <div>
           <Header />
         </div>
