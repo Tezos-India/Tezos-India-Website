@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import SnowStorm from 'react-snowstorm';
 import Button from "@material-ui/core/Button";
 import "../styles/Hero.css";
 import StyleContext from "../contexts/StyleContext";
@@ -11,7 +10,6 @@ export default function Hero() {
   return (
     <div>
       <div className={isDark ? "hero-main dark-hero-main" : "hero-main"}>
-      {/* <SnowStorm freezeOnBlur={false} /> */}
         <div>
           <Header />
         </div>
@@ -21,13 +19,13 @@ export default function Hero() {
               We Are Dedicated to Growing the{" "}
               <span>
                 {" "}
-                <img src={tezos} alt="" className="tezos-logo"/>
+                <img src={tezos} alt="" className="tezos-logo" />
               </span>{" "}
               Tezos Community in India.
             </h1>
           </div>
           <div className="align-intro-btn">
-          <Button className="introBtn">Know More</Button>
+            <Button className="introBtn">Know More</Button>
           </div>
         </div>
       </div>
