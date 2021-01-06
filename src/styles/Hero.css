@@ -20,7 +20,6 @@
 }
 .introBtn {
   position: relative !important;
-  /* margin: -6vh 0 0 43vw !important; */
   color: white !important;
   background-color: transparent !important;
   border: 3px solid var(--tezos-white) !important;
@@ -38,119 +37,6 @@
   width: 2.5vw;
   margin-bottom: -5px;
 }
-/* @media (max-width: 960px) and (min-width: 768px) {
-  .hero-text-div h1 {
-    font-size: 40px;
-    padding: 5vh 8vw;
-  }
-  .tezos-logo {
-    width: 3vw !important;
-  }
-  .introBtn {
-    margin: -10vh 0 0 38vw !important;
-  }
-  .align-intro-btn {
-    margin: 2vh 0 0 -3vw !important;
-  }
-}
-@media (min-width: 320px) and (max-width: 360px) {
-  .hero-text-div h1 {
-    font-size: 28px;
-    padding: 0 18vw;
-    margin-top: 5vh !important;
-    padding-left: 20vw !important;
-  }
-  .tezos-logo {
-    width: 7vw !important;
-  }
-  .hero-main {
-    background-position: -780px;
-  }
-  .introBtn {
-    margin: 2vh 0 0 26vw !important;
-  }
-  .align-intro-btn {
-    margin: 1vh 0 0 7vw !important;
-  }
-  .introBtn {
-    width: 35vw !important;
-    font-size: 12px !important;
-  }
-}
-@media (min-width: 375px) and (max-width: 424px) {
-  .hero-text-div h1 {
-    font-size: 30px;
-    padding: 1vh 12vw;
-    margin-top: 5vh !important;
-    padding-left: 15vw !important;
-  }
-  .hero-main {
-    background-position: -750px;
-  }
-  .tezos-logo {
-    width: 6vw !important;
-  }
-  .introBtn {
-    margin: -1vh 0 0 30vw !important;
-  }
-  .align-intro-btn {
-    margin: 1vh 0 0 1vw !important;
-  }
-}
-@media (min-width: 425px) and (max-width: 765px) {
-  .hero-text-div h1 {
-    font-size: 30px;
-    padding: 1vh 12vw;
-    margin-top: 5vh !important;
-    padding-left: 15vw !important;
-  }
-  .hero-main {
-    background-position: -750px;
-  }
-  .tezos-logo {
-    width: 6vw !important;
-  }
-  .introBtn {
-    margin: -1vh 0 0 30vw !important;
-  }
-  .align-intro-btn {
-    margin: 10vh 0 0 -10vw !important;
-  }
-  .introBtn {
-    width: 35vw !important;
-    font-size: 12px !important;
-  }
-}
-@media (min-width: 768px) and (max-width: 1000px) {
-  .hero-text-div h1 {
-    font-size: 30px;
-    padding: 1vh 12vw;
-    margin-top: 5vh !important;
-    padding-left: 15vw !important;
-  }
-  .tezos-logo {
-    width: 3vw !important;
-  }
-  .introBtn {
-    margin: -1vh 0 0 30vw !important;
-  }
-  .align-intro-btn {
-    margin: 5vh 0 0 10vw !important;
-  }
-}
-@media (min-width: 1001px) and (max-width: 1024px) {
-  .introBtn {
-    margin: -5vh 0 0 40vw !important;
-  }
-  .tezos-logo {
-    width: 3.5vw;
-  }
-  .hero-text-div h1 {
-    margin-left: -13vw !important;
-    margin-right: -10vw !important;
-  }
-} */
-
 /* SmartPhone Potrait */
 @media (min-width: 320px) and (max-width: 480px) {
   .hero-main {
@@ -168,29 +54,21 @@
     height: 6vh !important;
     font-size: 12px !important;
   }
-  .align-intro-btn{
+  .align-intro-btn {
     margin-top: 5vh;
   }
-  .hero-main {
-    background-position: -500px;
-  }
 }
-@media (max-width: 320px){
-  .hero-text-div{
+@media (max-width: 320px) {
+  .hero-text-div {
     margin-top: -8vh;
   }
 }
-@media (min-width: 360px) and (max-width: 414px){
-  .hero-main{
-    background-position: -650px;
-  }
-}
-@media (min-width: 380px) and (max-width: 390px){
-  .hero-text-div h1{
+@media (min-width: 380px) and (max-width: 390px) {
+  .hero-text-div h1 {
     font-size: 28px;
     margin-top: 5vh;
   }
-  .introBtn{
+  .introBtn {
     font-size: 16px !important;
   }
 }
@@ -210,9 +88,6 @@
   }
   .hero-text-div {
     margin-top: 10vh;
-  }
-  .hero-main {
-    background-position: -570px;
   }
 }
 
@@ -243,7 +118,7 @@
     margin-top: 12vh;
   }
   .tezos-logo {
-    width: 2vw;
+    width: 3vw;
   }
   .introBtn {
     width: 14vw !important;
@@ -253,5 +128,4 @@
   .hero-text-div {
     margin-top: -5vh;
   }
-
 }

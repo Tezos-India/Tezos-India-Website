@@ -14,7 +14,7 @@
 .infra-logo {
   width: 85px;
   height: 100px;
-  margin-left: -8vw !important;
+  margin-left: -8vw;
 }
 .infra-alignHeading {
   display: flex;
@@ -42,7 +42,7 @@
 }
 .infra-subHeading {
   color: var(--tezos-white);
-  margin-top: 10px !important;
+  margin-top: 10px;
   line-height: 28px;
   font-size: var(--font-size-mod-medium);
 }
@@ -124,13 +124,13 @@
 }
 @media (min-width: 411px) and (max-width: 420px) {
   .infraContainer {
-    height: 230vh !important;
+    height: 250vh !important;
     background-size: 180vw !important;
   }
 }
 @media (min-width: 414px) and (max-width: 520px) {
   .infraContainer {
-    height: 320vh !important;
+    height: 340vh !important;
     background-size: 180vw !important;
   }
   .grid-div {
@@ -156,7 +156,7 @@
 }
 @media (min-width: 521px) and (max-width: 769px) {
   .infraContainer {
-    height: 170vh !important;
+    height: 190vh !important;
     background-size: 180vw !important;
   }
   .grid-div {
@@ -182,7 +182,7 @@
 }
 @media (min-width: 770px) and (max-width: 1024px) {
   .infraContainer {
-    height: 150vh !important;
+    height: 200vh !important;
     background-size: 180vw !important;
   }
   .grid-div {

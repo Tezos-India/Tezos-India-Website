@@ -31,6 +31,6 @@
 @media (min-width: 511px) and (max-width: 768px) {
   .communityCardContainer {
     width: 450px !important;
-    height: 300px !important;
+    height: 350px !important;
   }
 }

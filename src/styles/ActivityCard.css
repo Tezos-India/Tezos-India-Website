@@ -1,7 +1,7 @@
 .cardContainer {
   background-color: #647afc !important;
-  height: 44vh !important;
-  width: 18vw !important;
+  height: 40vh;
+  width: 18vw;
   border-radius: 10px !important;
   color: var(--tezos-white);
   padding: 10px !important;
@@ -10,33 +10,45 @@
 .dark-cardContainer {
   background-color: #2a2c34 !important;
 }
-@media (min-width: 320px) and (max-width: 360px) {
-  .cardContainer {
-    height: 47vh !important;
-    width: 70vw !important;
+@media (min-width: 320px) and (max-width: 359px) {
+  .cardContainer{
+    height: 56vh;
+    width: 80vw;
   }
 }
-@media (min-width: 375px) and (max-width: 390px) {
-  .cardContainer {
-    height: 40vh !important;
-    width: 60vw !important;
+@media (min-width: 360px) and (max-width: 374px) {
+  .cardContainer{
+    height: 48vh;
+    width: 80vw;
   }
 }
-@media (min-width: 391px) and (max-width: 411px) {
-  .cardContainer {
-    height: 35vh !important;
-    width: 60vw !important;
+@media (min-width: 375px) and (max-width: 410px) {
+  .cardContainer{
+    height: 44vh;
+    width: 80vw;
   }
 }
-@media (min-width: 412px) and (max-width: 768px) {
-  .cardContainer {
-    height: 30vh !important;
-    width: 60vw !important;
+@media (min-width: 411px) and (max-width: 480px) {
+  .cardContainer{
+    height: 44vh;
+    width: 80vw;
   }
 }
-@media (min-width: 800px) and (max-width: 1024px) {
-  .cardContainer {
-    height: 25vh !important;
-    width: 40vw !important;
+@media (min-width: 481px) and (max-width: 767px) {
+  .cardContainer{
+    width: 45vw;
+    height: 48vh;
+  }
+}
+@media (min-width: 768px) and (max-width: 900px) {
+  .cardContainer{
+    height: 32vh;
+    width:50vw;
+  }
+}
+@media (min-width: 901px) and (max-width: 1024px) {
+  .cardContainer{
+    height: 25vh;
+    width:50vw;
   }
 }
