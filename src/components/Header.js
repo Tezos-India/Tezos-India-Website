@@ -29,7 +29,7 @@ function Header() {
           </li>
 
           <li>
-            <a>GitHub</a>
+            <a href="https://github.com/Tezos-India" target="_blank" rel="noreferrer">GitHub</a>
           </li>
           <li>
             <a>

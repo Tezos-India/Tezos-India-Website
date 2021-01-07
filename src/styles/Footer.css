@@ -1,11 +1,11 @@
 .footer-container {
-  background: #2b48be !important;
+  background: #4a62ff !important;
   /* height: 46vh; */
   width: 100%;
   padding-bottom: 5vh;
 }
 .dark-footer-container {
-  background: #12141d !important;
+  background: #1d1f28 !important;
 }
 .footer-logo {
   display: flex;

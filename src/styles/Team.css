@@ -14,8 +14,8 @@
   padding: 50px 0;
 }
 .team-memberImg {
-  width: 10vw;
-  height: 20vh;
+  width: 181px;
+  height: 181px;
   border-radius: 50%;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -27,11 +27,6 @@
   gap: 0 20px;
   justify-content: center;
 }
-/* .team-align-intern {
-  display: flex;
-  flex-direction: row;
-  gap: 0 20px;
-} */
 .team-header {
   text-align: center;
   font-size: 15px;
@@ -84,12 +79,11 @@
 .dark-teamMore-btn:hover {
   background-color: #35363a !important;
 }
-.align-team-mem{
+/* .align-team-mem{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: -2px;
-}
+} */
 @media (min-width: 320px) and (max-width: 480px) {
   .team-align-horizontal{
     flex-direction: column;

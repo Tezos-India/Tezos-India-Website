@@ -117,13 +117,13 @@ export default function Team() {
           ))}
         </div>
       </div>
-      <div className="align-team-btn">
+      {/* <div className="align-team-btn">
         <Button
           className={isDark ? "teamMore-btn dark-teamMore-btn" : "teamMore-btn"}
         >
           Still have unanswered questions? Get in touch
         </Button>
-      </div>
+      </div> */}
     </div>
   );
 }
