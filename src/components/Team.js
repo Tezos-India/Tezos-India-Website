@@ -17,13 +17,14 @@ export default function Team() {
       }
     >
       <h1 className="team-heading">The A Team</h1>
-      <div></div>
       <div className="team-align-cards">
         <div className="team-align-horizontal">
           {team.teammates.map((member) => (
             <Card>
-              <div className="team-alignImage">
+              <div>
                 <img src={member.image} alt="" className="team-memberImg" />
+              </div>
+              <div className="align-team-mem">
                 <p className="team-header">{member.name}</p>
                 <p className="team-designation">{member.designation}</p>
                 <div className="teamSocial">
@@ -44,8 +45,10 @@ export default function Team() {
         <div className="team-align-horizontal">
           {team.teamamtesRowTwo.map((member) => (
             <Card>
-              <div className="team-alignImage">
+              <div>
                 <img src={member.image} alt="" className="team-memberImg" />
+              </div>
+              <div className="align-team-mem">
                 <p className="team-header">{member.name}</p>
                 <p className="team-designation">{member.designation}</p>
                 <div className="teamSocial">
@@ -64,28 +67,38 @@ export default function Team() {
           ))}
           {team.sanket.map((member) => (
             <Card>
-              <img src={member.image} alt="" className="team-memberImg" />
-              <p className="team-header">{member.name}</p>
-              <p className="team-designation">{member.designation}</p>
-              <div className="teamSocial">
-                <a href={member.linkedin} target="_blank" rel="noreferrer">
-                  <img src={linkedin} alt="" />
-                </a>
-                <a href={member.dribbbleLink} target="_blank" rel="noreferrer">
-                  <img src={member.dribbble} alt="" />
-                </a>
-                <a href={member.telegram} target="_blank" rel="noreferrer">
-                  <img src={telegram} alt="" />
-                </a>
+              <div>
+                <img src={member.image} alt="" className="team-memberImg" />
+              </div>
+              <div className="align-team-mem">
+                <p className="team-header">{member.name}</p>
+                <p className="team-designation">{member.designation}</p>
+                <div className="teamSocial">
+                  <a href={member.linkedin} target="_blank" rel="noreferrer">
+                    <img src={linkedin} alt="" />
+                  </a>
+                  <a
+                    href={member.dribbbleLink}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={member.dribbble} alt="" />
+                  </a>
+                  <a href={member.telegram} target="_blank" rel="noreferrer">
+                    <img src={telegram} alt="" />
+                  </a>
+                </div>
               </div>
             </Card>
           ))}
         </div>
-        <div className="team-align-intern">
+        <div className="team-align-horizontal">
           {team.internsRow.map((member) => (
             <Card>
-              <div className="team-alignImage">
+              <div className="team-align-intern">
                 <img src={member.image} alt="" className="team-memberImg" />
+              </div>
+              <div className="align-team-mem">
                 <p className="team-header">{member.name}</p>
                 <p className="team-designation">{member.designation}</p>
                 <div className="teamSocial">
@@ -104,7 +117,7 @@ export default function Team() {
           ))}
         </div>
       </div>
-      <div>
+      <div className="align-team-btn">
         <Button
           className={isDark ? "teamMore-btn dark-teamMore-btn" : "teamMore-btn"}
         >

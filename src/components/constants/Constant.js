@@ -16,6 +16,7 @@ import madhav from "../../assets/madhav.jpg";
 import sahil from "../../assets/sahil.jpg";
 import shivam from "../../assets/shivam.jpg";
 import shubham from "../../assets/shubham.jpg";
+import aryan from "../../assets/aryan.png";
 import like from "../../assets/like.png";
 import sample from "../../assets/example.jpg";
 import arrow from "../../assets/next.svg";
@@ -85,6 +86,14 @@ const carousel = {
       image:shubham,
       testimonial:
         "I am grateful to have had the opportunity to work with such a diverse and experienced community at Tezos India Foundation, with colleagues coming from different backgrounds of expertise and having an open mind to help me learn about the various aspects of developing a fully-fledged Dapp in a timeline of 8-weeks",
+    },
+    {
+      name: "Aryan Pandey",
+      insti:"SRM University",
+      designation: "Tezos India Fellowship",
+      image:aryan,
+      testimonial:
+        "Tezos India fellowship is a great platform for undergrads for getting started with the Tezos Blockchain. Fellowship provided a holistic development of skills ranging from product development to conceptualization. I would like to describe it as an amalgamation of industrial a well as research-based skill development.I would like to extend my sincere thanks to the Mentors and the organizers from Tezos India Foundation for unparalleled support throughout the program.",
     },
   ],
 };

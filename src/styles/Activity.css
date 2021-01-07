@@ -1,6 +1,5 @@
 .container-div {
   background-color: #4a62ff;
-  height: 140vh;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -86,6 +85,9 @@
   border: 3px solid #ffffff !important;
   color: #1d1f28 !important;
 }
+.align-div-text{
+  padding-bottom: 5vh;
+}
 @media (min-width: 320px) and (max-width: 480px) {
   .align-card,.align-card-two{
     flex-direction: column;
@@ -93,7 +95,7 @@
   }
   .container-div{
     flex-direction: column;
-    height: 320vh;
+    /* height: 320vh; */
   }
   .activity-img{
     width:16vw;
@@ -106,7 +108,7 @@
     font-size: 24px;
   }
 }
-@media (min-width: 200px) and (max-width: 320px) {
+/* @media (min-width: 200px) and (max-width: 320px) {
   .container-div{
     height: 380vh;
   }
@@ -120,11 +122,11 @@
   .container-div{
     height: 300vh;
   }
-}
+} */
 @media (min-width: 481px) and (max-width: 767px) {
   .container-div{
     flex-direction: column;
-    height: 200vh;
+    /* height: 200vh; */
   }
   .activity-title{
     font-size: 16px;
@@ -143,7 +145,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .container-div{
     flex-direction: column;
-    height: 160vh;
+    /* height: 160vh; */
   }
   .activity-img{
     width:8vw;

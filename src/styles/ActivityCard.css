@@ -18,19 +18,19 @@
 }
 @media (min-width: 360px) and (max-width: 374px) {
   .cardContainer{
-    height: 48vh;
+    min-height: 45vh;
     width: 80vw;
   }
 }
 @media (min-width: 375px) and (max-width: 410px) {
   .cardContainer{
-    height: 44vh;
+    min-height: 4vh;
     width: 80vw;
   }
 }
 @media (min-width: 411px) and (max-width: 480px) {
   .cardContainer{
-    height: 44vh;
+    /* min-height: 4vh; */
     width: 80vw;
   }
 }
