@@ -98,10 +98,10 @@ export default function Team() {
               <div className="team-align-intern">
                 <img src={member.image} alt="" className="team-memberImg" />
               </div>
-              <div className="align-team-mem">
+              <div className="align-team-mem-intern">
                 <p className="team-header">{member.name}</p>
                 <p className="team-designation">{member.designation}</p>
-                <div className="teamSocial">
+                <div className="teamSocial-intern">
                   <a href={member.linkedin} target="_blank" rel="noreferrer">
                     <img src={linkedin} alt="" />
                   </a>

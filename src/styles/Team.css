@@ -45,7 +45,7 @@
   gap: 0 20px;
   cursor: pointer;
 }
-.teamSocial img {
+.teamSocial img,.teamSocial-intern img {
   width: 20px;
 }
 .team-heading {
@@ -79,11 +79,16 @@
 .dark-teamMore-btn:hover {
   background-color: #35363a !important;
 }
-/* .align-team-mem{
+.align-team-mem-intern p{
+  margin-left: 10px !important;
+}
+.teamSocial-intern{
   display: flex;
-  flex-direction: column;
   justify-content: center;
-} */
+  gap: 0 20px;
+  cursor: pointer;
+  margin-left: 10px;
+}
 @media (min-width: 320px) and (max-width: 480px) {
   .team-align-horizontal{
     flex-direction: column;
