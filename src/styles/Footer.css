@@ -13,7 +13,7 @@
 .footer-logo img{
   width:15vw;
   padding-top: 3vh;
-  padding-bottom: 1vh;
+  padding-bottom: 3vh;
 }
 .footer-menu li a {
   padding: 10px 15px;
@@ -63,7 +63,7 @@
   color: var(--tezos-text);
 }
 .footer-list{
-  margin-left: 10px;
+  margin-left: 15px;
 }
 @media (min-width: 320px) and (max-width: 360px) {
   /* .footer-container {
