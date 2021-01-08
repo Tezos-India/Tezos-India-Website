@@ -17,6 +17,7 @@ import sahil from "../../assets/sahil.jpg";
 import shivam from "../../assets/shivam.jpg";
 import shubham from "../../assets/shubham.jpg";
 import aryan from "../../assets/aryan.png";
+import anshu from "../../assets/anshu.jpg";
 import like from "../../assets/like.png";
 import sample from "../../assets/example.jpg";
 import arrow from "../../assets/next.svg";
@@ -94,6 +95,14 @@ const carousel = {
       image:aryan,
       testimonial:
         "Tezos India fellowship is a great platform for undergrads for getting started with the Tezos Blockchain. Fellowship provided a holistic development of skills ranging from product development to conceptualization. I would like to describe it as an amalgamation of industrial a well as research-based skill development.I would like to extend my sincere thanks to the Mentors and the organizers from Tezos India Foundation for unparalleled support throughout the program.",
+    },
+    {
+      name: "Anshu Jalan",
+      insti:"Heritage Institute of Technology, Kolkata",
+      designation: "Tezos India Fellowship",
+      image:anshu,
+      testimonial:
+        "Tezos India Fellowship was a great experience! The mentor support, interaction and discussion of ideas with other fellows and the overall learning environment helped me level up my skills",
     },
   ],
 };

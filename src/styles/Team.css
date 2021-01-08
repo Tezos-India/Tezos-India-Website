@@ -99,10 +99,10 @@
   .team-memberImg{
     width: 28vw !important;
     height: 14vh !important;
-    margin-left: 32px;
+    margin-left: 45px;
   }
   .team-align-cards{
-    margin-left: 20vw !important;
+    margin-left: 16vw !important;
   }
   .teamMore-btn{
     width: 60vw !important;
@@ -111,12 +111,18 @@
 }
 @media (min-width: 375px) and (max-width: 411px) {
   .team-align-cards{
-    margin-left: 12vh !important;
+    margin-left: 11vh !important;
+  }
+  .team-memberImg{
+    margin-left: 35px;
   }
 }
 @media (min-width: 320px) and (max-width: 340px) {
   .team-align-cards{
-    margin-left:9vh !important;
+    margin-left:7vh !important;
+  }
+  .team-memberImg{
+    margin-left: 50px;
   }
 }
 @media (min-width: 412px) and (max-width: 500px) {
@@ -134,7 +140,7 @@
 }
 @media (min-width: 371px) and (max-width: 390px) {
   .team-align-cards{
-    margin-left:10vh !important;
+    margin-left:8vh !important;
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {
@@ -144,7 +150,7 @@
   .team-memberImg{
     width: 20vw !important;
     height: 14vh !important;
-    margin-left: 28px;
+    margin-left: 38px;
   }
   .teamMore-btn{
     width: 60vw !important;
@@ -157,10 +163,10 @@
   .team-memberImg{
     height: 10vh;
     width: 12vw;
-    margin-left: 18px ;
+    margin-left: 35px ;
   }
   .team-align-intern{
-    margin-left: 20px;
+    margin-left: 40px;
   }
 }
 @media (min-width: 1024px) {
