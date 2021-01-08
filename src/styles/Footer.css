@@ -19,6 +19,7 @@
   padding: 10px 15px;
   color: var(--tezos-white);
   font-weight: bold;
+  margin-left: -2px;
 }
 .dark-footer-menu li a {
   color: var(--tezos-text);
