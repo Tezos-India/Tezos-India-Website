@@ -9,11 +9,11 @@
 .footer-logo {
   display: flex;
   justify-content: center;
-  padding-top: 3vh;
-  padding-bottom: 3vh;
 }
 .footer-logo img{
   width:15vw;
+  padding-top: 3vh;
+  padding-bottom: 1vh;
 }
 .footer-menu li a {
   padding: 10px 15px;
@@ -24,7 +24,7 @@
   color: var(--tezos-text);
 }
 .footer-menu {
-  padding: 0 37vw;
+  padding: 0 35vw;
   list-style: none;
   overflow: hidden;
   display: flex;
@@ -33,7 +33,6 @@
   flex-direction: row;
   margin-top: 10px;
   cursor: pointer;
-  margin-left: 5px;
 }
 .footer-align-img {
   width: 22px !important;
@@ -51,12 +50,10 @@
   flex-direction: row;
   margin-top: 50px;
   cursor: pointer;
-  margin-left: 10px;
 }
 .footer-copyright {
   text-align: center;
   margin-top: 30px;
-  margin-left: 12px;
 }
 .footer-copyright p {
   color: var(--tezos-white);
