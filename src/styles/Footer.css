@@ -62,6 +62,9 @@
 .dark-footer-copyright p {
   color: var(--tezos-text);
 }
+.footer-list{
+  margin-left: 10px;
+}
 @media (min-width: 320px) and (max-width: 360px) {
   /* .footer-container {
     height: 50vh;
