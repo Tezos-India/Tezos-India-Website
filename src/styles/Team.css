@@ -17,8 +17,6 @@
   width: 181px;
   height: 181px;
   border-radius: 50%;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
   object-fit: cover !important;
 }
 .team-align-horizontal {

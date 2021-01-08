@@ -1,6 +1,5 @@
 .community-background {
   background: #4a62ff;
-  /* height: 170vh; */
   padding-bottom: 5vh;
 }
 .dark-community-background {
@@ -22,8 +21,6 @@
   border-radius: 10px;
   object-fit: cover;
   margin-top: 2vh !important;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
 }
 .align-com-card-content {
   display: flex;
@@ -130,17 +127,11 @@
   .com-info {
     padding: 0 25px !important;
   }
-  /* .community-background {
-    height: 140vh !important;
-  } */
 }
 @media (min-width: 376px) and (max-width: 768px) {
   .carousel-control img {
     width: 45px !important;
   }
-  /* .community-background {
-    height: 170vh !important;
-  } */
   .carousel-control {
     margin-left: 40vw !important;
   }
@@ -187,15 +178,7 @@
     padding: 0 20px !important;
   }
 }
-/* @media (min-width: 380px) and (max-width: 390px) {
-  .community-background{
-    height: 140vh !important;
-  }
-} */
 @media (min-width: 750px) and (max-width: 768px) {
-  /* .community-background{
-    height: 120vh !important;
-  } */
   .com-info{
     margin-left: 5vw !important;
   }
