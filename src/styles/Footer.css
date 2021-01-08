@@ -19,7 +19,6 @@
   padding: 10px 15px;
   color: var(--tezos-white);
   font-weight: bold;
-  margin-left: -3px;
 }
 .dark-footer-menu li a {
   color: var(--tezos-text);
@@ -34,6 +33,7 @@
   flex-direction: row;
   margin-top: 10px;
   cursor: pointer;
+  margin-left: 5px;
 }
 .footer-align-img {
   width: 22px !important;
@@ -51,10 +51,12 @@
   flex-direction: row;
   margin-top: 50px;
   cursor: pointer;
+  margin-left: 10px;
 }
 .footer-copyright {
   text-align: center;
   margin-top: 30px;
+  margin-left: 12px;
 }
 .footer-copyright p {
   color: var(--tezos-white);
