@@ -2,7 +2,7 @@ import React from "react";
 import Button from "@material-ui/core/Button";
 import "../styles/Header.css";
 import ToggleSwitch from "../components/constants/ToggleSwitch";
-import logo from "../assets/logo.png";
+import logo from "../assets/TIF.svg";
 
 function Header() {
   return (

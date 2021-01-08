@@ -1,6 +1,6 @@
 .header {
   max-width: 100%;
-  padding: 50px 20px;
+  padding: 70px 20px;
   margin: 0px auto;
 }
 
@@ -23,7 +23,7 @@
   font-size: 14px;
 }
 .align-logo {
-  width: 14vw;
+  width: 12vw;
 }
 .header .menu-icon {
   cursor: pointer;
@@ -79,7 +79,7 @@
   float: left;
   font-size: 1.5em;
   text-decoration: none;
-  margin: -30px 0 0 50px;
+  margin: -18px 0 0 50px;
   line-height: normal;
 }
 .header-button {
@@ -142,6 +142,7 @@
   .align-logo{
     width: 45vw !important;
     padding-left: 28px !important;
+    padding-top: 5px;
   }
 }
 @media (min-width:412px) and (max-width:425px){
@@ -151,6 +152,7 @@
   .align-logo{
     width: 45vw !important;
     margin-left: -5vw !important;
+    margin-top: 5px !important;
   }
 }
 
@@ -183,6 +185,7 @@
   .align-logo {
     margin-left: -2vw;
     width: 20vw !important;
+    margin-top: -10px;
   }
   .header-button {
     margin: -8vh 0 0 28vw !important;
@@ -218,5 +221,8 @@
 @media (min-width: 490px) and (max-width: 540px) {
   .align-logo{
     width:30vw !important;
+  }
+  .header .menu-icon{
+    margin-right: 50px !important;
   }
 }

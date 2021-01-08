@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import StyleContext from "../contexts/StyleContext";
 import "../styles/Footer.css";
-import logo from "../assets/logo.png";
+import logo from "../assets/TIF.svg";
 import linkedin from "../assets/Linkedin.svg";
 import facebook from "../assets/Facebook.svg";
 import twitter from "../assets/Twitter.svg";

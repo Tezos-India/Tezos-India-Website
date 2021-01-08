@@ -106,13 +106,16 @@
     width: 60vw !important;
     margin-top: -5vh !important;
   }
+  .team-align-intern{
+    margin-top: -25px;
+  }
 }
 @media (min-width: 375px) and (max-width: 411px) {
   .team-align-cards{
     margin-left: 11vh !important;
   }
   .team-memberImg{
-    margin-left: 35px;
+    margin-left: 38px;
   }
 }
 @media (min-width: 320px) and (max-width: 340px) {
@@ -161,10 +164,11 @@
   .team-memberImg{
     height: 10vh;
     width: 12vw;
-    margin-left: 35px ;
+    margin-left: 20px ;
   }
   .team-align-intern{
     margin-left: 40px;
+    margin-top: -25px;
   }
 }
 @media (min-width: 1024px) {
