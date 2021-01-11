@@ -18,19 +18,31 @@
 }
 @media (min-width: 360px) and (max-width: 374px) {
   .cardContainer{
-    min-height: 45vh;
+    min-height: 48vh;
     width: 80vw;
   }
 }
-@media (min-width: 375px) and (max-width: 410px) {
+@media (min-width: 375px) and (max-width: 400px) {
+  .cardContainer{
+    min-height: 42vh;
+    width: 80vw;
+  }
+}
+@media (min-width: 401px) and (max-width: 411px) {
   .cardContainer{
     min-height: 4vh;
     width: 80vw;
   }
 }
-@media (min-width: 411px) and (max-width: 480px) {
+@media (min-width: 412px) and (max-width: 480px) {
   .cardContainer{
-    /* min-height: 4vh; */
+    max-height: 30vh;
+    width: 80vw;
+  }
+}
+@media (min-width: 414px) and (max-width: 420px) {
+  .cardContainer{
+    max-height: 40vh !important;
     width: 80vw;
   }
 }

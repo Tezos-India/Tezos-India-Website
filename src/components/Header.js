@@ -7,7 +7,7 @@ import logo from "../assets/TIF.svg";
 function Header() {
   return (
       <header className="header">
-        <a href="" className="logo">
+        <a href="/" className="logo">
           <img src={logo} alt="" className="align-logo"/>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />

@@ -1,7 +1,8 @@
 .hero-main {
   background-image: url("../assets/light-hero.svg");
   max-width: 100%;
-  height: 780px;
+  /* height: 780px; */
+  height: 100vh !important;
   background-size: cover;
   padding: 0;
   background-position: center;
@@ -34,7 +35,7 @@
   justify-content: center;
 }
 .tezos-logo {
-  width: 2.5vw;
+  width: 2vw;
   margin-bottom: -5px;
 }
 /* SmartPhone Potrait */
