@@ -27,7 +27,7 @@
   object-fit: cover;
 }
 .activity-title {
-  font-size: 20px;
+  font-size: 18px;
   color: var(--tezos-white);
   font-weight: bold;
 }
