@@ -23,7 +23,7 @@
   font-size: 14px;
 }
 .align-logo {
-  width: 12vw;
+  width: 14vw;
 }
 .header .menu-icon {
   cursor: pointer;
@@ -133,11 +133,14 @@
   .align-logo{
     width:45vw !important;
   }
+  .header .menu-icon {
+    margin: -8px 10px !important;
+  }
 }
 
 @media (min-width:361px) and (max-width:411px){
   .header .menu-icon {
-    padding: 11px 50px !important;
+    padding: 5px 50px !important;
   }
   .align-logo{
     width: 45vw !important;
@@ -207,7 +210,7 @@
     width: 55vw;
   }
   .header .menu-icon {
-    padding: 3vh 2vw;
+    padding: -1vh 2vw !important;
   }
 }
 @media (min-width: 900px) and (max-width: 1024px) {

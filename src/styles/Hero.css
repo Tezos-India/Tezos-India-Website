@@ -17,7 +17,7 @@
   line-height: 1.5;
   color: var(--tezos-white);
   text-align: center;
-  padding: 2vh 22vw;
+  padding: 1vh 22vw;
 }
 .introBtn,.dark-introBtn {
   position: relative !important;
@@ -44,6 +44,7 @@
 .align-intro-btn {
   display: flex;
   justify-content: center;
+  margin-top: -10px;
 }
 .tezos-logo {
   width: 2.2vw;
