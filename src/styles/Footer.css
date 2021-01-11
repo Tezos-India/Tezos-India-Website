@@ -24,7 +24,7 @@
   color: var(--tezos-text);
 }
 .footer-menu {
-  padding: 0 35vw;
+  padding: 0 32vw;
   list-style: none;
   overflow: hidden;
   display: flex;
@@ -63,12 +63,9 @@
   color: var(--tezos-text);
 }
 .footer-list{
-  margin-left: 15px;
+  margin-left: -10px;
 }
 @media (min-width: 320px) and (max-width: 360px) {
-  /* .footer-container {
-    height: 50vh;
-  } */
   .footer-menu {
     padding: 0 5px;
   }

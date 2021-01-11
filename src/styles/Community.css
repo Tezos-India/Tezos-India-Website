@@ -25,13 +25,14 @@
 .align-com-card-content {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
-.align-com-card-desc {
+/* .align-com-card-desc {
   display: flex;
   flex-direction: column;
   padding: 1px 20px;
   margin-top: -1vh !important;
-}
+} */
 .align-com-card-desc p {
   color: var(--tezos-white);
 }
@@ -53,18 +54,21 @@
 }
 .com-headers h1 {
   font-size: 40px;
-  padding: 0 400px;
+  padding: 0 300px;
 }
 .com-headers p {
   font-size: 16px;
-  padding: 5px 500px;
+  /* padding: 5px 500px; */
+  padding: 1vh 20vw;
 }
 .com-info {
   display: flex;
   flex-direction: row;
   gap: 0 3vw;
-  margin: 5vh 0 0 25vw;
   color: var(--tezos-white);
+  justify-content: center;
+  margin-left: 3vw;
+  margin-top: 3vh;
 }
 .com-numbers {
   font-size: 45px;

@@ -144,8 +144,8 @@
     font-size: 24px;
   }
 }
-@media (min-width: 2000px) and (max-width: 4000px) {
+/* @media (min-width: 2000px) and (max-width: 4000px) {
   .container-div{
-    margin-top: -7vh !important;
+    margin-top: -100vh !important;
   }
-}
+} */

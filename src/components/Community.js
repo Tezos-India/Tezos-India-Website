@@ -48,8 +48,7 @@ export class Community extends Component {
           <div className="com-headers">
             <h1>Our Community members about us</h1>
             <p>
-              Our Community members about us Our Community members about us Our
-              Community members about us
+              Our Community members about us
             </p>
           </div>
           <div className="align-carousel">
