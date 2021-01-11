@@ -37,7 +37,7 @@
   margin: -10px -10px 0 0;
   line-height: 1.4;
 }
-.dark-activity-subTitle {
+.dark-activity-subTitle { 
   color: var(--tezos-text);
 }
 .align-div-text {
