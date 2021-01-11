@@ -25,7 +25,7 @@ export default function Hero() {
             </h1>
           </div>
           <div className="align-intro-btn">
-            <Button className="introBtn">Know More</Button>
+            <Button className={isDark?"introBtn dark-introBtn" : "introBtn"}>Know More</Button>
           </div>
         </div>
       </div>

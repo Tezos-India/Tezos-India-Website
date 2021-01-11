@@ -19,7 +19,7 @@
   text-align: center;
   padding: 2vh 22vw;
 }
-.introBtn {
+.introBtn,.dark-introBtn {
   position: relative !important;
   color: white !important;
   background-color: transparent !important;
@@ -29,6 +29,17 @@
   font-size: var(--font-size-mod-medium) !important;
   text-transform: inherit !important;
   border-radius: 5px !important;
+  font-weight: bold !important;
+}
+.introBtn:hover{
+  background-color: #ffffff !important;
+  border: 3px solid #ffffff !important;
+  color: #377dff !important;
+}
+.dark-introBtn:hover{
+  background-color: #ffffff !important;
+  border: 3px solid #ffffff !important;
+  color: #1d1f28 !important;
 }
 .align-intro-btn {
   display: flex;
