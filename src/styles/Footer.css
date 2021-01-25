@@ -19,12 +19,13 @@
   padding: 10px 15px;
   color: var(--tezos-white);
   font-weight: bold;
+  text-decoration: none;
 }
 .dark-footer-menu li a {
   color: var(--tezos-text);
 }
 .footer-menu {
-  padding: 0 32vw;
+  padding: 0 35vw;
   list-style: none;
   overflow: hidden;
   display: flex;

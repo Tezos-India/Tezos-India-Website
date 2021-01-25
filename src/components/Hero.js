@@ -8,7 +8,7 @@ import tezos from "../assets/hero-logo.png";
 export default function Hero() {
   const { isDark } = useContext(StyleContext);
   return (
-    <div>
+    <div id="home">
       <div className={isDark ? "hero-main dark-hero-main" : "hero-main"}>
         <div>
           <Header />
@@ -25,7 +25,13 @@ export default function Hero() {
             </h1>
           </div>
           <div className="align-intro-btn">
-            <Button className={isDark?"introBtn dark-introBtn" : "introBtn"}>Know More</Button>
+            <a href="#activity">
+              <Button
+                className={isDark ? "introBtn dark-introBtn" : "introBtn"}
+              >
+                Know More
+              </Button>
+            </a>
           </div>
         </div>
       </div>

@@ -6,8 +6,11 @@ import "../styles/YtVideos.css";
 function YtVideos() {
   const { isDark } = useContext(StyleContext);
   return (
-    <div className={isDark ? "yt-container dark-yt-container" : "yt-container"}>
-        <h1>Learn More About Tezos</h1>
+    <div
+      className={isDark ? "yt-container dark-yt-container" : "yt-container"}
+      id="videos"
+    >
+      <h1>Learn More About Tezos</h1>
       <div className="yt-align-videos">
         <div>
           <ReactPlayer

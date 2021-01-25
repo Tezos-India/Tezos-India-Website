@@ -1,7 +1,6 @@
 .hero-main {
   background-image: url("../assets/light-hero.svg");
   max-width: 100%;
-  /* height: 780px; */
   height: 100vh !important;
   background-size: cover;
   padding: 0;
@@ -11,6 +10,9 @@
 }
 .dark-hero-main {
   background-image: url("../assets/hero.svg");
+}
+.hero-main a{
+  text-decoration: none;
 }
 .hero-text-div h1 {
   font-size: var(--font-size-banner);

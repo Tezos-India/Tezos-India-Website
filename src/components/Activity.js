@@ -10,6 +10,7 @@ function Activity() {
   return (
     <div
       className={isDark ? "container-div dark-container-div" : "container-div"}
+      id="activity"
     >
         <div className="card-div">
           <div className="align-card">
@@ -44,11 +45,11 @@ function Activity() {
           want to enable people to seamlessly participate in the Tezos ecosystem
           in India
         </p>
-        <Button
+        {/* <Button
           className={isDark ? "activityBtn dark-activityBtn" : "activityBtn"}
         >
           Get Started
-        </Button>
+        </Button> */}
       </div>
     </div>
   );

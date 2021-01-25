@@ -24,19 +24,19 @@ export default function Footer() {
             className={isDark ? "footer-menu dark-footer-menu" : "footer-menu"}
           >
             <li>
-              <a>Home</a>
-            </li>
-            <li>
-              <a>Pages</a>
+              <a href="#home">Home</a>
             </li>
             <li>
               <a>Blog</a>
             </li>
             <li>
-              <a>Portfolio</a>
-            </li>
-            <li>
-              <a>Contact</a>
+              <a
+                href="https://tezconnect.typeform.com/to/O31VIC"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Contact
+              </a>
             </li>
           </ul>
         </div>
