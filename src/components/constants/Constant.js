@@ -118,7 +118,7 @@ const team = {
     },
     {
       name: "Bernd Oostrum",
-      designation: "Developer Evangelist",
+      designation: "Advisor",
       image: bernd,
       linkedin: "https://www.linkedin.com/in/bernd-oostrum/",
       twitter: "https://twitter.com/bernd_oostrum",
