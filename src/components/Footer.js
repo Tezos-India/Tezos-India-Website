@@ -26,8 +26,17 @@ export default function Footer() {
             <li>
               <a href="#home">Home</a>
             </li>
+            {/* <li>
+              <a href="#">Blog</a>
+            </li> */}
             <li>
-              <a>Blog</a>
+            <a
+            href="https://github.com/Tezos-India"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
             </li>
             <li>
               <a

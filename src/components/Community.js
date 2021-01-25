@@ -18,7 +18,7 @@ export class Community extends Component {
   }
   createCommunityCard() {
     const array = [];
-    carousel.members.map((membersDesc) => {
+    carousel.members.forEach((membersDesc) => {
       array.push(
         <CommunityCard className="padding-com-carousel">
           <div className="align-com-card-content">

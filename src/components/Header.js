@@ -20,9 +20,7 @@ function Header() {
       </label>
       <ul className="menu">
         <li>
-          <a>
             <ToggleSwitch />
-          </a>
         </li>
         <li>
           <a href="#videos">Documentation</a>
