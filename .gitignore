@@ -13,6 +13,10 @@
 /build
 .eslintcache
 
+# cache
+.eslintcache
+.cache
+
 # misc
 .DS_Store
 .env.local
