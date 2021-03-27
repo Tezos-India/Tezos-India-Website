@@ -57,7 +57,7 @@ export class Hack extends Component {
   }
   render() {
     return (
-      <div>
+      <div id='hacks'>
         <HackBg>
           <div className='com-headers'>
             <h1>Our hackathon initiatives</h1>
