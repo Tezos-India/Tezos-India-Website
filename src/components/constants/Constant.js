@@ -58,7 +58,7 @@ const carousel = {
   members: [
     {
       name: "Madhav Aggarwal",
-      insti:"NIT,Tiruchirappalli",
+      insti: "NIT,Tiruchirappalli",
       designation: "Tezos India fellowship",
       image: madhav,
       testimonial:
@@ -66,7 +66,7 @@ const carousel = {
     },
     {
       name: "Sahil Singh",
-      insti:" Amity University, Noida",
+      insti: " Amity University, Noida",
       designation: "Attendee, Blockchain 101 workshop on Tezos.",
       image: sahil,
       testimonial:
@@ -74,7 +74,7 @@ const carousel = {
     },
     {
       name: "Shivam Agrawal",
-      insti:"IIIT, Gwalior",
+      insti: "IIIT, Gwalior",
       designation: "Attendee, Blockchain 101 workshop on Tezos",
       image: shivam,
       testimonial:
@@ -82,27 +82,123 @@ const carousel = {
     },
     {
       name: "Shubham Kukreja",
-      insti:"Pune Institute of Computer Technology",
+      insti: "Pune Institute of Computer Technology",
       designation: "Tezos India Fellowship",
-      image:shubham,
+      image: shubham,
       testimonial:
         "I am grateful to have had the opportunity to work with such a diverse and experienced community at Tezos India Foundation, with colleagues coming from different backgrounds of expertise and having an open mind to help me learn about the various aspects of developing a fully-fledged Dapp in a timeline of 8-weeks",
     },
     {
       name: "Aryan Pandey",
-      insti:"SRM University",
+      insti: "SRM University",
       designation: "Tezos India Fellowship",
-      image:aryan,
+      image: aryan,
       testimonial:
         "Tezos India fellowship is a great platform for undergrads for getting started with the Tezos Blockchain. Fellowship provided a holistic development of skills ranging from product development to conceptualization. I would like to describe it as an amalgamation of industrial a well as research-based skill development.I would like to extend my sincere thanks to the Mentors and the organizers from Tezos India Foundation for unparalleled support throughout the program.",
     },
     {
       name: "Anshu Jalan",
-      insti:"Heritage Institute of Technology, Kolkata",
+      insti: "Heritage Institute of Technology, Kolkata",
       designation: "Tezos India Fellowship",
-      image:anshu,
+      image: anshu,
       testimonial:
         "Tezos India Fellowship was a great experience! The mentor support, interaction and discussion of ideas with other fellows and the overall learning environment helped me level up my skills",
+    },
+  ],
+};
+
+const hack_carousel = {
+  hacks: [
+    {
+      name: "BITBOX",
+      organization: "DSC JIIT128",
+      dates: "26th March 20201",
+      link: "https://dscjiit128.studio/#/bitbox",
+    },
+    {
+      name: "Ingenious Hackathon",
+      organization: "Ahmedabad University",
+      dates: "26th-28th March 20201",
+      link: "https://ingenium-ahmedabad-university.github.io/hackathon/",
+    },
+    {
+      name: "HACKOWASP",
+      organization: "OWASP, TIET",
+      dates: "27th-28th March 20201",
+      link: "https://hackowasp.live/",
+    },
+    {
+      name: "HaXplore",
+      organization: "IIT (BHU)",
+      dates: "27th-28th March 20201",
+      link: "https://codefest.tech/haxplore",
+    },
+    {
+      name: "THE HACKTRIX",
+      organization: "IEEE SRM",
+      dates: "2nd-4th April 20201",
+      link: "https://hacktrix.ieeesrmist.in/",
+    },
+    {
+      name: "Hack The Solution",
+      organization: "DSC MAIT",
+      dates: "27th-28th March 20201",
+      link: "https://hackthesolution.tech/",
+    },
+    {
+      name: "Hack 36",
+      organization: "MHL",
+      dates: "9th-11th April 20201",
+      link: "https://www.hack36.com/",
+    },
+    {
+      name: "Vihaan",
+      organization: "IEEE DTU",
+      dates: "9th-11th April 20201",
+      link: "https://vihaan.ieeedtu.in/",
+    },
+    {
+      name: "ISOHACK 3.0",
+      organization: "SKITM",
+      dates: "2nd-3rd April 20201",
+      link: "https://www.isohack.in/",
+    },
+    {
+      name: "HackOverflow 4.0",
+      organization: "NIT Durgapur",
+      dates: "2nd-3rd April 20201",
+      link: "https://hackoverflow.nitdgplug.org/",
+    },
+    {
+      name: "KJSCE Hack 5.0",
+      organization: "KJSCE",
+      dates: "3rd-4th April 20201",
+      link: "https://hack.kjsce.com/",
+    },
+    {
+      name: "BU'Hack",
+      organization: "Bennett University",
+      dates: "3rd-4th April 20201",
+      link: "https://bu-hack.tech/",
+    },
+    {
+      name: "SheHack DTU",
+      organization: "DTU",
+      dates: "9th-11th April 20201",
+      link: "https://shehacks.climb.community/",
+    },
+
+    {
+      name: "HACKOFIESTA",
+      organization: "IIIT Lucknow",
+      dates: "16th-18th April 20201",
+      link: "https://hackofiesta-iiitl.tech/",
+    },
+    {
+      name: "HackBMU 4.0",
+      organization: "HackBMU",
+      dates: "23rd-25th April 20201",
+      link: "https://www.hackbmu.tech/",
     },
   ],
 };
@@ -176,8 +272,8 @@ const team = {
       linkedin: "https://www.linkedin.com/in/sanketpal/",
       twitter: "https://twitter.com/sanket1994pal",
       telegram: "https://t.me/UX_Sanket",
-      dribbbleLink:"https://dribbble.com/sanketpal",
-      dribbble:dribbble,
+      dribbbleLink: "https://dribbble.com/sanketpal",
+      dribbble: dribbble,
     },
   ],
   internsRow: [
@@ -252,4 +348,4 @@ const blogCard = {
   ],
 };
 
-export { activity, carousel, team, faq, blogCard };
+export { activity, carousel, hack_carousel, team, faq, blogCard };

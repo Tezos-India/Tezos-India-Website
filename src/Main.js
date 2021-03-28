@@ -10,6 +10,7 @@ import Team from "./components/Team";
 // import Blog from "./components/Blog";
 // import FAQ from "./components/FAQ";
 import YtVideos from "./components/YtVideos";
+import Hack from "./components/Hack";
 
 export class Main extends Component {
   constructor(props) {
@@ -38,6 +39,7 @@ export class Main extends Component {
           <Infra />
           <Community />
           <YtVideos />
+          <Hack />
           <Team />
           {/* <Blog />
           <FAQ /> */}
