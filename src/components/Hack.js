@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Hidden from "@material-ui/core/Hidden";
+//import Hidden from "@material-ui/core/Hidden";
 import "../styles/Community.css";
 import "../styles/Hack.css";
 import HackCard from "./constants/HackCard";
