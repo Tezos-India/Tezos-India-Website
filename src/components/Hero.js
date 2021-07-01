@@ -32,13 +32,6 @@ export default function Hero() {
                 Know More
               </Button>
             </a>
-            <a href='#hacks'>
-              <Button
-                className={isDark ? "introBtn dark-introBtn" : "introBtn"}
-              >
-                Hackathons
-              </Button>
-            </a>
           </div>
         </div>
       </div>
