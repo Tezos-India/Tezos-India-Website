@@ -7,6 +7,7 @@ export default function FellowshipBanner() {
   const { isDark } = useContext(StyleContext);
   return (
     <div
+      id='fellowship'
       className={
         isDark ? "team-container dark-team-container" : "team-container"
       }
